@@ -2228,6 +2228,29 @@ companies:
     medium: 2500
     low: 499
 
+- company: Odido
+  url: https://assets.odido.nl/x/70e0c93ba2/responsible_disclosure.pdf
+  contact: mailto:cert@odido.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English, Dutch
+  description: Responsible disclosure policy for the Dutch mobile operator, published in
+    Dutch and English. Findings go to cert@odido.nl, encrypted, and get a response within
+    three days with an assessment and an expected fix date. Reports may be made under a
+    pseudonym, no legal steps are taken against researchers who follow the conditions, and
+    Odido will credit the finder with their permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 3
+
 - company: Oh Dear
   url: https://ohdear.app/security
   contact: mailto:security@ohdear.app
