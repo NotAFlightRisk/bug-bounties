@@ -417,6 +417,62 @@ companies:
   currency: USD
   disclosure_timeline_days: 90
 
+- company: Billie
+  url: https://billie.io/coordinated-vulnerability-disclosure-policy
+  contact: mailto:disclosure@billie.io
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: hybrid
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://billie.io/.well-known/openpgpkey/hu/g5gwkdcmobphsnqnboxbhu1edf98x87x
+  description: Coordinated vulnerability disclosure policy for the German B2B buy-now-pay-later
+    provider, framed around the EU Cyber Resilience Act. In-scope assets are listed in an
+    appendix; rewards are discretionary, with typical examples running from EUR50 for low
+    severity to EUR500 and up for critical.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - Internal systems and employee-only environments
+  - Development, staging, testing and sandbox systems not listed in the appendix
+  - Third-party platforms and providers not operated by Billie
+  - Physical infrastructure and office environments
+  - Missing security headers
+  - SPF, DKIM or DMARC issues
+  - Version disclosure or banner grabbing
+  - Low-risk clickjacking
+  - Self-XSS
+  - Theoretical rate-limiting observations
+  domains:
+  - billie.io
+  - portal.billie.io
+  - partners.billie.io
+  - partners-sandbox.billie.io
+  - paella.billie.io
+  - paella-sandbox.billie.io
+  - fp.billie.io
+  - media.billie.io
+  - demoshop.billie.io
+  - bnpl.demo.billie.io
+  - '*.bnpl.demo.billie.io'
+  - transaction-monitoring.billie.io
+  - '*.transaction-monitoring.billie.io'
+  - tagging.billie.io
+  - debug.tagging.billie.io
+  - salesforce-api.billie.io
+  - salesforce-api-tmp.billie.io
+  - designated-survivor.billie.io
+  response_sla_days: 2
+  standards:
+  - EU Cyber Resilience Act
+
 - company: BlazePhoenix
   url: https://blazephoenix.xyz/bounty
   contact: mailto:contact@blazephoenix.xyz
@@ -515,6 +571,32 @@ companies:
   response_sla_days: 1
   disclosure_timeline_days: 90
   hall_of_fame_url: https://www.bt.com/about/contact-bt/responsible-disclosure/hall-of-fame
+
+- company: Buckaroo
+  url: https://www.buckaroo.nl/media/fwdj2uvv/responsible-disclosure-policy-eng.pdf
+  contact: mailto:security@buckaroo.nl
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  pgp_key: https://www.buckaroo.nl/media/0xrn552s/public-pgp.txt
+  description: Responsible disclosure policy for the Dutch payment service provider. Reports
+    go to security@buckaroo.nl, assessed within two working days, with no criminal or civil
+    action against researchers who follow the conditions. A reward may be offered depending
+    on risk and report quality, currently only payable to EU/EEA citizens.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  - Missing or misconfigured SPF, DKIM or DMARC records
+  - Reports of old software versions without a working proof of concept
+  - Automated scanner output without a demonstrable proof of concept
+  - AI-generated reports without proof of manual human validation
+  response_sla_days: 2
 
 - company: C-SINT
   url: https://www.csint.pro/bug_bounty
@@ -747,6 +829,61 @@ companies:
     medium: 100
     low: 50
 
+- company: Cognite
+  url: https://docs.cognite.com/cdf/trust/vulnerability-disclosure-policy
+  contact: mailto:ext-security-disclosures@cognite.com
+  program_type: vdp
+  status: active
+  allows_disclosure: false
+  description: Vulnerability disclosure policy covering Cognite services and software.
+    Reports go to ext-security-disclosures@cognite.com, with a response within five working
+    days and triage within ten. Cognite states it offers no monetary or non-monetary rewards.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - Non-exploitable findings and best-practice reports such as missing security headers
+  - TLS configuration weaknesses such as weak cipher suites or TLS 1.0 support
+  response_sla_days: 5
+
+- company: Collibra
+  url: https://www.collibra.com/legal/documents/collibra-bug-bounty-program-rules
+  contact: https://www.collibra.com/security-requests
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: false
+  description: Bug bounty program rules for the data governance platform. Vulnerabilities
+    are disclosed confidentially through a submission form, and rewards run from USD10 to
+    USD500 per vulnerability, set by severity at Collibra's sole discretion. Finding the
+    same bug on a further unique path before payout earns an extra 5% per path.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  out_of_scope:
+  - The bug bounty submission form itself
+  - Missing best practices in DNSSEC configuration
+  - IP brute force attacks
+  - SSO related vulnerabilities
+  - Clickjacking on pages with no sensitive actions
+  - Unauthenticated, logout or login CSRF
+  - Assets or resources prefixed with "console-"
+  - DNS removal of subdomains that do not point to an active service
+  - Attacks requiring MITM or physical access to a user's device
+  - Previously known vulnerable libraries without a working proof of concept
+  - CSV injection without a demonstrated vulnerability
+  - Missing best practices in SSL/TLS configuration
+  - Third party service provider issues
+  - Issues already known to Collibra or reported by someone else first
+  min_payout: 10
+  max_payout: 500
+  currency: USD
+
 - company: Convex
   url: https://www.convex.dev/security
   contact: mailto:security@convex.dev
@@ -803,6 +940,73 @@ companies:
   preferred_languages: English
   description: Cursor accepts potential vulnerabilities by email at security-reports@cursor.com. Reports are acknowledged within 5 business days and addressed as soon as Cursor is able, with critical incidents communicated by email to affected users.
   response_sla_days: 5
+
+- company: Darktrace
+  url: https://www.darktrace.com/legal/vulnerability-disclosure-policy
+  contact: mailto:vulnerability-disclosure@darktrace.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Vulnerability disclosure program covering Darktrace appliances and sensors.
+    Darktrace Limited agrees not to pursue legal action against researchers who test within
+    scope and hold off on public disclosure until the agreed timeframe expires, and gives
+    full credit in its release notes once a submission is validated.
+  excluded_methods:
+  - physical_access
+  scope:
+  - target: Darktrace Appliances
+    type: hardware
+  - target: Darktrace Sensors (V, C and OS)
+    type: hardware
+  out_of_scope:
+  - Darktrace products other than the listed appliances and sensors
+  - Exploits requiring physical access to an appliance
+
+- company: deepset
+  url: https://www.deepset.ai/disclosure
+  contact: mailto:security@deepset.ai
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Responsible security disclosure policy covering deepset.ai, the Haystack
+    Enterprise Platform and the Haystack open-source framework. Receipt is acknowledged
+    within five business days, researchers are asked to allow 90 days before public
+    disclosure, and deepset commits to taking no adverse action against those who follow
+    the policy. There is no formal bug bounty at present.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: deepset.ai and all subdomains
+    type: web
+  - target: Haystack Enterprise Platform
+    type: other
+  - target: Haystack open-source framework
+    type: other
+  out_of_scope:
+  - Third-party services or integrations hosted by other providers
+  - Non-production environments, unless the finding shows exploitable lateral movement into
+    production
+  - Vulnerabilities in upstream open-source dependencies not maintained by deepset
+  - Best-practice reports such as missing security headers or SPF/DMARC suggestions
+  - TLS configuration weaknesses such as older cipher suites, TLS 1.0 or SWEET32
+  - Clickjacking on pages with no sensitive actions
+  - Self-XSS that cannot be used to exploit other users
+  - Missing cookie flags on non-sensitive cookies
+  - Information disclosure without meaningful security risk
+  - Content spoofing or text injection without demonstrable security impact
+  - Automated scanner or AI output without manual validation
+  response_sla_days: 5
+  disclosure_timeline_days: 90
 
 - company: DENSO WAVE
   url: https://www.denso-wave.com/en/psirt/
@@ -895,6 +1099,38 @@ companies:
     low: 250
   disclosure_timeline_days: 90
 
+- company: Dragos
+  url: https://www.dragos.com/reporting-security-issues-to-dragos/
+  contact: mailto:psirt@dragos.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  description: Vulnerability disclosure policy for the OT security vendor, covering the
+    Dragos Platform, hardware, services and threat intelligence solutions. Submissions go
+    to psirt@dragos.com and may be anonymous, research in line with the policy is treated
+    as authorised under anti-hacking and anti-circumvention law, and Dragos follows a
+    90-day disclosure policy.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: Dragos Platform
+    type: other
+  - target: Dragos hardware
+    type: hardware
+  - target: Dragos services
+    type: other
+  - target: Dragos threat intelligence solutions
+    type: other
+  out_of_scope:
+  - Dragos products licensed, owned or operated by a customer, without that customer's
+    permission
+  - Dragos employees, customers, partners and representatives
+  disclosure_timeline_days: 90
+
 - company: Dremio
   url: https://www.dremio.com/platform/security/responsible-disclosure-limitations/
   contact: mailto:security@dremio.com
@@ -935,6 +1171,24 @@ companies:
   response_sla_days: 5
   disclosure_timeline_days: 90
   hall_of_fame_url: https://element.io/security/security-hall-of-fame
+
+- company: FlixBus
+  url: https://global.flixbus.com/responsible-disclosure
+  contact: mailto:responsible-disclosure@flixbus.com
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  preferred_languages: German, English
+  pgp_key: https://responsible-disclosure.security.flix.tech/pgp.txt
+  description: Responsible disclosure for all FlixBus digital products, with a single point
+    of contact at responsible-disclosure@flixbus.com. Researchers are asked for reasonable
+    time to remediate before publishing, and FlixBus publishes a security advisory when a
+    fix ships. No bug bounties or other compensation are offered.
+  scope:
+  - target: FlixBus web services
+    type: web
+  - target: FlixBus mobile applications
+    type: mobile
 
 - company: Fluxer
   url: https://fluxer.app/security
@@ -1112,6 +1366,26 @@ companies:
   - physical_access
   hall_of_fame_url: https://www.joindeed.com/security
 
+- company: Hadrian
+  url: https://hadrian.io/vulnerability-disclosure-policy
+  contact: mailto:security@hadrian.io
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  pgp_key: https://files.hadrian.io/hubfs/Website/hadrian-security.asc
+  description: Responsible disclosure policy for the offensive security vendor. Findings go
+    to security@hadrian.io, encrypted with their PGP key, and Hadrian responds within five
+    business days with an evaluation and an expected resolution date. No legal action is
+    taken against researchers who follow the policy.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 5
+
 - company: Hellomatik
   url: https://hellomatik.com/security
   contact: mailto:administracion@hellomatik.com
@@ -1158,6 +1432,23 @@ companies:
   - ISO 29147
   - ISO 30111
   hall_of_fame_url: https://www.hitachi.com/hirt/security/acknowledgments.html
+
+- company: iBanFirst
+  url: https://www.ibanfirst.com/security-policy.html
+  contact: mailto:security.txt@ibanfirst.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  preferred_languages: English, French
+  pgp_key: https://www.ibanfirst.com/pgp-key.txt
+  description: Security policy for the Belgian cross-border payments provider. There is no
+    bug bounty, but responsible disclosure of major security issues is encouraged, reported
+    through the address in their security.txt. Researchers are credited on a public
+    acknowledgments page.
+  domains:
+  - '*.ibanfirst.com'
+  hall_of_fame_url: https://www.ibanfirst.com/hall-of-fame.html
 
 - company: Iceline Hosting
   url: https://iceline-hosting.com/bug-bounty
@@ -1369,6 +1660,28 @@ companies:
   reporting_url: https://www.instant-gaming.com/en/support/
   response_sla_days: 3
 
+- company: Kahoot!
+  url: https://kahoot.com/disclosure-policy.txt
+  contact: mailto:security@kahoot.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English
+  pgp_key: https://kahoot.com/security_public_key.txt
+  description: Responsible disclosure policy covering systems Kahoot! operates or hosts
+    itself. Reports go to security@kahoot.com, preferably PGP encrypted. Kahoot! will not
+    take legal action over research that follows the policy, but asks researchers not to
+    share any detail of a report with third parties, and offers no fixed rewards.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  out_of_scope:
+  - Cloud services used by Kahoot! but not operated by them, which carry their own
+    disclosure policies
+
 - company: KDE
   url: https://kde.org/info/security/
   contact: mailto:security@kde.org
@@ -1572,6 +1885,26 @@ companies:
   - livekit.cloud
   disclosure_timeline_days: 90
   hall_of_fame_url: https://livekit.com/security/hall-of-fame
+
+- company: Lunar
+  url: https://www.lunar.app/.well-known/vulnerability-disclosure-policy.txt
+  contact: mailto:security@lunar.app
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://lunar.app/.well-known/lunar-security-gpg.txt
+  description: Vulnerability disclosure policy for the Danish neobank. Reports go to
+    security@lunar.app and may be anonymous, with receipt acknowledged within five business
+    days. Good-faith research under the policy is treated as authorised and Lunar A/S will
+    not pursue legal action over it. No payment is offered for submissions.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  response_sla_days: 5
 
 - company: Mamentis
   url: https://mamentis.com/docs/resources/miscellaneous/submit-bug-request#security-issues
@@ -1822,6 +2155,21 @@ companies:
   - Findings from automated scans, unless proven to be a real vulnerability
   response_sla_days: 15
 
+- company: Nexthink
+  url: https://nexthink.com/en/responsible-disclosure-policy
+  contact: mailto:responsible-disclosure@nexthink.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English, French
+  pgp_key: https://www.nexthink.com/security-team.pub
+  description: Responsible disclosure policy for the digital employee experience vendor.
+    Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in
+    under 72 hours and handle confidentially, and Nexthink will not pursue legal action
+    over research that follows the guidelines. Details may not be shared with third parties without their
+    consent, and there is no paid bug bounty.
+
 - company: nuuvem.com
   url: https://www.nuuvem.com/us-en/security
   contact: mailto:security@nuuvem.com
@@ -1880,6 +2228,29 @@ companies:
     medium: 2500
     low: 499
 
+- company: Odido
+  url: https://assets.odido.nl/x/70e0c93ba2/responsible_disclosure.pdf
+  contact: mailto:cert@odido.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English, Dutch
+  description: Responsible disclosure policy for the Dutch mobile operator, published in
+    Dutch and English. Findings go to cert@odido.nl, encrypted, and get a response within
+    three days with an assessment and an expected fix date. Reports may be made under a
+    pseudonym, no legal steps are taken against researchers who follow the conditions, and
+    Odido will credit the finder with their permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 3
+
 - company: Oh Dear
   url: https://ohdear.app/security
   contact: mailto:security@ohdear.app
@@ -1918,6 +2289,25 @@ companies:
   - Phishing
   - Social engineering
   - Any form of denial of service attack
+
+- company: OpenEvidence
+  url: https://www.openevidence.com/security
+  contact: mailto:security@openevidence.com
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  pgp_key: https://www.openevidence.com/.well-known/pgp-key.txt
+  description: The medical AI company welcomes vulnerability reports affecting
+    OpenEvidence.com, the OpenEvidence app and other properties involved in processing user
+    data. Reports go to security@openevidence.com. Bug bounties are reserved for confirmed
+    findings of medium or higher severity and offered at the discretion of their security
+    team.
+  scope:
+  - target: OpenEvidence.com
+    type: web
+  - target: OpenEvidence app
+    type: other
 
 - company: Orange Cyberdefense
   url: https://www.orangecyberdefense.com/de/vulnerability-disclosure-policy
@@ -2551,6 +2941,54 @@ companies:
   swag_details: $200 USD (or equivalent) in platform credit on Simbase,  10 free SIM cards
   requires_account: false
 
+- company: Skribble
+  url: https://www.skribble.com/security/disclosure
+  contact: mailto:security@skribble.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English, German, Spanish
+  pgp_key: https://www.skribble.com/security/pgp.asc
+  description: Vulnerability disclosure policy for the Swiss e-signature provider. Reports
+    go to security@skribble.com and may be anonymous or PGP encrypted. Research in line
+    with the policy is authorised and Skribble will not take legal action over it. This is
+    not a bug bounty, though exceptions for particularly critical findings are at their
+    discretion. Testing is asked to happen on the staging environment.
+  excluded_methods:
+  - dos
+  - brute_force
+  - social_engineering
+  scope:
+  - target: my.skribble.com
+    type: web
+  - target: api.skribble.com
+    type: api
+  - target: '*.skribble.com'
+    type: web
+  - target: '*.skribble.cloud'
+    type: cloud
+  - target: my.scribital.com (staging)
+    type: web
+  - target: api.scribital.com (staging)
+    type: api
+  out_of_scope:
+  - Third-party applications not owned by Skribble
+  - Presence or absence of SPF/DMARC records
+  - Lack of CSRF tokens
+  - Clickjacking issues
+  - Missing security headers which do not lead directly to a vulnerability
+  - Missing best practices without evidence of a security vulnerability
+  - Reports from automated tools or scans
+  - Insecure SSL/TLS ciphers
+  - Absence of rate limiting
+  - Outdated software
+  - Broken links
+  - Autocomplete on web forms
+  - Verbose error pages
+  - Account or user enumeration
+  hall_of_fame_url: https://www.skribble.com/security/acknowledgements
+
 - company: SnapDeploy
   url: https://snapdeploy.dev/blog/bug-bounty-rewards-report-issues
   contact: mailto:contact@snapdeploy.dev
@@ -2672,6 +3110,56 @@ companies:
     high: 4000
     medium: 1000
     low: 200
+
+- company: Spendesk
+  url: https://www.spendesk.com/.well-known/security.txt
+  contact: mailto:security@spendesk.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: false
+  preferred_languages: English
+  description: Bug bounty program for the French spend management platform, published in
+    full in their security.txt. Scope is app.spendesk.com and api.spendesk.com, findings
+    must be reported within 24 hours of discovery and only through the listed address, and
+    no disclosure of any kind is permitted. Rewards are capped by severity and require a
+    working proof of concept.
+  excluded_methods:
+  - dos
+  - automated_scanning
+  out_of_scope:
+  - Known CVEs without a working proof of concept, and outdated libraries without
+    demonstrated impact
+  - Self-XSS or XSS that cannot be used to impact other users
+  - Stack traces or path disclosure
+  - Missing security headers or cookie flags which do not lead directly to a vulnerability
+  - Unvalidated output from automated web vulnerability scanners
+  - Tabnabbing and mixed content warnings
+  - Clickjacking and UI redressing
+  - Denial of service attacks
+  - Open ports and open redirects without real security impact
+  - Expired certificates and other TLS/SSL best-practice issues
+  - Attack scenarios requiring MITM or physical access to the victim's device
+  - Cross-site request forgery
+  - Invalid or missing SPF, DKIM or DMARC records
+  - Session expiration policies
+  - Blind SSRF without direct impact
+  - Lack of rate limiting, brute forcing or captcha issues
+  - User enumeration
+  - Password requirement policies
+  - Ability to spam users by email, SMS or direct message
+  - Recently disclosed 0-days less than 30 days since the patch
+  domains:
+  - app.spendesk.com
+  - api.spendesk.com
+  max_payout: 2000
+  currency: EUR
+  payout_table:
+    critical: 2000
+    high: 500
+    medium: 200
+    low: 50
 
 - company: Starnum.com.tw
   url: https://www.instagram.com/mychenan/
@@ -2999,6 +3487,66 @@ companies:
     type: web
   response_sla_days: 3
   hall_of_fame_url: https://urlscan.io/security/#hof
+
+- company: Vade
+  url: https://www.vadesecure.com/en/disclosure-policy
+  contact: mailto:vulnerability-report@hornetsecurity.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://openpgp.circl.lu/pks/lookup?op=get&search=0xb073ed275747daf3c19f21e94d9b77e7a9a90605
+  description: Disclosure policy for the French email security vendor, now part of
+    Hornetsecurity. Good-faith research within the listed scope is treated as authorised,
+    and researchers are asked to keep findings confidential for at least 90 days while Vade
+    reviews and resolves them. Anything not expressly listed in scope is not authorised for
+    testing.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: Vade products
+    type: other
+  - target: Vade products administration console
+    type: web
+  - target: Vade API
+    type: api
+  - target: Vade MTA servers
+    type: network
+  - target: Vade cloud infrastructure
+    type: cloud
+  - target: Vade service monitoring infrastructure
+    type: cloud
+  - target: Vade security infrastructure
+    type: network
+  - target: Vade IT infrastructure service
+    type: network
+  - target: Vade legacy websites
+    type: web
+  out_of_scope:
+  - Connected services and any system not expressly listed in scope
+  - Systems belonging to Vade's vendors
+  - UI and UX bugs and spelling mistakes
+  - TLS/SSL related issues
+  - Content Security Policy issues
+  - Vulnerabilities in end-of-life products
+  - Vulnerabilities due to out-of-date browsers or plugins
+  - Issues requiring a malicious installed application, a jailbroken device or physical
+    access to a mobile device
+  - Use of a known-vulnerable library without proof of exploitability
+  - Tap-jacking and UI redressing
+  - Account lockout or rate limit features
+  - Source code disclosure of JavaScript files that cannot be shown to be private
+  - Cross domain referrer leakage without privileged information in the referrer
+  - Subdomain takeover without proof
+  - Host header injection requiring MITM or with an unreflected value
+  - HTML injection without security impact
+  - CSRF without impact or which does not cross a privilege boundary
+  - Third-party information or credential leaks outside Vade's control
+  disclosure_timeline_days: 90
 
 - company: Val Town
   url: https://docs.val.town/contact-us/security/
