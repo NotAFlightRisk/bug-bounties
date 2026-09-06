@@ -2290,6 +2290,25 @@ companies:
   - Social engineering
   - Any form of denial of service attack
 
+- company: OpenEvidence
+  url: https://www.openevidence.com/security
+  contact: mailto:security@openevidence.com
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  pgp_key: https://www.openevidence.com/.well-known/pgp-key.txt
+  description: The medical AI company welcomes vulnerability reports affecting
+    OpenEvidence.com, the OpenEvidence app and other properties involved in processing user
+    data. Reports go to security@openevidence.com. Bug bounties are reserved for confirmed
+    findings of medium or higher severity and offered at the discretion of their security
+    team.
+  scope:
+  - target: OpenEvidence.com
+    type: web
+  - target: OpenEvidence app
+    type: other
+
 - company: Orange Cyberdefense
   url: https://www.orangecyberdefense.com/de/vulnerability-disclosure-policy
   contact: mailto:vulnerability@orangecyberdefense.com
