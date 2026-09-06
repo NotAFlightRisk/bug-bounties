@@ -966,6 +966,48 @@ companies:
   - Darktrace products other than the listed appliances and sensors
   - Exploits requiring physical access to an appliance
 
+- company: deepset
+  url: https://www.deepset.ai/disclosure
+  contact: mailto:security@deepset.ai
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Responsible security disclosure policy covering deepset.ai, the Haystack
+    Enterprise Platform and the Haystack open-source framework. Receipt is acknowledged
+    within five business days, researchers are asked to allow 90 days before public
+    disclosure, and deepset commits to taking no adverse action against those who follow
+    the policy. There is no formal bug bounty at present.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: deepset.ai and all subdomains
+    type: web
+  - target: Haystack Enterprise Platform
+    type: other
+  - target: Haystack open-source framework
+    type: other
+  out_of_scope:
+  - Third-party services or integrations hosted by other providers
+  - Non-production environments, unless the finding shows exploitable lateral movement into
+    production
+  - Vulnerabilities in upstream open-source dependencies not maintained by deepset
+  - Best-practice reports such as missing security headers or SPF/DMARC suggestions
+  - TLS configuration weaknesses such as older cipher suites, TLS 1.0 or SWEET32
+  - Clickjacking on pages with no sensitive actions
+  - Self-XSS that cannot be used to exploit other users
+  - Missing cookie flags on non-sensitive cookies
+  - Information disclosure without meaningful security risk
+  - Content spoofing or text injection without demonstrable security impact
+  - Automated scanner or AI output without manual validation
+  response_sla_days: 5
+  disclosure_timeline_days: 90
+
 - company: DENSO WAVE
   url: https://www.denso-wave.com/en/psirt/
   contact: https://www.denso-wave.com/en/contact/psirt/
