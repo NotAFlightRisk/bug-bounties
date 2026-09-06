@@ -1433,6 +1433,23 @@ companies:
   - ISO 30111
   hall_of_fame_url: https://www.hitachi.com/hirt/security/acknowledgments.html
 
+- company: iBanFirst
+  url: https://www.ibanfirst.com/security-policy.html
+  contact: mailto:security.txt@ibanfirst.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  preferred_languages: English, French
+  pgp_key: https://www.ibanfirst.com/pgp-key.txt
+  description: Security policy for the Belgian cross-border payments provider. There is no
+    bug bounty, but responsible disclosure of major security issues is encouraged, reported
+    through the address in their security.txt. Researchers are credited on a public
+    acknowledgments page.
+  domains:
+  - '*.ibanfirst.com'
+  hall_of_fame_url: https://www.ibanfirst.com/hall-of-fame.html
+
 - company: Iceline Hosting
   url: https://iceline-hosting.com/bug-bounty
   contact: mailto:reply@support.iceline-hosting.com
