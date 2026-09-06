@@ -1886,6 +1886,26 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://livekit.com/security/hall-of-fame
 
+- company: Lunar
+  url: https://www.lunar.app/.well-known/vulnerability-disclosure-policy.txt
+  contact: mailto:security@lunar.app
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://lunar.app/.well-known/lunar-security-gpg.txt
+  description: Vulnerability disclosure policy for the Danish neobank. Reports go to
+    security@lunar.app and may be anonymous, with receipt acknowledged within five business
+    days. Good-faith research under the policy is treated as authorised and Lunar A/S will
+    not pursue legal action over it. No payment is offered for submissions.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  response_sla_days: 5
+
 - company: Mamentis
   url: https://mamentis.com/docs/resources/miscellaneous/submit-bug-request#security-issues
   contact: mailto:security@mamentis.com
