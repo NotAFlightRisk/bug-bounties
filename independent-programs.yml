@@ -417,6 +417,62 @@ companies:
   currency: USD
   disclosure_timeline_days: 90
 
+- company: Billie
+  url: https://billie.io/coordinated-vulnerability-disclosure-policy
+  contact: mailto:disclosure@billie.io
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: hybrid
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://billie.io/.well-known/openpgpkey/hu/g5gwkdcmobphsnqnboxbhu1edf98x87x
+  description: Coordinated vulnerability disclosure policy for the German B2B buy-now-pay-later
+    provider, framed around the EU Cyber Resilience Act. In-scope assets are listed in an
+    appendix; rewards are discretionary, with typical examples running from EUR50 for low
+    severity to EUR500 and up for critical.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - Internal systems and employee-only environments
+  - Development, staging, testing and sandbox systems not listed in the appendix
+  - Third-party platforms and providers not operated by Billie
+  - Physical infrastructure and office environments
+  - Missing security headers
+  - SPF, DKIM or DMARC issues
+  - Version disclosure or banner grabbing
+  - Low-risk clickjacking
+  - Self-XSS
+  - Theoretical rate-limiting observations
+  domains:
+  - billie.io
+  - portal.billie.io
+  - partners.billie.io
+  - partners-sandbox.billie.io
+  - paella.billie.io
+  - paella-sandbox.billie.io
+  - fp.billie.io
+  - media.billie.io
+  - demoshop.billie.io
+  - bnpl.demo.billie.io
+  - '*.bnpl.demo.billie.io'
+  - transaction-monitoring.billie.io
+  - '*.transaction-monitoring.billie.io'
+  - tagging.billie.io
+  - debug.tagging.billie.io
+  - salesforce-api.billie.io
+  - salesforce-api-tmp.billie.io
+  - designated-survivor.billie.io
+  response_sla_days: 2
+  standards:
+  - EU Cyber Resilience Act
+
 - company: BlazePhoenix
   url: https://blazephoenix.xyz/bounty
   contact: mailto:contact@blazephoenix.xyz
