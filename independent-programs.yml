@@ -1172,6 +1172,24 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://element.io/security/security-hall-of-fame
 
+- company: FlixBus
+  url: https://global.flixbus.com/responsible-disclosure
+  contact: mailto:responsible-disclosure@flixbus.com
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  preferred_languages: German, English
+  pgp_key: https://responsible-disclosure.security.flix.tech/pgp.txt
+  description: Responsible disclosure for all FlixBus digital products, with a single point
+    of contact at responsible-disclosure@flixbus.com. Researchers are asked for reasonable
+    time to remediate before publishing, and FlixBus publishes a security advisory when a
+    fix ships. No bug bounties or other compensation are offered.
+  scope:
+  - target: FlixBus web services
+    type: web
+  - target: FlixBus mobile applications
+    type: mobile
+
 - company: Fluxer
   url: https://fluxer.app/security
   contact: mailto:security@fluxer.app
