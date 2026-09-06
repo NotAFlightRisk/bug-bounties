@@ -941,6 +941,31 @@ companies:
   description: Cursor accepts potential vulnerabilities by email at security-reports@cursor.com. Reports are acknowledged within 5 business days and addressed as soon as Cursor is able, with critical incidents communicated by email to affected users.
   response_sla_days: 5
 
+- company: Darktrace
+  url: https://www.darktrace.com/legal/vulnerability-disclosure-policy
+  contact: mailto:vulnerability-disclosure@darktrace.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Vulnerability disclosure program covering Darktrace appliances and sensors.
+    Darktrace Limited agrees not to pursue legal action against researchers who test within
+    scope and hold off on public disclosure until the agreed timeframe expires, and gives
+    full credit in its release notes once a submission is validated.
+  excluded_methods:
+  - physical_access
+  scope:
+  - target: Darktrace Appliances
+    type: hardware
+  - target: Darktrace Sensors (V, C and OS)
+    type: hardware
+  out_of_scope:
+  - Darktrace products other than the listed appliances and sensors
+  - Exploits requiring physical access to an appliance
+
 - company: DENSO WAVE
   url: https://www.denso-wave.com/en/psirt/
   contact: https://www.denso-wave.com/en/contact/psirt/
