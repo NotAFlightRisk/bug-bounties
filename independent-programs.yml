@@ -2941,6 +2941,54 @@ companies:
   swag_details: $200 USD (or equivalent) in platform credit on Simbase,  10 free SIM cards
   requires_account: false
 
+- company: Skribble
+  url: https://www.skribble.com/security/disclosure
+  contact: mailto:security@skribble.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English, German, Spanish
+  pgp_key: https://www.skribble.com/security/pgp.asc
+  description: Vulnerability disclosure policy for the Swiss e-signature provider. Reports
+    go to security@skribble.com and may be anonymous or PGP encrypted. Research in line
+    with the policy is authorised and Skribble will not take legal action over it. This is
+    not a bug bounty, though exceptions for particularly critical findings are at their
+    discretion. Testing is asked to happen on the staging environment.
+  excluded_methods:
+  - dos
+  - brute_force
+  - social_engineering
+  scope:
+  - target: my.skribble.com
+    type: web
+  - target: api.skribble.com
+    type: api
+  - target: '*.skribble.com'
+    type: web
+  - target: '*.skribble.cloud'
+    type: cloud
+  - target: my.scribital.com (staging)
+    type: web
+  - target: api.scribital.com (staging)
+    type: api
+  out_of_scope:
+  - Third-party applications not owned by Skribble
+  - Presence or absence of SPF/DMARC records
+  - Lack of CSRF tokens
+  - Clickjacking issues
+  - Missing security headers which do not lead directly to a vulnerability
+  - Missing best practices without evidence of a security vulnerability
+  - Reports from automated tools or scans
+  - Insecure SSL/TLS ciphers
+  - Absence of rate limiting
+  - Outdated software
+  - Broken links
+  - Autocomplete on web forms
+  - Verbose error pages
+  - Account or user enumeration
+  hall_of_fame_url: https://www.skribble.com/security/acknowledgements
+
 - company: SnapDeploy
   url: https://snapdeploy.dev/blog/bug-bounty-rewards-report-issues
   contact: mailto:contact@snapdeploy.dev
