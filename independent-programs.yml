@@ -829,6 +829,26 @@ companies:
     medium: 100
     low: 50
 
+- company: Cognite
+  url: https://docs.cognite.com/cdf/trust/vulnerability-disclosure-policy
+  contact: mailto:ext-security-disclosures@cognite.com
+  program_type: vdp
+  status: active
+  allows_disclosure: false
+  description: Vulnerability disclosure policy covering Cognite services and software.
+    Reports go to ext-security-disclosures@cognite.com, with a response within five working
+    days and triage within ten. Cognite states it offers no monetary or non-monetary rewards.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - Non-exploitable findings and best-practice reports such as missing security headers
+  - TLS configuration weaknesses such as weak cipher suites or TLS 1.0 support
+  response_sla_days: 5
+
 - company: Convex
   url: https://www.convex.dev/security
   contact: mailto:security@convex.dev
