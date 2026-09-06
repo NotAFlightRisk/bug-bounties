@@ -1366,6 +1366,26 @@ companies:
   - physical_access
   hall_of_fame_url: https://www.joindeed.com/security
 
+- company: Hadrian
+  url: https://hadrian.io/vulnerability-disclosure-policy
+  contact: mailto:security@hadrian.io
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  pgp_key: https://files.hadrian.io/hubfs/Website/hadrian-security.asc
+  description: Responsible disclosure policy for the offensive security vendor. Findings go
+    to security@hadrian.io, encrypted with their PGP key, and Hadrian responds within five
+    business days with an evaluation and an expected resolution date. No legal action is
+    taken against researchers who follow the policy.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 5
+
 - company: Hellomatik
   url: https://hellomatik.com/security
   contact: mailto:administracion@hellomatik.com
