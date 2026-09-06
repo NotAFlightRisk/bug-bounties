@@ -3111,6 +3111,56 @@ companies:
     medium: 1000
     low: 200
 
+- company: Spendesk
+  url: https://www.spendesk.com/.well-known/security.txt
+  contact: mailto:security@spendesk.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: false
+  preferred_languages: English
+  description: Bug bounty program for the French spend management platform, published in
+    full in their security.txt. Scope is app.spendesk.com and api.spendesk.com, findings
+    must be reported within 24 hours of discovery and only through the listed address, and
+    no disclosure of any kind is permitted. Rewards are capped by severity and require a
+    working proof of concept.
+  excluded_methods:
+  - dos
+  - automated_scanning
+  out_of_scope:
+  - Known CVEs without a working proof of concept, and outdated libraries without
+    demonstrated impact
+  - Self-XSS or XSS that cannot be used to impact other users
+  - Stack traces or path disclosure
+  - Missing security headers or cookie flags which do not lead directly to a vulnerability
+  - Unvalidated output from automated web vulnerability scanners
+  - Tabnabbing and mixed content warnings
+  - Clickjacking and UI redressing
+  - Denial of service attacks
+  - Open ports and open redirects without real security impact
+  - Expired certificates and other TLS/SSL best-practice issues
+  - Attack scenarios requiring MITM or physical access to the victim's device
+  - Cross-site request forgery
+  - Invalid or missing SPF, DKIM or DMARC records
+  - Session expiration policies
+  - Blind SSRF without direct impact
+  - Lack of rate limiting, brute forcing or captcha issues
+  - User enumeration
+  - Password requirement policies
+  - Ability to spam users by email, SMS or direct message
+  - Recently disclosed 0-days less than 30 days since the patch
+  domains:
+  - app.spendesk.com
+  - api.spendesk.com
+  max_payout: 2000
+  currency: EUR
+  payout_table:
+    critical: 2000
+    high: 500
+    medium: 200
+    low: 50
+
 - company: Starnum.com.tw
   url: https://www.instagram.com/mychenan/
   contact: https://www.instagram.com/mychenan/
