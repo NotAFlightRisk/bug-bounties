@@ -3488,6 +3488,66 @@ companies:
   response_sla_days: 3
   hall_of_fame_url: https://urlscan.io/security/#hof
 
+- company: Vade
+  url: https://www.vadesecure.com/en/disclosure-policy
+  contact: mailto:vulnerability-report@hornetsecurity.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://openpgp.circl.lu/pks/lookup?op=get&search=0xb073ed275747daf3c19f21e94d9b77e7a9a90605
+  description: Disclosure policy for the French email security vendor, now part of
+    Hornetsecurity. Good-faith research within the listed scope is treated as authorised,
+    and researchers are asked to keep findings confidential for at least 90 days while Vade
+    reviews and resolves them. Anything not expressly listed in scope is not authorised for
+    testing.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: Vade products
+    type: other
+  - target: Vade products administration console
+    type: web
+  - target: Vade API
+    type: api
+  - target: Vade MTA servers
+    type: network
+  - target: Vade cloud infrastructure
+    type: cloud
+  - target: Vade service monitoring infrastructure
+    type: cloud
+  - target: Vade security infrastructure
+    type: network
+  - target: Vade IT infrastructure service
+    type: network
+  - target: Vade legacy websites
+    type: web
+  out_of_scope:
+  - Connected services and any system not expressly listed in scope
+  - Systems belonging to Vade's vendors
+  - UI and UX bugs and spelling mistakes
+  - TLS/SSL related issues
+  - Content Security Policy issues
+  - Vulnerabilities in end-of-life products
+  - Vulnerabilities due to out-of-date browsers or plugins
+  - Issues requiring a malicious installed application, a jailbroken device or physical
+    access to a mobile device
+  - Use of a known-vulnerable library without proof of exploitability
+  - Tap-jacking and UI redressing
+  - Account lockout or rate limit features
+  - Source code disclosure of JavaScript files that cannot be shown to be private
+  - Cross domain referrer leakage without privileged information in the referrer
+  - Subdomain takeover without proof
+  - Host header injection requiring MITM or with an unreflected value
+  - HTML injection without security impact
+  - CSRF without impact or which does not cross a privilege boundary
+  - Third-party information or credential leaks outside Vade's control
+  disclosure_timeline_days: 90
+
 - company: Val Town
   url: https://docs.val.town/contact-us/security/
   contact: mailto:security@val.town
