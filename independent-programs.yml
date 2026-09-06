@@ -2155,6 +2155,21 @@ companies:
   - Findings from automated scans, unless proven to be a real vulnerability
   response_sla_days: 15
 
+- company: Nexthink
+  url: https://nexthink.com/en/responsible-disclosure-policy
+  contact: mailto:responsible-disclosure@nexthink.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English, French
+  pgp_key: https://www.nexthink.com/security-team.pub
+  description: Responsible disclosure policy for the digital employee experience vendor.
+    Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in
+    under 72 hours and handle confidentially, and Nexthink will not pursue legal action
+    over research that follows the guidelines. Details may not be shared with third parties without their
+    consent, and there is no paid bug bounty.
+
 - company: nuuvem.com
   url: https://www.nuuvem.com/us-en/security
   contact: mailto:security@nuuvem.com
