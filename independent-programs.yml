@@ -572,6 +572,32 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://www.bt.com/about/contact-bt/responsible-disclosure/hall-of-fame
 
+- company: Buckaroo
+  url: https://www.buckaroo.nl/media/fwdj2uvv/responsible-disclosure-policy-eng.pdf
+  contact: mailto:security@buckaroo.nl
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  pgp_key: https://www.buckaroo.nl/media/0xrn552s/public-pgp.txt
+  description: Responsible disclosure policy for the Dutch payment service provider. Reports
+    go to security@buckaroo.nl, assessed within two working days, with no criminal or civil
+    action against researchers who follow the conditions. A reward may be offered depending
+    on risk and report quality, currently only payable to EU/EEA citizens.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  - Missing or misconfigured SPF, DKIM or DMARC records
+  - Reports of old software versions without a working proof of concept
+  - Automated scanner output without a demonstrable proof of concept
+  - AI-generated reports without proof of manual human validation
+  response_sla_days: 2
+
 - company: C-SINT
   url: https://www.csint.pro/bug_bounty
   contact: mailto:bugbounty@csint.pro
