@@ -1099,6 +1099,38 @@ companies:
     low: 250
   disclosure_timeline_days: 90
 
+- company: Dragos
+  url: https://www.dragos.com/reporting-security-issues-to-dragos/
+  contact: mailto:psirt@dragos.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  description: Vulnerability disclosure policy for the OT security vendor, covering the
+    Dragos Platform, hardware, services and threat intelligence solutions. Submissions go
+    to psirt@dragos.com and may be anonymous, research in line with the policy is treated
+    as authorised under anti-hacking and anti-circumvention law, and Dragos follows a
+    90-day disclosure policy.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: Dragos Platform
+    type: other
+  - target: Dragos hardware
+    type: hardware
+  - target: Dragos services
+    type: other
+  - target: Dragos threat intelligence solutions
+    type: other
+  out_of_scope:
+  - Dragos products licensed, owned or operated by a customer, without that customer's
+    permission
+  - Dragos employees, customers, partners and representatives
+  disclosure_timeline_days: 90
+
 - company: Dremio
   url: https://www.dremio.com/platform/security/responsible-disclosure-limitations/
   contact: mailto:security@dremio.com
