@@ -1660,6 +1660,28 @@ companies:
   reporting_url: https://www.instant-gaming.com/en/support/
   response_sla_days: 3
 
+- company: Kahoot!
+  url: https://kahoot.com/disclosure-policy.txt
+  contact: mailto:security@kahoot.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English
+  pgp_key: https://kahoot.com/security_public_key.txt
+  description: Responsible disclosure policy covering systems Kahoot! operates or hosts
+    itself. Reports go to security@kahoot.com, preferably PGP encrypted. Kahoot! will not
+    take legal action over research that follows the policy, but asks researchers not to
+    share any detail of a report with third parties, and offers no fixed rewards.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  out_of_scope:
+  - Cloud services used by Kahoot! but not operated by them, which carry their own
+    disclosure policies
+
 - company: KDE
   url: https://kde.org/info/security/
   contact: mailto:security@kde.org
