@@ -849,6 +849,41 @@ companies:
   - TLS configuration weaknesses such as weak cipher suites or TLS 1.0 support
   response_sla_days: 5
 
+- company: Collibra
+  url: https://www.collibra.com/legal/documents/collibra-bug-bounty-program-rules
+  contact: https://www.collibra.com/security-requests
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: false
+  description: Bug bounty program rules for the data governance platform. Vulnerabilities
+    are disclosed confidentially through a submission form, and rewards run from USD10 to
+    USD500 per vulnerability, set by severity at Collibra's sole discretion. Finding the
+    same bug on a further unique path before payout earns an extra 5% per path.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  out_of_scope:
+  - The bug bounty submission form itself
+  - Missing best practices in DNSSEC configuration
+  - IP brute force attacks
+  - SSO related vulnerabilities
+  - Clickjacking on pages with no sensitive actions
+  - Unauthenticated, logout or login CSRF
+  - Assets or resources prefixed with "console-"
+  - DNS removal of subdomains that do not point to an active service
+  - Attacks requiring MITM or physical access to a user's device
+  - Previously known vulnerable libraries without a working proof of concept
+  - CSV injection without a demonstrated vulnerability
+  - Missing best practices in SSL/TLS configuration
+  - Third party service provider issues
+  - Issues already known to Collibra or reported by someone else first
+  min_payout: 10
+  max_payout: 500
+  currency: USD
+
 - company: Convex
   url: https://www.convex.dev/security
   contact: mailto:security@convex.dev
