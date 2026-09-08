@@ -234,6 +234,14 @@ companies:
   pgp_key: https://almalinux.org/files/security-pgp-key.txt
   description: AlmaLinux OS asks researchers to report security flaws in the distribution and its related projects, giving the project and version, detailed steps to reproduce, a plaintext proof of concept and any suggested remediation. Issues needing coordinated disclosure go to the security address, OS issues that do not need it go to the project bug tracker, and anything else to the relevant GitHub repository. Maintainers aim to confirm a report within two to three days.
 
+- company: Arcjet
+  url: https://docs.arcjet.com/security
+  contact: mailto:security@arcjet.com
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  description: Arcjet does not run a bug bounty, but encourages Coordinated Vulnerability Disclosure through its security address. External vulnerability reports are logged and assigned to the individual responsible for that component, then assessed and fixed by a patch or update within 10 working days. A critical vulnerability, such as one being actively exploited, is mitigated or patched as quickly as possible; all other updates are reviewed and applied within 20 working days.
+
 - company: atlan.com
   url: https://atlan.com/responsible-disclosure-program/
   contact: mailto:security@atlan.com
