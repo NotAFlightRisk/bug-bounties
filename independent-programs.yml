@@ -3192,6 +3192,50 @@ companies:
     medium: 200
     low: 50
 
+- company: SquareX
+  url: https://sqrx.com/bugbounty
+  contact: mailto:security@sqrx.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: false
+  preferred_languages: English
+  description: SquareX invites researchers to report security vulnerabilities in its browser security product by email, with the subject line "[Severity] Vulnerability - sqrx.com". A report needs the affected endpoint, the impact, steps to reproduce, a proof of concept and screenshots. Rewards are set by the maximum impact SquareX finds internally and run from USD 100 for low to USD 2,000 for critical, paid by PayPal once identity has been verified.
+  excluded_methods:
+  - dos
+  out_of_scope:
+  - Email and DNS-related issues, such as DMARC, SPF, etc
+  - Email Bomb
+  - TLS Version-related issues
+  - Denial of service
+  - Rate Limiting
+  - Crashing the container
+  - Accessing local files inside the container
+  - Firebase Configurations Leaks and Authentication Issues
+  - Server Error Messages (unless critical information is leaked)
+  - File restriction bypass
+  - Cross-Origin Resource Sharing (CORS) issues
+  - Clickjacking
+  - Missing Security headers
+  - Cookie flags and headers-related issues
+  - Bugs without security implications
+  - Google Analytics (any interaction with *.sqrx.com/track/*)
+  domains:
+  - sqrx.com website, domain, and subdomains
+  - sqrxlabs.com domain and subdomains
+  - Disposable Browser and Disposable File Viewer launched via SquareX Chrome Extension / Web App
+  - Disposable Email feature in SquareX Chrome Extension and Web App
+  min_payout: 100
+  max_payout: 2000
+  currency: USD
+  payout_table:
+    critical: 2000
+    high: 1000
+    medium: 500
+    low: 100
+  response_sla_days: 2
+
 - company: Starnum.com.tw
   url: https://www.instagram.com/mychenan/
   contact: https://www.instagram.com/mychenan/
