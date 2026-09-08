@@ -900,6 +900,29 @@ companies:
   description: Convex asks that suspected security bugs are reported to its security address and commits to replying within 24 hours. Researchers are asked not to disclose publicly until Convex has had a chance to address the issue.
   response_sla_days: 1
 
+- company: Cribl
+  url: https://cribl.io/vulnerability-disclosure-program/
+  contact: mailto:security@cribl.io
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  pgp_key: https://cribl.io/.well-known/cribl_security_pgp.asc
+  description: Cribl welcomes reports of vulnerabilities, privacy issues and exposed data in any asset it owns, operates or maintains, submitted through the web form on its disclosure page. The security team acknowledges each report, investigates, and develops a fix or mitigation. Cribl may assign a CVE and publish an advisory on its Trust Portal once remediation is available, and researchers may be publicly credited in the advisory or CVE record unless they ask to stay anonymous.
+  out_of_scope:
+  - https://login.cribl.cloud (Auth0)
+  - https://login.cribl-staging.cloud (Auth0)
+  - https://cribl.io
+  - Assets or other equipment owned or operated by third parties
+  domains:
+  - https://cribl.cloud/
+  - https://manage.cribl.cloud/
+  - https://custom-cribl-domain.cribl.cloud/
+  - https://api.cribl.cloud/
+  - https://packs.cribl.io/
+  legal_terms_url: https://www.bugcrowd.com/resources/hacker-resources/standard-disclosure-terms/
+
 - company: CrowdProof
   url: https://crowdproof.id/security
   contact: mailto:security@crowdproof.id
