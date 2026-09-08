@@ -234,6 +234,14 @@ companies:
   pgp_key: https://almalinux.org/files/security-pgp-key.txt
   description: AlmaLinux OS asks researchers to report security flaws in the distribution and its related projects, giving the project and version, detailed steps to reproduce, a plaintext proof of concept and any suggested remediation. Issues needing coordinated disclosure go to the security address, OS issues that do not need it go to the project bug tracker, and anything else to the relevant GitHub repository. Maintainers aim to confirm a report within two to three days.
 
+- company: Arcjet
+  url: https://docs.arcjet.com/security
+  contact: mailto:security@arcjet.com
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  description: Arcjet does not run a bug bounty, but encourages Coordinated Vulnerability Disclosure through its security address. External vulnerability reports are logged and assigned to the individual responsible for that component, then assessed and fixed by a patch or update within 10 working days. A critical vulnerability, such as one being actively exploited, is mitigated or patched as quickly as possible; all other updates are reviewed and applied within 20 working days.
+
 - company: atlan.com
   url: https://atlan.com/responsible-disclosure-program/
   contact: mailto:security@atlan.com
@@ -891,6 +899,29 @@ companies:
   status: active
   description: Convex asks that suspected security bugs are reported to its security address and commits to replying within 24 hours. Researchers are asked not to disclose publicly until Convex has had a chance to address the issue.
   response_sla_days: 1
+
+- company: Cribl
+  url: https://cribl.io/vulnerability-disclosure-program/
+  contact: mailto:security@cribl.io
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  pgp_key: https://cribl.io/.well-known/cribl_security_pgp.asc
+  description: Cribl welcomes reports of vulnerabilities, privacy issues and exposed data in any asset it owns, operates or maintains, submitted through the web form on its disclosure page. The security team acknowledges each report, investigates, and develops a fix or mitigation. Cribl may assign a CVE and publish an advisory on its Trust Portal once remediation is available, and researchers may be publicly credited in the advisory or CVE record unless they ask to stay anonymous.
+  out_of_scope:
+  - https://login.cribl.cloud (Auth0)
+  - https://login.cribl-staging.cloud (Auth0)
+  - https://cribl.io
+  - Assets or other equipment owned or operated by third parties
+  domains:
+  - https://cribl.cloud/
+  - https://manage.cribl.cloud/
+  - https://custom-cribl-domain.cribl.cloud/
+  - https://api.cribl.cloud/
+  - https://packs.cribl.io/
+  legal_terms_url: https://www.bugcrowd.com/resources/hacker-resources/standard-disclosure-terms/
 
 - company: CrowdProof
   url: https://crowdproof.id/security
@@ -3161,6 +3192,50 @@ companies:
     medium: 200
     low: 50
 
+- company: SquareX
+  url: https://sqrx.com/bugbounty
+  contact: mailto:security@sqrx.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: false
+  preferred_languages: English
+  description: SquareX invites researchers to report security vulnerabilities in its browser security product by email, with the subject line "[Severity] Vulnerability - sqrx.com". A report needs the affected endpoint, the impact, steps to reproduce, a proof of concept and screenshots. Rewards are set by the maximum impact SquareX finds internally and run from USD 100 for low to USD 2,000 for critical, paid by PayPal once identity has been verified.
+  excluded_methods:
+  - dos
+  out_of_scope:
+  - Email and DNS-related issues, such as DMARC, SPF, etc
+  - Email Bomb
+  - TLS Version-related issues
+  - Denial of service
+  - Rate Limiting
+  - Crashing the container
+  - Accessing local files inside the container
+  - Firebase Configurations Leaks and Authentication Issues
+  - Server Error Messages (unless critical information is leaked)
+  - File restriction bypass
+  - Cross-Origin Resource Sharing (CORS) issues
+  - Clickjacking
+  - Missing Security headers
+  - Cookie flags and headers-related issues
+  - Bugs without security implications
+  - Google Analytics (any interaction with *.sqrx.com/track/*)
+  domains:
+  - sqrx.com website, domain, and subdomains
+  - sqrxlabs.com domain and subdomains
+  - Disposable Browser and Disposable File Viewer launched via SquareX Chrome Extension / Web App
+  - Disposable Email feature in SquareX Chrome Extension and Web App
+  min_payout: 100
+  max_payout: 2000
+  currency: USD
+  payout_table:
+    critical: 2000
+    high: 1000
+    medium: 500
+    low: 100
+  response_sla_days: 2
+
 - company: Starnum.com.tw
   url: https://www.instagram.com/mychenan/
   contact: https://www.instagram.com/mychenan/
@@ -3270,6 +3345,13 @@ companies:
     type: hardware
   - target: TI product software and documentation
     type: other
+
+- company: Tidal Cyber
+  url: https://www.tidalcyber.com/vulnerability-reporting-policy
+  contact: mailto:security@tidalcyber.com
+  program_type: vdp
+  status: active
+  description: Tidal Cyber asks anyone who believes they have found a security or privacy vulnerability in one of its products to report it immediately to its security address, giving the product and version along with supporting material such as logs, screenshots and steps to reproduce. Reports go into an internal tracking system and are investigated without public disclosure until a resolution is reached, at which point affected customers are notified with remediation steps or a timeline.
 
 - company: Tiger Data
   url: https://www.tigerdata.com/security/vulnerability-disclosure
