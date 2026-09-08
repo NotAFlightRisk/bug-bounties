@@ -3346,6 +3346,13 @@ companies:
   - target: TI product software and documentation
     type: other
 
+- company: Tidal Cyber
+  url: https://www.tidalcyber.com/vulnerability-reporting-policy
+  contact: mailto:security@tidalcyber.com
+  program_type: vdp
+  status: active
+  description: Tidal Cyber asks anyone who believes they have found a security or privacy vulnerability in one of its products to report it immediately to its security address, giving the product and version along with supporting material such as logs, screenshots and steps to reproduce. Reports go into an internal tracking system and are investigated without public disclosure until a resolution is reached, at which point affected customers are notified with remediation steps or a timeline.
+
 - company: Tiger Data
   url: https://www.tigerdata.com/security/vulnerability-disclosure
   contact: mailto:security@tigerdata.com
