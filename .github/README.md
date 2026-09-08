@@ -418,6 +418,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Craft Coders Marketplace Bug Bounty](https://bugcrowd.com/engagements/craftcoders) 💰
 - <img src='https://icon.horse/icon/crashtest-security.com' width='16'/> [Crashtest Security](https://crashtest-security.com/responsible-disclosure/) 🏅
 - <img src='https://icon.horse/icon/creditkarma.com' width='16'/> [Credit Karma](https://creditkarma.com) 💰
+- <img src='https://icon.horse/icon/cribl.io' width='16'/> [Cribl](https://cribl.io/vulnerability-disclosure-program/) 🏅
 - <img src='https://icon.horse/icon/www.intigriti.com' width='16'/> [Cross Border Fines](https://www.intigriti.com/programs/bpost/crossborderfines/detail) 💰
 - <img src='https://icon.horse/icon/crowdproof.id' width='16'/> [CrowdProof](https://crowdproof.id/security) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Crowdstrike](https://hackerone.com/crowdstrike) 💰 🏅
@@ -1635,6 +1636,7 @@
 - <img src='https://icon.horse/icon/www.sqills.com' width='16'/> [Sqills](https://www.sqills.com/responsible-disclosure-policy/) 💰 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Square](https://bugcrowd.com/square) 💰 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Square Open Source](https://bugcrowd.com/squareopensource) 💰 🏅
+- <img src='https://icon.horse/icon/sqrx.com' width='16'/> [SquareX](https://sqrx.com/bugbounty) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Squid Cache (IBB)](https://hackerone.com/ibb-squid-cache) 💰 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [SSV Network](https://immunefi.com/bug-bounty/ssvnetwork/) 💰
 - <img src='https://icon.horse/icon/stackexchange.com' width='16'/> [Stack Exchange](https://stackexchange.com/about/security) 🏅
