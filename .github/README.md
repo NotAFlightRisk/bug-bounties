@@ -317,6 +317,7 @@
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Celer](https://immunefi.com/bug-bounty/celer/) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [celix Solutions GmbH Marketplace Bug Bou...](https://bugcrowd.com/engagements/celix-solutions-market) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Centers for Medicare & Medicaid Services...](https://bugcrowd.com/engagements/cms-bbpublic) 💰
+- <img src='https://icon.horse/icon/centric.eu' width='16'/> [Centric](https://centric.eu/nl/over-centric/trust-center/responsible-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Centrify](https://bugcrowd.com/centrify) 💰 🏅
 - <img src='https://icon.horse/icon/security.web.cern.ch' width='16'/> [CERN](https://security.web.cern.ch/home/en/cvd.shtml) 🏅
 - <img src='https://icon.horse/icon/vuls.cert.org' width='16'/> [CERT/CC](https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy) 🏅 🎁
@@ -820,6 +821,8 @@
 - <img src='https://icon.horse/icon/support.iconfinder.com' width='16'/> [IconFinder](https://support.iconfinder.com/en/articles/18178-responsible-disclosure-of-security-vulnerabilities) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Iconloop](https://hackerone.com/iconloop_inc) 💰 🏅
 - <img src='https://icon.horse/icon/www.idena.io' width='16'/> [Idena](https://www.idena.io/contribute#contribute-3-1) 💰
+- <img src='https://icon.horse/icon/idnow.io' width='16'/> [IDnow](https://idnow.io/vulnerability-disclosure-policy/) 🏅
+- <img src='https://icon.horse/icon/idura.eu' width='16'/> [Idura](https://idura.eu/legal/vulnerability-disclosure-policy) 💰
 - <img src='https://icon.horse/icon/www.ifixit.com' width='16'/> [iFixit](https://www.ifixit.com/Info/Responsible_Disclosure) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [iFood: Bug Bounty Program](https://bugcrowd.com/ifood-og) 💰
 - <img src='https://icon.horse/icon/www.royalihc.com' width='16'/> [IHC](https://www.royalihc.com/en/responsible-disclosure-policy) 🏅
@@ -1766,6 +1769,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [ToolsPlus](https://bugcrowd.com/engagements/toolsplus) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [toom Baumarkt GmbH - Bug Bounty Program ...](https://yeswehack.com/programs/toom-baumarkt-gmbh-bug-bounty-program) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [toom Baumarkt GmbH - Webshop](https://yeswehack.com/programs/toom-baumarkt-gmbh-bug-bounty-program) 💰
+- <img src='https://icon.horse/icon/topicus.nl' width='16'/> [Topicus](https://topicus.nl/disclosure) 🎁 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Tor](https://hackerone.com/torproject) 💰 🏅 🎁
 - <img src='https://icon.horse/icon/app.intigriti.com' width='16'/> [Torfs](https://app.intigriti.com/programs/torfs/torfs/detail) 💰
 - <img src='https://icon.horse/icon/touchincentive.com' width='16'/> [Touch Incentive Marketing](https://touchincentive.com/responsible-disclosure/) 💰
