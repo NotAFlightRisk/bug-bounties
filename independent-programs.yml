@@ -638,6 +638,25 @@ companies:
   - '*.csint.pro'
   response_sla_days: 2
 
+- company: Centric
+  url: https://centric.eu/nl/over-centric/trust-center/responsible-disclosure-policy/
+  contact: mailto:security.disclosures@centric.eu
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Dutch
+  pgp_key: https://stccchostorageaccountprd.blob.core.windows.net/media/pgp-key.txt
+  description: Responsible disclosure policy for the Dutch IT services group. Findings go to security.disclosures@centric.eu, PGP encrypted, with enough detail to reproduce - usually the IP or URL of the affected system. Centric assesses reports within three working days, keeps them confidential, accepts pseudonymous reports and takes no legal action against reporters who follow the conditions. Reporters are named as the discoverer if they want, and any publication after the fix is agreed between both sides.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 3
+
 - company: CERN
   url: https://security.web.cern.ch/home/en/cvd.shtml
   contact: mailto:Computer.Security@cern.ch
@@ -1548,6 +1567,73 @@ companies:
   standards:
   - ISO 29147
   - ISO 30111
+
+- company: IDnow
+  url: https://idnow.io/vulnerability-disclosure-policy/
+  contact: mailto:security@idnow.io
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: The German identity verification group takes reports at security@idnow.io from customers, vendors, providers and independent researchers, and asks for a well written English report with a proof of concept. Testing is preferred against the listed sandbox and test domains. IDnow will not take legal action against researchers who stay in scope and cause no damage, replies within about two business days, and credits the reporter once the issue is validated and fixed.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: Assets developed or maintained by IDnow, including those of the former identity Trust Management AG/GmbH and ARIADNEXT SAS
+    type: other
+  - target: '*.test.idnow.de'
+    type: web
+  - target: '*.test.idnow.io'
+    type: web
+  - target: '*-sandbox.ariadnext.io'
+    type: web
+  - target: '*-test.idcheck.io'
+    type: web
+  - target: '*-demo.ariadnext.com'
+    type: web
+  - target: '*-test.ariadnext.com'
+    type: web
+  - target: '*-demo.yris.eu'
+    type: web
+  - target: integration.idvos.de
+    type: web
+  - target: studio.eu.platform.idnow.sx
+    type: web
+  out_of_scope:
+  - Assets owned by IDnow customers
+  response_sla_days: 2
+
+- company: Idura
+  url: https://idura.eu/legal/vulnerability-disclosure-policy
+  contact: mailto:cvd@idura.eu
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Vulnerability disclosure policy for the Danish eID provider, formerly Criipto. Reports go to cvd@idura.eu in English, with steps to reproduce and your own view of the severity. All Idura products and services are in scope, and researchers may register as many accounts and tenants as they need, but proofs of concept must only run against their own. There is no structured public bounty, though Idura pays a reward for novel, reproducible findings past a severity threshold it sets.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: All Idura products and services
+    type: other
+  out_of_scope:
+  - Systems run by external service providers, including electronic identification means providers
+  - Non-production systems provided by Idura
+  - Vulnerabilities in customers' systems or integrations
+  - Volumetric and denial of service vulnerabilities
+  - Self-XSS, clickjacking, missing security headers and information disclosure with no demonstrated security impact
+  - Known CVEs, outdated libraries and subdomain takeover without a demonstrated proof of concept
+  - Vulnerabilities publicly disclosed within the last 30 days
 
 - company: incident.io
   url: https://incident.io/legal/vulnerability-disclosure
@@ -3458,6 +3544,23 @@ companies:
   - phishing
   - physical_access
   response_sla_days: 7
+
+- company: Topicus
+  url: https://topicus.nl/disclosure
+  contact: mailto:security@topicus.nl
+  rewards:
+  - '*swag'
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: Responsible disclosure policy for the Dutch software house behind products for finance, healthcare, education and local government. Weaknesses go to security@topicus.nl with enough detail to reproduce, usually the IP or URL of the affected system. Topicus replies within three days with an assessment and an expected fix date, keeps reports confidential, accepts pseudonymous reports and takes no legal action against reporters who follow the conditions.
+  excluded_methods:
+  - dos
+  response_sla_days: 3
+  swag_details: Goodie bag or gift voucher for each previously unknown issue, sized by the severity of the flaw and the quality of the report. EU/EEA residents only.
 
 - company: Tribepad
   url: https://tribepad.b-cdn.net/app/uploads/2025/09/Vulnerability-Disclosure-Program.pdf
