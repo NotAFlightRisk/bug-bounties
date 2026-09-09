@@ -638,6 +638,25 @@ companies:
   - '*.csint.pro'
   response_sla_days: 2
 
+- company: Centric
+  url: https://centric.eu/nl/over-centric/trust-center/responsible-disclosure-policy/
+  contact: mailto:security.disclosures@centric.eu
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Dutch
+  pgp_key: https://stccchostorageaccountprd.blob.core.windows.net/media/pgp-key.txt
+  description: Responsible disclosure policy for the Dutch IT services group. Findings go to security.disclosures@centric.eu, PGP encrypted, with enough detail to reproduce - usually the IP or URL of the affected system. Centric assesses reports within three working days, keeps them confidential, accepts pseudonymous reports and takes no legal action against reporters who follow the conditions. Reporters are named as the discoverer if they want, and any publication after the fix is agreed between both sides.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 3
+
 - company: CERN
   url: https://security.web.cern.ch/home/en/cvd.shtml
   contact: mailto:Computer.Security@cern.ch
