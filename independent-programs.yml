@@ -1568,6 +1568,46 @@ companies:
   - ISO 29147
   - ISO 30111
 
+- company: IDnow
+  url: https://idnow.io/vulnerability-disclosure-policy/
+  contact: mailto:security@idnow.io
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: The German identity verification group takes reports at security@idnow.io from customers, vendors, providers and independent researchers, and asks for a well written English report with a proof of concept. Testing is preferred against the listed sandbox and test domains. IDnow will not take legal action against researchers who stay in scope and cause no damage, replies within about two business days, and credits the reporter once the issue is validated and fixed.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: Assets developed or maintained by IDnow, including those of the former identity Trust Management AG/GmbH and ARIADNEXT SAS
+    type: other
+  - target: '*.test.idnow.de'
+    type: web
+  - target: '*.test.idnow.io'
+    type: web
+  - target: '*-sandbox.ariadnext.io'
+    type: web
+  - target: '*-test.idcheck.io'
+    type: web
+  - target: '*-demo.ariadnext.com'
+    type: web
+  - target: '*-test.ariadnext.com'
+    type: web
+  - target: '*-demo.yris.eu'
+    type: web
+  - target: integration.idvos.de
+    type: web
+  - target: studio.eu.platform.idnow.sx
+    type: web
+  out_of_scope:
+  - Assets owned by IDnow customers
+  response_sla_days: 2
+
 - company: incident.io
   url: https://incident.io/legal/vulnerability-disclosure
   contact: mailto:security@incident.io
