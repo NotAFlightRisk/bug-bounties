@@ -3545,6 +3545,23 @@ companies:
   - physical_access
   response_sla_days: 7
 
+- company: Topicus
+  url: https://topicus.nl/disclosure
+  contact: mailto:security@topicus.nl
+  rewards:
+  - '*swag'
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: Responsible disclosure policy for the Dutch software house behind products for finance, healthcare, education and local government. Weaknesses go to security@topicus.nl with enough detail to reproduce, usually the IP or URL of the affected system. Topicus replies within three days with an assessment and an expected fix date, keeps reports confidential, accepts pseudonymous reports and takes no legal action against reporters who follow the conditions.
+  excluded_methods:
+  - dos
+  response_sla_days: 3
+  swag_details: Goodie bag or gift voucher for each previously unknown issue, sized by the severity of the flaw and the quality of the report. EU/EEA residents only.
+
 - company: Tribepad
   url: https://tribepad.b-cdn.net/app/uploads/2025/09/Vulnerability-Disclosure-Program.pdf
   contact: mailto:security@tribepad.com
