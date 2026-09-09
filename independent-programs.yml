@@ -1608,6 +1608,33 @@ companies:
   - Assets owned by IDnow customers
   response_sla_days: 2
 
+- company: Idura
+  url: https://idura.eu/legal/vulnerability-disclosure-policy
+  contact: mailto:cvd@idura.eu
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Vulnerability disclosure policy for the Danish eID provider, formerly Criipto. Reports go to cvd@idura.eu in English, with steps to reproduce and your own view of the severity. All Idura products and services are in scope, and researchers may register as many accounts and tenants as they need, but proofs of concept must only run against their own. There is no structured public bounty, though Idura pays a reward for novel, reproducible findings past a severity threshold it sets.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: All Idura products and services
+    type: other
+  out_of_scope:
+  - Systems run by external service providers, including electronic identification means providers
+  - Non-production systems provided by Idura
+  - Vulnerabilities in customers' systems or integrations
+  - Volumetric and denial of service vulnerabilities
+  - Self-XSS, clickjacking, missing security headers and information disclosure with no demonstrated security impact
+  - Known CVEs, outdated libraries and subdomain takeover without a demonstrated proof of concept
+  - Vulnerabilities publicly disclosed within the last 30 days
+
 - company: incident.io
   url: https://incident.io/legal/vulnerability-disclosure
   contact: mailto:security@incident.io
