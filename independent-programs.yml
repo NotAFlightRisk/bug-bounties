@@ -1842,6 +1842,24 @@ companies:
   reporting_url: https://www.instant-gaming.com/en/support/
   response_sla_days: 3
 
+- company: Job&Talent
+  url: https://www.jobandtalent.com/legal/vulnerability-disclosure-policy
+  contact: mailto:security.team@jobandtalent.com
+  program_type: vdp
+  status: active
+  preferred_languages: English, Spanish
+  pgp_key: https://www.jobandtalent.com/public.gpg.pgp
+  description: Vulnerability disclosure for the Job&Talent staffing platform, for application security issues only. OWASP Top 10 categories and anything else with demonstrated impact are accepted, and the page spells out every field a report has to carry before it will be looked at. No compensation is offered at the moment.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  out_of_scope:
+  - Low impact session management issues
+  - Theoretical vulnerabilities
+  - Informational disclosure of non-sensitive data
+  - Self-XSS with a user-defined payload
+
 - company: Kahoot!
   url: https://kahoot.com/disclosure-policy.txt
   contact: mailto:security@kahoot.com
