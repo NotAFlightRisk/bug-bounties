@@ -1251,6 +1251,42 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://element.io/security/security-hall-of-fame
 
+- company: Fintual
+  url: https://fintual.com/security-policy.txt
+  contact: mailto:security@fintual.com
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  safe_harbor: partial
+  preferred_languages: English, Spanish
+  pgp_key: https://fintual.com/pgp-key.txt
+  description: Self-run bug bounty for Fintual's investing app in Chile and Mexico, taking reports by email only. Rewards are set on assessed business impact rather than CVSS alone, from USD 100 at the low end up to a mission-critical band that starts at USD 10,000. Safe harbour holds while you don't leak, modify or delete data or degrade the service; social engineering, DDoS and using someone else's account are hard rules with legal consequences.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  out_of_scope:
+  - fintualist.com
+  - store.fintual.cl
+  domains:
+  - fintual.cl
+  - fintual.mx
+  - fintual.com
+  - fintual.in
+  - fintu.al
+  - fnt.al
+  min_payout: 100
+  currency: USD
+  payout_table:
+    critical: 9999
+    high: 4999
+    medium: 999
+    low: 249
+  response_sla_days: 5
+  hall_of_fame_url: https://fintual.com/hall-of-fame.txt
+
 - company: FlixBus
   url: https://global.flixbus.com/responsible-disclosure
   contact: mailto:responsible-disclosure@flixbus.com
