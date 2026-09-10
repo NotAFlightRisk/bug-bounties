@@ -638,6 +638,35 @@ companies:
   - '*.csint.pro'
   response_sla_days: 2
 
+- company: Cabify
+  url: https://cabify.com/.well-known/bounty.txt
+  contact: mailto:security+bugbounty@cabify.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  preferred_languages: English
+  pgp_key: https://cabify.com/.well-known/security.pgp
+  description: Public bug bounty that Cabify runs itself, with the policy served from its own domain and no platform in between. Severity comes from a 3x3 impact and likelihood matrix rather than CVSS, so the same class of bug scores differently on the apex than on a secondary domain. The reward figures are upper bounds, not fixed amounts. Bounties donated to charity are matched, so the charity gets double.
+  out_of_scope:
+  - Vulnerabilities requiring significant and unlikely interactions
+  - HTTP 404 or other non-200 codes and pages
+  - Host header attacks
+  - Fingerprinting or banner disclosure on public services
+  - Missing Secure or HttpOnly flags on non-sensitive cookies
+  - Mixed content scripting
+  - Missing rate limiting on non-critical endpoints
+  - OPTIONS HTTP method enabled
+  - SPF, DKIM or DMARC settings
+  - SSL/TLS protocol scan reports
+  - Theoretical vulnerabilities without a proof of concept
+  - Theoretical subdomain takeovers with no supporting evidence
+  currency: EUR
+  payout_table:
+    critical: 1000
+    high: 500
+    low: 100
+
 - company: Centric
   url: https://centric.eu/nl/over-centric/trust-center/responsible-disclosure-policy/
   contact: mailto:security.disclosures@centric.eu
@@ -1222,6 +1251,42 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://element.io/security/security-hall-of-fame
 
+- company: Fintual
+  url: https://fintual.com/security-policy.txt
+  contact: mailto:security@fintual.com
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  safe_harbor: partial
+  preferred_languages: English, Spanish
+  pgp_key: https://fintual.com/pgp-key.txt
+  description: Self-run bug bounty for Fintual's investing app in Chile and Mexico, taking reports by email only. Rewards are set on assessed business impact rather than CVSS alone, from USD 100 at the low end up to a mission-critical band that starts at USD 10,000. Safe harbour holds while you don't leak, modify or delete data or degrade the service; social engineering, DDoS and using someone else's account are hard rules with legal consequences.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  out_of_scope:
+  - fintualist.com
+  - store.fintual.cl
+  domains:
+  - fintual.cl
+  - fintual.mx
+  - fintual.com
+  - fintual.in
+  - fintu.al
+  - fnt.al
+  min_payout: 100
+  currency: USD
+  payout_table:
+    critical: 9999
+    high: 4999
+    medium: 999
+    low: 249
+  response_sla_days: 5
+  hall_of_fame_url: https://fintual.com/hall-of-fame.txt
+
 - company: FlixBus
   url: https://global.flixbus.com/responsible-disclosure
   contact: mailto:responsible-disclosure@flixbus.com
@@ -1776,6 +1841,24 @@ companies:
   - Instant Gaming News Android application
   reporting_url: https://www.instant-gaming.com/en/support/
   response_sla_days: 3
+
+- company: Job&Talent
+  url: https://www.jobandtalent.com/legal/vulnerability-disclosure-policy
+  contact: mailto:security.team@jobandtalent.com
+  program_type: vdp
+  status: active
+  preferred_languages: English, Spanish
+  pgp_key: https://www.jobandtalent.com/public.gpg.pgp
+  description: Vulnerability disclosure for the Job&Talent staffing platform, for application security issues only. OWASP Top 10 categories and anything else with demonstrated impact are accepted, and the page spells out every field a report has to carry before it will be looked at. No compensation is offered at the moment.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  out_of_scope:
+  - Low impact session management issues
+  - Theoretical vulnerabilities
+  - Informational disclosure of non-sensitive data
+  - Self-XSS with a user-defined payload
 
 - company: Kahoot!
   url: https://kahoot.com/disclosure-policy.txt
@@ -3861,6 +3944,48 @@ companies:
   - Absence of rate limiting without demonstrated exploitation impact
   - Automated scanner output without manual validation and a proof of concept
   - Theoretical vulnerabilities without proof of exploitability
+  disclosure_timeline_days: 90
+
+- company: Wallbox
+  url: https://wallbox.com/.well-known/security-policy.html
+  contact: mailto:security@wallbox.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Self-hosted bug bounty covering Wallbox's EV charging web properties, API backend and mobile apps. Reports are scored on CVSSv3 and paid on the resulting severity, with open redirects and admin-to-sysadmin escalation deliberately paid a tier down. Charger firmware and hardware are handled separately and earn no bounty, but Wallbox still wants them reported. Safe harbour covers CFAA, DMCA and its own terms.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: '*.wallbox.com'
+    type: web
+  - target: '*.wall-box.com'
+    type: api
+  - target: Wallbox iOS app, latest released version
+    type: mobile
+  - target: Wallbox Android app, latest released version
+    type: mobile
+  out_of_scope:
+  - support.wallbox.com
+  - Charger firmware, onboard software and charger hardware
+  - Billing system, except endpoints demonstrably called by an in-scope target
+  - Internal and development services
+  - Third-party services Wallbox integrates with
+  max_payout: 500
+  currency: USD
+  payout_table:
+    critical: 500
+    high: 300
+    medium: 100
+    low: 50
+  response_sla_days: 5
   disclosure_timeline_days: 90
 
 - company: whatruns.com
