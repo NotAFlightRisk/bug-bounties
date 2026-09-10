@@ -3946,6 +3946,48 @@ companies:
   - Theoretical vulnerabilities without proof of exploitability
   disclosure_timeline_days: 90
 
+- company: Wallbox
+  url: https://wallbox.com/.well-known/security-policy.html
+  contact: mailto:security@wallbox.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Self-hosted bug bounty covering Wallbox's EV charging web properties, API backend and mobile apps. Reports are scored on CVSSv3 and paid on the resulting severity, with open redirects and admin-to-sysadmin escalation deliberately paid a tier down. Charger firmware and hardware are handled separately and earn no bounty, but Wallbox still wants them reported. Safe harbour covers CFAA, DMCA and its own terms.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: '*.wallbox.com'
+    type: web
+  - target: '*.wall-box.com'
+    type: api
+  - target: Wallbox iOS app, latest released version
+    type: mobile
+  - target: Wallbox Android app, latest released version
+    type: mobile
+  out_of_scope:
+  - support.wallbox.com
+  - Charger firmware, onboard software and charger hardware
+  - Billing system, except endpoints demonstrably called by an in-scope target
+  - Internal and development services
+  - Third-party services Wallbox integrates with
+  max_payout: 500
+  currency: USD
+  payout_table:
+    critical: 500
+    high: 300
+    medium: 100
+    low: 50
+  response_sla_days: 5
+  disclosure_timeline_days: 90
+
 - company: whatruns.com
   url: https://www.whatruns.com/bug-bounty
   contact: mailto:hello@WhatRuns.com
