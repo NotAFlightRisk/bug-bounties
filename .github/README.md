@@ -301,6 +301,7 @@
 <details open><summary><h4>C</h4></summary>
 
 - <img src='https://icon.horse/icon/www.csint.pro' width='16'/> [C-SINT](https://www.csint.pro/bug_bounty) 💰
+- <img src='https://icon.horse/icon/cabify.com' width='16'/> [Cabify](https://cabify.com/.well-known/bounty.txt) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Caelor Group](https://bugcrowd.com/engagements/caelor-group-market) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Caffeine](https://bugcrowd.com/caffeine) 💰
 - <img src='https://icon.horse/icon/www.campaignmonitor.com' width='16'/> [Campaign Monitor](https://www.campaignmonitor.com/trust/report-a-vulnerability/) 💰
@@ -637,6 +638,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [FileZilla](https://hackerone.com/filezilla_h1c) 💰 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [FindOut InfoVis AB - Marketplace Bug Bou...](https://bugcrowd.com/engagements/FindOut-infovis) 💰
 - <img src='https://icon.horse/icon/www.intigriti.com' width='16'/> [Fing Bug Bounty Program](https://www.intigriti.com/programs/lansweeper/fing/detail) 💰
+- <img src='https://icon.horse/icon/fintual.com' width='16'/> [Fintual](https://fintual.com/security-policy.txt) 💰 🏅
 - <img src='https://icon.horse/icon/firebase.google.com' width='16'/> [Firebase](https://firebase.google.com/support/contact/) 🎁
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Fireblocks MPC Managed Bug Bounty Engage...](https://bugcrowd.com/engagements/fireblocks-mbb-og2) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Firedancer](https://immunefi.com/bug-bounty/firedancer/) 💰
@@ -1921,6 +1923,7 @@
 - <img src='https://icon.horse/icon/wagwalking.com' width='16'/> [Wagwalking](https://wagwalking.com/responsible-disclosure) 💰 🏅 🎁
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Wakatime](https://hackerone.com/wakatime) 🏅
 - <img src='https://icon.horse/icon/www.walla.co.il' width='16'/> [Walla! Communication](https://www.walla.co.il/.well-know/security.txt) 💰
+- <img src='https://icon.horse/icon/wallbox.com' width='16'/> [Wallbox](https://wallbox.com/.well-known/security-policy.html) 💰
 - <img src='https://icon.horse/icon/wallet.tg' width='16'/> [Wallet on Telegram](https://wallet.tg/) 💰
 - <img src='https://icon.horse/icon/walletconnect.com' width='16'/> [WalletConnect](https://walletconnect.com/.well-known/security.txt) 💰
 - <img src='https://icon.horse/icon/corporate.walmart.com' width='16'/> [Walmart](https://corporate.walmart.com/privacy-security) 💰
