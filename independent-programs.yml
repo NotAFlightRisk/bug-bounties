@@ -661,6 +661,25 @@ companies:
     high: 500
     low: 100
 
+- company: Cegeka
+  url: https://www.cegeka.com/.well-known/responsibledisclosurepolicy.txt
+  contact: mailto:responsibledisclosure@cegeka.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: false
+  preferred_languages: English
+  description: Cegeka NV and its affiliates run a responsible disclosure policy written against articles 62/1 and 62/2 of the Belgian law of 7 April 2019. Reports go to responsibledisclosure@cegeka.com, and Cegeka sets up a secure channel before any sensitive detail is shared. Testing has to stay proportionate and stop once the problem is demonstrated. Cegeka will not bring legal claims against researchers who comply, but keeps the right to seek injunctive relief, and findings stay confidential.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  scope:
+  - target: www.cegeka.com
+    type: web
+  out_of_scope:
+  - IT systems that rely on third parties, unless those third parties have expressly agreed to this policy in advance
+
 - company: Centric
   url: https://centric.eu/nl/over-centric/trust-center/responsible-disclosure-policy/
   contact: mailto:security.disclosures@centric.eu
