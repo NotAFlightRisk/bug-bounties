@@ -1738,6 +1738,27 @@ companies:
   - Known CVEs, outdated libraries and subdomain takeover without a demonstrated proof of concept
   - Vulnerabilities publicly disclosed within the last 30 days
 
+- company: ilionx
+  url: https://www.ilionx.com/en/contact/report-vulnerability-cvd/
+  contact: mailto:cert@ilionx.com
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  safe_harbor: partial
+  preferred_languages: Dutch, English
+  description: ilionx runs its own coordinated vulnerability disclosure scheme over the systems, network, products and services watched by its in-house Security Operations Centre. Reports go through a CVD form on the policy page or to cert@ilionx.com, and ilionx replies within three days with an assessment and an estimated resolution time. Anything it was not already aware of earns a reward, sized on the scope of the vulnerability and the quality of the report.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: ilionx systems, network, products and services
+    type: other
+  out_of_scope:
+  - Third-party applications
+  response_sla_days: 3
+
 - company: incident.io
   url: https://incident.io/legal/vulnerability-disclosure
   contact: mailto:security@incident.io
