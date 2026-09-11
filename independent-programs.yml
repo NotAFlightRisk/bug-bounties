@@ -437,10 +437,7 @@ companies:
   allows_disclosure: true
   preferred_languages: English
   pgp_key: https://billie.io/.well-known/openpgpkey/hu/g5gwkdcmobphsnqnboxbhu1edf98x87x
-  description: Coordinated vulnerability disclosure policy for the German B2B buy-now-pay-later
-    provider, framed around the EU Cyber Resilience Act. In-scope assets are listed in an
-    appendix; rewards are discretionary, with typical examples running from EUR50 for low
-    severity to EUR500 and up for critical.
+  description: Coordinated vulnerability disclosure policy for the German B2B buy-now-pay-later provider, framed around the EU Cyber Resilience Act. In-scope assets are listed in an appendix; rewards are discretionary, with typical examples running from EUR50 for low severity to EUR500 and up for critical.
   excluded_methods:
   - dos
   - social_engineering
@@ -590,10 +587,7 @@ companies:
   safe_harbor: full
   allows_disclosure: true
   pgp_key: https://www.buckaroo.nl/media/0xrn552s/public-pgp.txt
-  description: Responsible disclosure policy for the Dutch payment service provider. Reports
-    go to security@buckaroo.nl, assessed within two working days, with no criminal or civil
-    action against researchers who follow the conditions. A reward may be offered depending
-    on risk and report quality, currently only payable to EU/EEA citizens.
+  description: Responsible disclosure policy for the Dutch payment service provider. Reports go to security@buckaroo.nl, assessed within two working days, with no criminal or civil action against researchers who follow the conditions. A reward may be offered depending on risk and report quality, currently only payable to EU/EEA citizens.
   excluded_methods:
   - dos
   - social_engineering
@@ -771,6 +765,38 @@ companies:
   - tribe29.com
   disclosure_timeline_days: 90
 
+- company: cleanshot.com
+  url: https://cleanshot.com/disclosure
+  contact: mailto:security@cleanshot.com
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  description: CleanShot team looks forward to working with independent security researchers. As long as you comply with this policy, you are welcome to test and report any vulnerabilities you find in our services. We offer rewards for valid reports to encourage ethical hackers to help us keep our users safe.
+  domains:
+  - 'The following components are in scope:'
+  - 'CleanShot X macOS app:'
+  - The latest version of CleanShot X desktop app downloaded from cleanshot.com or installed through Setapp.
+  - 'CleanShot Cloud and CleanShot license management web apps, backend and infrastructure:'
+  - cleanshot.com/*
+  - '*.cleanshot.cloud/*'
+  - share.cleanshot.com/*
+  - cln.sh/*
+  - updates.getcleanshot.com/*
+  - Any custom domain you connect in Advanced settings on a Pro account.
+  - licenses.cleanshot.com/*
+  - legit.maketheweb.io/*
+  - S3 buckets, CloudFront distributions, and other asset URLs referenced by the domains above, where the context indicates that we own and operate them.
+  min_payout: 50
+  max_payout: 4000
+  currency: USD
+  payout_table:
+    critical: 4000
+    high: 2000
+    medium: 1000
+    low: 500
+
 - company: Clerk
   url: https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy
   contact: mailto:security@clerk.dev
@@ -891,9 +917,7 @@ companies:
   program_type: vdp
   status: active
   allows_disclosure: false
-  description: Vulnerability disclosure policy covering Cognite services and software.
-    Reports go to ext-security-disclosures@cognite.com, with a response within five working
-    days and triage within ten. Cognite states it offers no monetary or non-monetary rewards.
+  description: Vulnerability disclosure policy covering Cognite services and software. Reports go to ext-security-disclosures@cognite.com, with a response within five working days and triage within ten. Cognite states it offers no monetary or non-monetary rewards.
   excluded_methods:
   - dos
   - social_engineering
@@ -913,10 +937,7 @@ companies:
   program_type: bounty
   status: active
   allows_disclosure: false
-  description: Bug bounty program rules for the data governance platform. Vulnerabilities
-    are disclosed confidentially through a submission form, and rewards run from USD10 to
-    USD500 per vulnerability, set by severity at Collibra's sole discretion. Finding the
-    same bug on a further unique path before payout earns an extra 5% per path.
+  description: Bug bounty program rules for the data governance platform. Vulnerabilities are disclosed confidentially through a submission form, and rewards run from USD10 to USD500 per vulnerability, set by severity at Collibra's sole discretion. Finding the same bug on a further unique path before payout earns an extra 5% per path.
   excluded_methods:
   - dos
   - social_engineering
@@ -1030,10 +1051,7 @@ companies:
   safe_harbor: full
   allows_disclosure: true
   preferred_languages: English
-  description: Vulnerability disclosure program covering Darktrace appliances and sensors.
-    Darktrace Limited agrees not to pursue legal action against researchers who test within
-    scope and hold off on public disclosure until the agreed timeframe expires, and gives
-    full credit in its release notes once a submission is validated.
+  description: Vulnerability disclosure program covering Darktrace appliances and sensors. Darktrace Limited agrees not to pursue legal action against researchers who test within scope and hold off on public disclosure until the agreed timeframe expires, and gives full credit in its release notes once a submission is validated.
   excluded_methods:
   - physical_access
   scope:
@@ -1053,11 +1071,7 @@ companies:
   safe_harbor: full
   allows_disclosure: true
   preferred_languages: English
-  description: Responsible security disclosure policy covering deepset.ai, the Haystack
-    Enterprise Platform and the Haystack open-source framework. Receipt is acknowledged
-    within five business days, researchers are asked to allow 90 days before public
-    disclosure, and deepset commits to taking no adverse action against those who follow
-    the policy. There is no formal bug bounty at present.
+  description: Responsible security disclosure policy covering deepset.ai, the Haystack Enterprise Platform and the Haystack open-source framework. Receipt is acknowledged within five business days, researchers are asked to allow 90 days before public disclosure, and deepset commits to taking no adverse action against those who follow the policy. There is no formal bug bounty at present.
   excluded_methods:
   - dos
   - social_engineering
@@ -1073,8 +1087,7 @@ companies:
     type: other
   out_of_scope:
   - Third-party services or integrations hosted by other providers
-  - Non-production environments, unless the finding shows exploitable lateral movement into
-    production
+  - Non-production environments, unless the finding shows exploitable lateral movement into production
   - Vulnerabilities in upstream open-source dependencies not maintained by deepset
   - Best-practice reports such as missing security headers or SPF/DMARC suggestions
   - TLS configuration weaknesses such as older cipher suites, TLS 1.0 or SWEET32
@@ -1184,11 +1197,7 @@ companies:
   program_type: vdp
   status: active
   safe_harbor: full
-  description: Vulnerability disclosure policy for the OT security vendor, covering the
-    Dragos Platform, hardware, services and threat intelligence solutions. Submissions go
-    to psirt@dragos.com and may be anonymous, research in line with the policy is treated
-    as authorised under anti-hacking and anti-circumvention law, and Dragos follows a
-    90-day disclosure policy.
+  description: Vulnerability disclosure policy for the OT security vendor, covering the Dragos Platform, hardware, services and threat intelligence solutions. Submissions go to psirt@dragos.com and may be anonymous, research in line with the policy is treated as authorised under anti-hacking and anti-circumvention law, and Dragos follows a 90-day disclosure policy.
   excluded_methods:
   - dos
   - social_engineering
@@ -1205,8 +1214,7 @@ companies:
   - target: Dragos threat intelligence solutions
     type: other
   out_of_scope:
-  - Dragos products licensed, owned or operated by a customer, without that customer's
-    permission
+  - Dragos products licensed, owned or operated by a customer, without that customer's permission
   - Dragos employees, customers, partners and representatives
   disclosure_timeline_days: 90
 
@@ -1295,10 +1303,7 @@ companies:
   allows_disclosure: true
   preferred_languages: German, English
   pgp_key: https://responsible-disclosure.security.flix.tech/pgp.txt
-  description: Responsible disclosure for all FlixBus digital products, with a single point
-    of contact at responsible-disclosure@flixbus.com. Researchers are asked for reasonable
-    time to remediate before publishing, and FlixBus publishes a security advisory when a
-    fix ships. No bug bounties or other compensation are offered.
+  description: Responsible disclosure for all FlixBus digital products, with a single point of contact at responsible-disclosure@flixbus.com. Researchers are asked for reasonable time to remediate before publishing, and FlixBus publishes a security advisory when a fix ships. No bug bounties or other compensation are offered.
   scope:
   - target: FlixBus web services
     type: web
@@ -1489,10 +1494,7 @@ companies:
   safe_harbor: full
   allows_disclosure: true
   pgp_key: https://files.hadrian.io/hubfs/Website/hadrian-security.asc
-  description: Responsible disclosure policy for the offensive security vendor. Findings go
-    to security@hadrian.io, encrypted with their PGP key, and Hadrian responds within five
-    business days with an evaluation and an expected resolution date. No legal action is
-    taken against researchers who follow the policy.
+  description: Responsible disclosure policy for the offensive security vendor. Findings go to security@hadrian.io, encrypted with their PGP key, and Hadrian responds within five business days with an evaluation and an expected resolution date. No legal action is taken against researchers who follow the policy.
   excluded_methods:
   - dos
   - social_engineering
@@ -1557,10 +1559,7 @@ companies:
   status: active
   preferred_languages: English, French
   pgp_key: https://www.ibanfirst.com/pgp-key.txt
-  description: Security policy for the Belgian cross-border payments provider. There is no
-    bug bounty, but responsible disclosure of major security issues is encouraged, reported
-    through the address in their security.txt. Researchers are credited on a public
-    acknowledgments page.
+  description: Security policy for the Belgian cross-border payments provider. There is no bug bounty, but responsible disclosure of major security issues is encouraged, reported through the address in their security.txt. Researchers are credited on a public acknowledgments page.
   domains:
   - '*.ibanfirst.com'
   hall_of_fame_url: https://www.ibanfirst.com/hall-of-fame.html
@@ -1869,18 +1868,14 @@ companies:
   allows_disclosure: false
   preferred_languages: English
   pgp_key: https://kahoot.com/security_public_key.txt
-  description: Responsible disclosure policy covering systems Kahoot! operates or hosts
-    itself. Reports go to security@kahoot.com, preferably PGP encrypted. Kahoot! will not
-    take legal action over research that follows the policy, but asks researchers not to
-    share any detail of a report with third parties, and offers no fixed rewards.
+  description: Responsible disclosure policy covering systems Kahoot! operates or hosts itself. Reports go to security@kahoot.com, preferably PGP encrypted. Kahoot! will not take legal action over research that follows the policy, but asks researchers not to share any detail of a report with third parties, and offers no fixed rewards.
   excluded_methods:
   - dos
   - social_engineering
   - phishing
   - physical_access
   out_of_scope:
-  - Cloud services used by Kahoot! but not operated by them, which carry their own
-    disclosure policies
+  - Cloud services used by Kahoot! but not operated by them, which carry their own disclosure policies
 
 - company: KDE
   url: https://kde.org/info/security/
@@ -2095,10 +2090,7 @@ companies:
   allows_disclosure: true
   preferred_languages: English
   pgp_key: https://lunar.app/.well-known/lunar-security-gpg.txt
-  description: Vulnerability disclosure policy for the Danish neobank. Reports go to
-    security@lunar.app and may be anonymous, with receipt acknowledged within five business
-    days. Good-faith research under the policy is treated as authorised and Lunar A/S will
-    not pursue legal action over it. No payment is offered for submissions.
+  description: Vulnerability disclosure policy for the Danish neobank. Reports go to security@lunar.app and may be anonymous, with receipt acknowledged within five business days. Good-faith research under the policy is treated as authorised and Lunar A/S will not pursue legal action over it. No payment is offered for submissions.
   excluded_methods:
   - dos
   - social_engineering
@@ -2364,11 +2356,7 @@ companies:
   allows_disclosure: false
   preferred_languages: English, French
   pgp_key: https://www.nexthink.com/security-team.pub
-  description: Responsible disclosure policy for the digital employee experience vendor.
-    Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in
-    under 72 hours and handle confidentially, and Nexthink will not pursue legal action
-    over research that follows the guidelines. Details may not be shared with third parties without their
-    consent, and there is no paid bug bounty.
+  description: Responsible disclosure policy for the digital employee experience vendor. Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in under 72 hours and handle confidentially, and Nexthink will not pursue legal action over research that follows the guidelines. Details may not be shared with third parties without their consent, and there is no paid bug bounty.
 
 - company: nuuvem.com
   url: https://www.nuuvem.com/us-en/security
@@ -2438,11 +2426,7 @@ companies:
   safe_harbor: full
   allows_disclosure: true
   preferred_languages: English, Dutch
-  description: Responsible disclosure policy for the Dutch mobile operator, published in
-    Dutch and English. Findings go to cert@odido.nl, encrypted, and get a response within
-    three days with an assessment and an expected fix date. Reports may be made under a
-    pseudonym, no legal steps are taken against researchers who follow the conditions, and
-    Odido will credit the finder with their permission.
+  description: Responsible disclosure policy for the Dutch mobile operator, published in Dutch and English. Findings go to cert@odido.nl, encrypted, and get a response within three days with an assessment and an expected fix date. Reports may be made under a pseudonym, no legal steps are taken against researchers who follow the conditions, and Odido will credit the finder with their permission.
   excluded_methods:
   - dos
   - social_engineering
@@ -2498,11 +2482,7 @@ companies:
   program_type: hybrid
   status: active
   pgp_key: https://www.openevidence.com/.well-known/pgp-key.txt
-  description: The medical AI company welcomes vulnerability reports affecting
-    OpenEvidence.com, the OpenEvidence app and other properties involved in processing user
-    data. Reports go to security@openevidence.com. Bug bounties are reserved for confirmed
-    findings of medium or higher severity and offered at the discretion of their security
-    team.
+  description: The medical AI company welcomes vulnerability reports affecting OpenEvidence.com, the OpenEvidence app and other properties involved in processing user data. Reports go to security@openevidence.com. Bug bounties are reserved for confirmed findings of medium or higher severity and offered at the discretion of their security team.
   scope:
   - target: OpenEvidence.com
     type: web
@@ -3150,11 +3130,7 @@ companies:
   allows_disclosure: true
   preferred_languages: English, German, Spanish
   pgp_key: https://www.skribble.com/security/pgp.asc
-  description: Vulnerability disclosure policy for the Swiss e-signature provider. Reports
-    go to security@skribble.com and may be anonymous or PGP encrypted. Research in line
-    with the policy is authorised and Skribble will not take legal action over it. This is
-    not a bug bounty, though exceptions for particularly critical findings are at their
-    discretion. Testing is asked to happen on the staging environment.
+  description: Vulnerability disclosure policy for the Swiss e-signature provider. Reports go to security@skribble.com and may be anonymous or PGP encrypted. Research in line with the policy is authorised and Skribble will not take legal action over it. This is not a bug bounty, though exceptions for particularly critical findings are at their discretion. Testing is asked to happen on the staging environment.
   excluded_methods:
   - dos
   - brute_force
@@ -3320,17 +3296,12 @@ companies:
   status: active
   allows_disclosure: false
   preferred_languages: English
-  description: Bug bounty program for the French spend management platform, published in
-    full in their security.txt. Scope is app.spendesk.com and api.spendesk.com, findings
-    must be reported within 24 hours of discovery and only through the listed address, and
-    no disclosure of any kind is permitted. Rewards are capped by severity and require a
-    working proof of concept.
+  description: Bug bounty program for the French spend management platform, published in full in their security.txt. Scope is app.spendesk.com and api.spendesk.com, findings must be reported within 24 hours of discovery and only through the listed address, and no disclosure of any kind is permitted. Rewards are capped by severity and require a working proof of concept.
   excluded_methods:
   - dos
   - automated_scanning
   out_of_scope:
-  - Known CVEs without a working proof of concept, and outdated libraries without
-    demonstrated impact
+  - Known CVEs without a working proof of concept, and outdated libraries without demonstrated impact
   - Self-XSS or XSS that cannot be used to impact other users
   - Stack traces or path disclosure
   - Missing security headers or cookie flags which do not lead directly to a vulnerability
@@ -3765,11 +3736,7 @@ companies:
   allows_disclosure: true
   preferred_languages: English
   pgp_key: https://openpgp.circl.lu/pks/lookup?op=get&search=0xb073ed275747daf3c19f21e94d9b77e7a9a90605
-  description: Disclosure policy for the French email security vendor, now part of
-    Hornetsecurity. Good-faith research within the listed scope is treated as authorised,
-    and researchers are asked to keep findings confidential for at least 90 days while Vade
-    reviews and resolves them. Anything not expressly listed in scope is not authorised for
-    testing.
+  description: Disclosure policy for the French email security vendor, now part of Hornetsecurity. Good-faith research within the listed scope is treated as authorised, and researchers are asked to keep findings confidential for at least 90 days while Vade reviews and resolves them. Anything not expressly listed in scope is not authorised for testing.
   excluded_methods:
   - dos
   - social_engineering
@@ -3802,8 +3769,7 @@ companies:
   - Content Security Policy issues
   - Vulnerabilities in end-of-life products
   - Vulnerabilities due to out-of-date browsers or plugins
-  - Issues requiring a malicious installed application, a jailbroken device or physical
-    access to a mobile device
+  - Issues requiring a malicious installed application, a jailbroken device or physical access to a mobile device
   - Use of a known-vulnerable library without proof of exploitability
   - Tap-jacking and UI redressing
   - Account lockout or rate limit features
