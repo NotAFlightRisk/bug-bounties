@@ -4382,6 +4382,36 @@ companies:
   currency: INR
   response_sla_days: 1
 
+- company: Zenya
+  url: https://zenya-software.com/coordinated-vulnerability-disclosure/
+  contact: https://forms.zenya.work/psbr6j9omo/1325
+  rewards:
+  - '*bounty'
+  program_type: hybrid
+  status: active
+  description: Zenya, formerly Infoland, takes coordinated vulnerability disclosure reports through its own form. It wants directly exploitable issues rather than minor ones, acknowledges within 5 business days, gives an estimated timeline, and says when the fix has landed and whether the details can be published. A reward is offered on the severity of the problem and the quality of the report, as long as the issue is serious and not already known.
+  excluded_methods:
+  - dos
+  - social_engineering
+  out_of_scope:
+  - Fingerprinting and version listings on operating systems, services or ports
+  - Registered public IP addresses
+  - Incomplete or missing SPF, DKIM or DMARC records
+  - Outdated versions without a proof of concept or working exploit
+  - Email addresses found in a third-party data breach
+  - Cosmetic issues, such as something rendering badly in one browser
+  - Public files or directories that contain no confidential information
+  - Missing security headers, options and flags
+  - URL redirection to a valid web page
+  - TLS misconfiguration without a proof of concept
+  - HTTP 404 and other non-200 pages, including content spoofing and text injection in them
+  - Clickjacking, and vulnerabilities only exploitable through clickjacking
+  - Resource exhaustion and denial of service
+  - Findings that cannot be reproduced, or exploits not validated with a second tool or method
+  - Rate limiting with no apparent impact
+  - Services running at third-party providers
+  response_sla_days: 5
+
 - company: Zitadel
   url: https://zitadel.com/vulnerability
   contact: mailto:security@zitadel.com
