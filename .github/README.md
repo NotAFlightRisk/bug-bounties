@@ -350,6 +350,7 @@
 - <img src='https://icon.horse/icon/www.claromentis.com' width='16'/> [Claromentis](https://www.claromentis.com/responsible-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/www.classdojo.com' width='16'/> [Classdojo](https://www.classdojo.com/securitydisclosureprogram/) 💰
 - <img src='https://icon.horse/icon/clause.io' width='16'/> [Clause](https://clause.io/security) 💰 🏅
+- <img src='https://icon.horse/icon/cleanshot.com' width='16'/> [cleanshot.com](https://cleanshot.com/disclosure) 💰 🏅
 - <img src='https://icon.horse/icon/www.clearme.com' width='16'/> [CLEAR](https://www.clearme.com/) 💰
 - <img src='https://icon.horse/icon/clenergy.com' width='16'/> [Clenergy](https://clenergy.com/de/cyber-security-policy/?lang=en) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [ClickHouse](https://bugcrowd.com/engagements/clickhouse) 💰
