@@ -889,6 +889,7 @@
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Inverse Finance](https://immunefi.com/bug-bounty/inversefinance/) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [InVision](https://bugcrowd.com/invision) 💰 🏅
 - <img src='https://icon.horse/icon/www.invisioncommunity.com' width='16'/> [Invision Power Services, Inc.](http://www.invisioncommunity.com) 💰
+- <img src='https://icon.horse/icon/www.ionos.com' width='16'/> [IONOS](https://www.ionos.com/it-security) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [IOTA](https://bugcrowd.com/iota) 💰 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [IOVLabs](https://hackerone.com/iovlabs) 💰
 - <img src='https://icon.horse/icon/ipaidthat.io' width='16'/> [iPaidThat](https://ipaidthat.io/en/faq/safety/vulnerability-disclosure-program/) 🏅
