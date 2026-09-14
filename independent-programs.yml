@@ -2789,6 +2789,19 @@ companies:
   - Denial of service from an authenticated, valid SQL statement
   - Lack of DMARC on postgresql.org mailing lists
 
+- company: Prima
+  url: https://www.helloprima.com/security
+  contact: mailto:security-report@prima.it
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English, Italian
+  description: Prima Assicurazioni, the Milan-based insurer, takes reports by email at security-report@prima.it and will arrange another channel on request. Anonymous and pseudonymous reports are accepted, though disposable addresses are discouraged. Reporters who follow the rules face no legal action, but must never publish anything about the issue, even after it has been fixed. Prima offers no bounty and runs no hall of fame.
+  scope:
+  - target: All Prima systems, applications and services, including third-party systems Prima uses
+    type: other
+
 - company: ProoN
   url: https://www.proon.ai/security
   contact: mailto:security@proon.ai
