@@ -2719,6 +2719,32 @@ companies:
   response_sla_days: 5
   reporting_url: https://app.zerocopter.com/en/cvd/76f239d7-adfb-4fff-803c-5fcd9d813952
 
+- company: Picnic
+  url: https://picnic.app/responsible-disclosure
+  contact: mailto:security@picnic.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  preferred_languages: English, Dutch, German, French
+  description: Picnic Technologies takes reports on its own systems and applications by email, with no bug bounty. Researchers who disclose a valid finding are added to its Security Hall of Fame, judged internally on validity and impact. The rules bar malware, denial of service, social engineering, brute force and touching other users' data, and ask you to leave publication until the issue is resolved.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: Picnic systems and applications
+    type: other
+  out_of_scope:
+  - Self-XSS
+  - Missing security headers with no working exploit
+  - Automated scanner output submitted without manual validation
+  - Theoretical vulnerabilities with no proof of concept
+  hall_of_fame_url: https://picnic.app/responsible-disclosure/hall-of-fame
+
 - company: Pine AI
   url: https://www.19pine.ai/security
   contact: mailto:security@19pine.ai
