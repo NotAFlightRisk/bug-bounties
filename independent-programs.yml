@@ -1278,6 +1278,33 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://element.io/security/security-hall-of-fame
 
+- company: Employment Hero
+  url: https://docs.google.com/document/d/10JdrewYyHzmB5C9qxqFDr-2Ya5g0cShWwz8ZeEukXnk
+  contact: mailto:vuln@employmenthero.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English
+  description: Vulnerability disclosure programme for the Employment Hero HR and payroll platform, taking reports only through its own form at vdp.employmenthero.com. Receipt is acknowledged within three business days and triage results within ten. Reports are treated as confidential and researchers may not publish findings; valid reporters may be invited to a private bounty programme run by invitation only. Good-faith research within the policy counts as authorised and won't be met with legal action.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: '*.employmenthero.com'
+    type: web
+  - target: '*.yourpayroll.com.au'
+    type: web
+  out_of_scope:
+  - https://employmenthero.com
+  - Security header and protocol misconfigurations (SPF, DKIM, DMARC, BIMI, MTA-STS, DNS records)
+  - Third-party applications, websites and services not owned or controlled by Employment Hero
+  response_sla_days: 3
+  reporting_url: https://vdp.employmenthero.com
+
 - company: Fintual
   url: https://fintual.com/security-policy.txt
   contact: mailto:security@fintual.com
