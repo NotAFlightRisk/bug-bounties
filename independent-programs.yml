@@ -1278,6 +1278,33 @@ companies:
   disclosure_timeline_days: 90
   hall_of_fame_url: https://element.io/security/security-hall-of-fame
 
+- company: Employment Hero
+  url: https://docs.google.com/document/d/10JdrewYyHzmB5C9qxqFDr-2Ya5g0cShWwz8ZeEukXnk
+  contact: mailto:vuln@employmenthero.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English
+  description: Vulnerability disclosure programme for the Employment Hero HR and payroll platform, taking reports only through its own form at vdp.employmenthero.com. Receipt is acknowledged within three business days and triage results within ten. Reports are treated as confidential and researchers may not publish findings; valid reporters may be invited to a private bounty programme run by invitation only. Good-faith research within the policy counts as authorised and won't be met with legal action.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: '*.employmenthero.com'
+    type: web
+  - target: '*.yourpayroll.com.au'
+    type: web
+  out_of_scope:
+  - https://employmenthero.com
+  - Security header and protocol misconfigurations (SPF, DKIM, DMARC, BIMI, MTA-STS, DNS records)
+  - Third-party applications, websites and services not owned or controlled by Employment Hero
+  response_sla_days: 3
+  reporting_url: https://vdp.employmenthero.com
+
 - company: Fintual
   url: https://fintual.com/security-policy.txt
   contact: mailto:security@fintual.com
@@ -2691,6 +2718,32 @@ companies:
   - efm.patheinternational.com
   response_sla_days: 5
   reporting_url: https://app.zerocopter.com/en/cvd/76f239d7-adfb-4fff-803c-5fcd9d813952
+
+- company: Picnic
+  url: https://picnic.app/responsible-disclosure
+  contact: mailto:security@picnic.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  preferred_languages: English, Dutch, German, French
+  description: Picnic Technologies takes reports on its own systems and applications by email, with no bug bounty. Researchers who disclose a valid finding are added to its Security Hall of Fame, judged internally on validity and impact. The rules bar malware, denial of service, social engineering, brute force and touching other users' data, and ask you to leave publication until the issue is resolved.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: Picnic systems and applications
+    type: other
+  out_of_scope:
+  - Self-XSS
+  - Missing security headers with no working exploit
+  - Automated scanner output submitted without manual validation
+  - Theoretical vulnerabilities with no proof of concept
+  hall_of_fame_url: https://picnic.app/responsible-disclosure/hall-of-fame
 
 - company: Pine AI
   url: https://www.19pine.ai/security
