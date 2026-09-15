@@ -1349,6 +1349,7 @@
 - <img src='https://icon.horse/icon/bugs.php.net' width='16'/> [PHP](https://bugs.php.net/report.php?bug_type=Security) 💰 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [PHP (Bug Bounty)](https://hackerone.com/ibb-php) 💰 🏅
 - <img src='https://icon.horse/icon/pickyassist.com' width='16'/> [Picky Assist](https://pickyassist.com/blog/bug-bounty-program-bug-beacon/) 💰
+- <img src='https://icon.horse/icon/picnic.app' width='16'/> [Picnic](https://picnic.app/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Pillar](https://immunefi.com/bug-bounty/pillar/) 💰
 - <img src='https://icon.horse/icon/www.19pine.ai' width='16'/> [Pine AI](https://www.19pine.ai/security) 🏅 🎁
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Pine Labs Bug Bounty Program](https://yeswehack.com/programs/pine-labs-bug-bounty-program) 💰
