@@ -2616,6 +2616,15 @@ companies:
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
 
+- company: Paessler
+  url: https://www.paessler.com/trust-center#Vulnerability
+  contact: mailto:security@paessler.com
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  pgp_key: https://hlassets.paessler.com/common/files/security-at-paessler.key
+  description: Paessler, the company behind PRTG network monitoring, runs its own vulnerability disclosure programme for product vulnerabilities. Reports go by email to its security team, and someone gets back to you to validate the finding and work towards a coordinated disclosure. There's no bug bounty and nothing is paid for submissions.
+
 - company: panteracapital.com
   url: https://panteracapital.com/pantera-bug-bounty/
   contact: mailto:security@panteracapital.com
