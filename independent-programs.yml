@@ -3573,6 +3573,47 @@ companies:
     low: 100
   response_sla_days: 2
 
+- company: Stalwart Labs
+  url: https://stalw.art/legal/security
+  contact: mailto:security@stalw.art
+  rewards:
+  - '*recognition'
+  - '*swag'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Stalwart Labs runs its own disclosure policy for the Stalwart Mail and Collaboration Server, its Docker images and its websites. Reports go by email or GitHub private advisory, with acknowledgement within 24 hours and triage within 72. Disclosure is coordinated, 90 days by default, and reporters are credited in the GitHub advisory. Good-faith research counts as authorised under the UK Computer Misuse Act and US CFAA. There's no paid bounty.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: Stalwart Mail and Collaboration Server (supported versions)
+    type: other
+  - target: Official Stalwart Docker images
+    type: other
+  - target: stalw.art
+    type: web
+  - target: license.stalw.art
+    type: web
+  - target: support.stalw.art
+    type: web
+  out_of_scope:
+  - Third-party integrations, plugins or forks not maintained by Stalwart Labs
+  - Self-hosted deployments operated by third parties
+  - Vulnerabilities that require physical access to the server
+  - Social engineering of Stalwart staff, customers or community members
+  - Denial-of-service or volumetric attacks
+  - Attacks that depend on already-compromised credentials
+  - Theoretical findings without a practical exploitation path
+  response_sla_days: 1
+  disclosure_timeline_days: 90
+  hall_of_fame_url: https://github.com/stalwartlabs/stalwart/security/advisories
+  reporting_url: https://github.com/stalwartlabs/stalwart/security/advisories/new
+  swag_details: Stalwart merchandise may be sent for notable contributions.
+
 - company: Starnum.com.tw
   url: https://www.instagram.com/mychenan/
   contact: https://www.instagram.com/mychenan/
