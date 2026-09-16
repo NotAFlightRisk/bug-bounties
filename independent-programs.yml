@@ -2886,6 +2886,17 @@ companies:
   - target: All Prima systems, applications and services, including third-party systems Prima uses
     type: other
 
+- company: Printful
+  url: https://developers.printful.com/docs/#tag/Other-resources/Bug-reporting
+  contact: mailto:security@printful.com
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  pgp_key: https://keys.openpgp.org/search?q=security%40printful.com
+  description: Printful takes security reports on its print-on-demand platform by email, encrypted with its PGP key, with a description, impact and reproduction steps. Testing has to be in good faith, with no denial of service and no touching data beyond what's needed to show the issue. There's no bug bounty and no monetary compensation.
+  excluded_methods:
+  - dos
+
 - company: ProoN
   url: https://www.proon.ai/security
   contact: mailto:security@proon.ai
