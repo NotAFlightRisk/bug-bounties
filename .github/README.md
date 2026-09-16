@@ -1522,6 +1522,7 @@
 - <img src='https://icon.horse/icon/www.sailthru.com' width='16'/> [Sailthru](https://www.sailthru.com/trust/report-a-vulnerability/) 💰
 - <img src='https://icon.horse/icon/trust.salesforce.com' width='16'/> [Salesforce](https://trust.salesforce.com/en/security/responsible-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Salt Mobile SA - Bug Bounty Program](https://yeswehack.com/programs/salt-mobile-sa-bug-bounty-program) 💰
+- <img src='https://icon.horse/icon/salv.com' width='16'/> [Salv](https://salv.com/bug-bounty/) 🏅
 - <img src='https://icon.horse/icon/security.samsungmobile.com' width='16'/> [Samsung Mobile](https://security.samsungmobile.com/securityReporting.smsb) 💰
 - <img src='https://icon.horse/icon/samsungtvbounty.com' width='16'/> [Samsung SmartTV](https://samsungtvbounty.com/ReportBug.aspx) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Santé Publique France Bug Bounty Program](https://yeswehack.com/programs/sante-publique-france-bugbounty-public-program) 💰
@@ -1669,6 +1670,7 @@
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [StakeEasy](https://immunefi.com/bug-bounty/stakeeasy/) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [StakeStone](https://immunefi.com/bug-bounty/stakestone/) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [StakeWise Mainnet](https://immunefi.com/bug-bounty/stakewise/) 💰
+- <img src='https://icon.horse/icon/stalw.art' width='16'/> [Stalwart Labs](https://stalw.art/legal/security) 🏅 🎁
 - <img src='https://icon.horse/icon/www.standard.com' width='16'/> [Standard](https://www.standard.com/about-standard/responsible-disclosure-program) 🏅
 - <img src='https://icon.horse/icon/uit.stanford.edu' width='16'/> [Stanford University](https://uit.stanford.edu/security/report-incident) 💰
 - <img src='https://icon.horse/icon/www.starbucks.com' width='16'/> [Starbucks](https://www.starbucks.com/whitehat) 💰 🏅
