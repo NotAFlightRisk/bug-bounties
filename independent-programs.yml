@@ -3128,6 +3128,35 @@ companies:
   - mobile-api.rootly.com
   response_sla_days: 5
 
+- company: Salv
+  url: https://salv.com/bug-bounty/
+  contact: mailto:security@salv.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: English
+  pgp_key: https://salv.com/assets/files/pgp-key.asc
+  description: Salv, an anti-financial-crime platform, runs its own vulnerability disclosure policy with reports sent by email. The first reporter of an issue that leads to a code or configuration change goes in its Security Researcher Hall of Fame; there are no bounties or other rewards. Salv won't pursue or support legal action over research that follows the guidelines, and asks you to keep findings confidential until they're resolved.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - UI and UX bugs and spelling mistakes
+  - Services hosted by third-party providers
+  - Research against Salv's partners and customers
+  - Lack of rate limiting
+  - SPF/DKIM/DMARC configuration issues
+  - Clickjacking without account takeover or disclosure of sensitive resources
+  - Missing HTTP security headers and cookie flags
+  - Username enumeration and login brute force
+  - SSL/TLS configuration issues
+  - Self-XSS
+
 - company: Schuberg Philis
   url: https://schubergphilis.com/security
   contact: mailto:abuse@schubergphilis.com
