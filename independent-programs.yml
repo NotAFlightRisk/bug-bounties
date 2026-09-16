@@ -2616,6 +2616,15 @@ companies:
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
 
+- company: Paessler
+  url: https://www.paessler.com/trust-center#Vulnerability
+  contact: mailto:security@paessler.com
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  pgp_key: https://hlassets.paessler.com/common/files/security-at-paessler.key
+  description: Paessler, the company behind PRTG network monitoring, runs its own vulnerability disclosure programme for product vulnerabilities. Reports go by email to its security team, and someone gets back to you to validate the finding and work towards a coordinated disclosure. There's no bug bounty and nothing is paid for submissions.
+
 - company: panteracapital.com
   url: https://panteracapital.com/pantera-bug-bounty/
   contact: mailto:security@panteracapital.com
@@ -2877,6 +2886,17 @@ companies:
   - target: All Prima systems, applications and services, including third-party systems Prima uses
     type: other
 
+- company: Printful
+  url: https://developers.printful.com/docs/#tag/Other-resources/Bug-reporting
+  contact: mailto:security@printful.com
+  program_type: vdp
+  status: active
+  preferred_languages: English
+  pgp_key: https://keys.openpgp.org/search?q=security%40printful.com
+  description: Printful takes security reports on its print-on-demand platform by email, encrypted with its PGP key, with a description, impact and reproduction steps. Testing has to be in good faith, with no denial of service and no touching data beyond what's needed to show the issue. There's no bug bounty and no monetary compensation.
+  excluded_methods:
+  - dos
+
 - company: ProoN
   url: https://www.proon.ai/security
   contact: mailto:security@proon.ai
@@ -3107,6 +3127,35 @@ companies:
   - slack.rootly.com
   - mobile-api.rootly.com
   response_sla_days: 5
+
+- company: Salv
+  url: https://salv.com/bug-bounty/
+  contact: mailto:security@salv.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: English
+  pgp_key: https://salv.com/assets/files/pgp-key.asc
+  description: Salv, an anti-financial-crime platform, runs its own vulnerability disclosure policy with reports sent by email. The first reporter of an issue that leads to a code or configuration change goes in its Security Researcher Hall of Fame; there are no bounties or other rewards. Salv won't pursue or support legal action over research that follows the guidelines, and asks you to keep findings confidential until they're resolved.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - UI and UX bugs and spelling mistakes
+  - Services hosted by third-party providers
+  - Research against Salv's partners and customers
+  - Lack of rate limiting
+  - SPF/DKIM/DMARC configuration issues
+  - Clickjacking without account takeover or disclosure of sensitive resources
+  - Missing HTTP security headers and cookie flags
+  - Username enumeration and login brute force
+  - SSL/TLS configuration issues
+  - Self-XSS
 
 - company: Schuberg Philis
   url: https://schubergphilis.com/security
@@ -3523,6 +3572,47 @@ companies:
     medium: 500
     low: 100
   response_sla_days: 2
+
+- company: Stalwart Labs
+  url: https://stalw.art/legal/security
+  contact: mailto:security@stalw.art
+  rewards:
+  - '*recognition'
+  - '*swag'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Stalwart Labs runs its own disclosure policy for the Stalwart Mail and Collaboration Server, its Docker images and its websites. Reports go by email or GitHub private advisory, with acknowledgement within 24 hours and triage within 72. Disclosure is coordinated, 90 days by default, and reporters are credited in the GitHub advisory. Good-faith research counts as authorised under the UK Computer Misuse Act and US CFAA. There's no paid bounty.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: Stalwart Mail and Collaboration Server (supported versions)
+    type: other
+  - target: Official Stalwart Docker images
+    type: other
+  - target: stalw.art
+    type: web
+  - target: license.stalw.art
+    type: web
+  - target: support.stalw.art
+    type: web
+  out_of_scope:
+  - Third-party integrations, plugins or forks not maintained by Stalwart Labs
+  - Self-hosted deployments operated by third parties
+  - Vulnerabilities that require physical access to the server
+  - Social engineering of Stalwart staff, customers or community members
+  - Denial-of-service or volumetric attacks
+  - Attacks that depend on already-compromised credentials
+  - Theoretical findings without a practical exploitation path
+  response_sla_days: 1
+  disclosure_timeline_days: 90
+  hall_of_fame_url: https://github.com/stalwartlabs/stalwart/security/advisories
+  reporting_url: https://github.com/stalwartlabs/stalwart/security/advisories/new
+  swag_details: Stalwart merchandise may be sent for notable contributions.
 
 - company: Starnum.com.tw
   url: https://www.instagram.com/mychenan/
