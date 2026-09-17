@@ -1507,6 +1507,50 @@ companies:
   max_payout: 500
   currency: USD
 
+- company: Glia
+  url: https://www.glia.com/security-bounty
+  contact: mailto:bounty-hunters@glia.atlassian.net
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English
+  pgp_key: https://www.glia.com/.well-known/pgp-key.txt
+  description: Glia runs its own bug bounty for its customer interaction platform, with reports going by email to a dedicated bounty address rather than through a platform. Rewards start at $200 for low severity and $5,000 for critical, with no stated maximum. Automated scanning is prohibited, and any public disclosure is at Glia's discretion.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - automated_scanning
+  scope:
+  - target: '*.glia.com'
+    type: web
+  - target: '*.glia.eu'
+    type: web
+  - target: '*.salemove.com'
+    type: web
+  - target: '*.salemove.eu'
+    type: web
+  - target: Official Glia applications for Windows, Mac and Linux
+    type: desktop
+  - target: Official Glia applications for iOS and Android
+    type: mobile
+  out_of_scope:
+  - www.glia.com
+  - community.glia.com
+  - partners.glia.com
+  - status.glia.com
+  - go.glia.com
+  - go2.glia.com
+  - glia.atlassian.net
+  - glia.testrtc.com
+  - networktest.glia.com
+  - www.cobrowsing.com
+  - '*.digitalcustomerservicebook.com'
+  min_payout: 200
+  currency: USD
+
 - company: GNOME
   url: https://security.gnome.org/
   contact: https://security.gnome.org/
