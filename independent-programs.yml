@@ -1507,6 +1507,50 @@ companies:
   max_payout: 500
   currency: USD
 
+- company: Glia
+  url: https://www.glia.com/security-bounty
+  contact: mailto:bounty-hunters@glia.atlassian.net
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  preferred_languages: English
+  pgp_key: https://www.glia.com/.well-known/pgp-key.txt
+  description: Glia runs its own bug bounty for its customer interaction platform, with reports going by email to a dedicated bounty address rather than through a platform. Rewards start at $200 for low severity and $5,000 for critical, with no stated maximum. Automated scanning is prohibited, and any public disclosure is at Glia's discretion.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - automated_scanning
+  scope:
+  - target: '*.glia.com'
+    type: web
+  - target: '*.glia.eu'
+    type: web
+  - target: '*.salemove.com'
+    type: web
+  - target: '*.salemove.eu'
+    type: web
+  - target: Official Glia applications for Windows, Mac and Linux
+    type: desktop
+  - target: Official Glia applications for iOS and Android
+    type: mobile
+  out_of_scope:
+  - www.glia.com
+  - community.glia.com
+  - partners.glia.com
+  - status.glia.com
+  - go.glia.com
+  - go2.glia.com
+  - glia.atlassian.net
+  - glia.testrtc.com
+  - networktest.glia.com
+  - www.cobrowsing.com
+  - '*.digitalcustomerservicebook.com'
+  min_payout: 200
+  currency: USD
+
 - company: GNOME
   url: https://security.gnome.org/
   contact: https://security.gnome.org/
@@ -2615,6 +2659,30 @@ companies:
   - phishing
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
+
+- company: Pactum
+  url: https://pactum.com/responsible-disclosure
+  contact: mailto:security@pactum.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://pactum.com/pgp-key.txt
+  description: Pactum AI runs a self-managed vulnerability disclosure programme for its autonomous negotiation platform. Reports go by email, optionally PGP encrypted, and the team commits to replying within five business days with an evaluation and an expected resolution date. Researchers are named as the discoverer unless they ask not to be. There are no bounties.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: chat.pactum.com
+    type: web
+  - target: admin.pactum.com
+    type: web
+  response_sla_days: 5
 
 - company: Paessler
   url: https://www.paessler.com/trust-center#Vulnerability
