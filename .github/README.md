@@ -717,6 +717,7 @@
 - <img src='https://icon.horse/icon/about.gitlab.com' width='16'/> [Gitlab](https://about.gitlab.com/security/disclosure/) 💰 🏅
 - <img src='https://icon.horse/icon/www.glassdoor.com' width='16'/> [Glassdoor](https://www.glassdoor.com/) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Glean Technologies Public Engagement](https://bugcrowd.com/engagements/glean-technologies-public) 💰
+- <img src='https://icon.horse/icon/www.glia.com' width='16'/> [Glia](https://www.glia.com/security-bounty) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Gliffy](https://bugcrowd.com/engagements/gliffy) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Glo Dollar](https://immunefi.com/bug-bounty/glodollar/) 💰
 - <img src='https://icon.horse/icon/global.com' width='16'/> [Global](https://global.com/bug-bounty-policy/) 💰
@@ -1303,6 +1304,7 @@
 </details>
 <details open><summary><h4>P</h4></summary>
 
+- <img src='https://icon.horse/icon/pactum.com' width='16'/> [Pactum](https://pactum.com/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Paddle.com Public Bug Bounty Program](https://yeswehack.com/programs/paddle-com-public-bug-bounty-program) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Paddy Power Betfair](https://hackerone.com/flutteruki) 💰
 - <img src='https://icon.horse/icon/www.pagerduty.com' width='16'/> [Pagerduty](https://www.pagerduty.com/security/disclosure/) 🎁
