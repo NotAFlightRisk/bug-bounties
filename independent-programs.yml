@@ -2660,6 +2660,30 @@ companies:
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
 
+- company: Pactum
+  url: https://pactum.com/responsible-disclosure
+  contact: mailto:security@pactum.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  pgp_key: https://pactum.com/pgp-key.txt
+  description: Pactum AI runs a self-managed vulnerability disclosure programme for its autonomous negotiation platform. Reports go by email, optionally PGP encrypted, and the team commits to replying within five business days with an evaluation and an expected resolution date. Researchers are named as the discoverer unless they ask not to be. There are no bounties.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: chat.pactum.com
+    type: web
+  - target: admin.pactum.com
+    type: web
+  response_sla_days: 5
+
 - company: Paessler
   url: https://www.paessler.com/trust-center#Vulnerability
   contact: mailto:security@paessler.com
