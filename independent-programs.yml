@@ -2542,6 +2542,45 @@ companies:
   - Findings from automated scans, unless proven to be a real vulnerability
   response_sla_days: 15
 
+- company: Netguru
+  url: https://www.netguru.com/report-a-vulnerability
+  contact: mailto:security@netguru.com
+  rewards:
+  - '*swag'
+  program_type: vdp
+  status: active
+  allows_disclosure: false
+  preferred_languages: English
+  pgp_key: https://www.netguru.com/hubfs/.well-known/security-public.gpg
+  description: Netguru, a Polish software consultancy, takes vulnerability reports on its own domains by email. Reports must include a CVSS 3.1 base score and vector string or they are rejected automatically, and anything above 4.0 on the environmental score earns swag rather than cash. Public disclosure needs Netguru's written permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: netguru.co
+    type: web
+  - target: '*.netguru.co'
+    type: web
+  - target: netguru.com
+    type: web
+  - target: netguru.pl
+    type: web
+  - target: '*.netguru.pl'
+    type: web
+  - target: Company internal information shared in external collaboration tools
+    type: other
+  out_of_scope:
+  - Physical locations and assets
+  - Third-party service providers such as Google, HubSpot and SendGrid
+  - Weak SSL/TLS algorithms
+  - Self-XSS and DOM-based XSS
+  - Weak passwords and missing captcha
+  - Missing Content Security Policy or other security headers, unless exploited in the PoC
+  - Missing CSRF tokens in forms, unless exploited in the PoC
+  - Vulnerabilities only affecting old, unsupported browsers
+  swag_details: Swag for vulnerabilities with a CVSS 3.1 environmental score above 4.0 (medium).
+
 - company: Nexthink
   url: https://nexthink.com/en/responsible-disclosure-policy
   contact: mailto:responsible-disclosure@nexthink.com
