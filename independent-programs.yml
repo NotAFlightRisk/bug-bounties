@@ -2836,6 +2836,40 @@ companies:
   - Vulnerabilities that are not reproducible
   response_sla_days: 2
 
+- company: Password Depot
+  url: https://www.password-depot.de/en/resources/trust-center/vulnerability-disclosure-policy.htm
+  contact: mailto:security@password-depot.de
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: German, English
+  pgp_key: https://www.password-depot.de/.well-known/pgp-key.asc
+  description: AceBIT runs a coordinated disclosure program for its Password Depot password manager, covering the enterprise server, the Windows, macOS and Linux clients, browser extensions, mobile apps and product web services. Reports go by email in German or English, receipt is acknowledged within 48 hours, and confirmed issues get a published security advisory that credits the reporter on request. There are no cash rewards.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: Password Depot Enterprise Server
+    type: other
+  - target: Password Depot Windows, macOS and Linux clients
+    type: desktop
+  - target: Browser extensions for Chrome, Edge and Firefox
+    type: other
+  - target: Password Depot mobile apps for iOS and Android
+    type: mobile
+  - target: Product-related web services on password-depot.de
+    type: web
+  out_of_scope:
+  - Production customer environments and customer-specific installations
+  - Third-party operated services and infrastructure that are not part of Password Depot
+  response_sla_days: 2
+
 - company: Pathé
   url: https://www.pathe.com/wp-content/uploads/2023/12/Pathe-Politique-CVD.1.2.EN_.pdf
   rewards:
