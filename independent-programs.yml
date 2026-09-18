@@ -2125,6 +2125,48 @@ companies:
     type: other
   reporting_url: https://github.com/getkirby/kirby/security/advisories/new
 
+- company: Kontent.ai
+  url: https://kontent.ai/vulnerability-disclosure-policy
+  contact: mailto:security@kontent.ai
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  pgp_key: https://app.kontent.ai/pgp-key.txt
+  description: Kontent.ai runs its own disclosure program for its headless CMS, taking reports by email rather than through a platform. Rewards are Amazon vouchers scaled by Bugcrowd VRT severity, from $50 at P3 to $200 at P1, at Kontent.ai's discretion. Automated tools and scanners are prohibited, test traffic must carry an X-BugBounty header, and findings may not be disclosed without written permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: https://app.kontent.ai
+    type: web
+  - target: https://kontent.ai/
+    type: web
+  - target: https://manage.kontent.ai/v2
+    type: api
+  - target: https://deliver.kontent.ai
+    type: api
+  - target: https://graphql.kontent.ai
+    type: api
+  out_of_scope:
+  - Systems and services not expressly listed in scope
+  - Public contact forms such as demo requests
+  - AI feature issues without demonstrable security impact
+  - Missing DNS records such as CAA, DMARC and SPF
+  - Security header and TLS configuration suggestions without impact
+  - Self-XSS and username enumeration
+  - Rate limit bypasses and business logic abuse
+  min_payout: 50
+  max_payout: 200
+  currency: USD
+  legal_terms_url: https://kontent.ai/terms-of-service/
+
 - company: Lark
   url: https://www.larksuite.com/en_us/bugbounty
   rewards:
