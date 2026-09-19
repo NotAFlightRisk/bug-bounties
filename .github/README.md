@@ -116,6 +116,7 @@
 - <img src='https://icon.horse/icon/www.aquasec.com' width='16'/> [Aqua Security](https://www.aquasec.com/trust/security/responsible-disclosure-program/) 💰
 - <img src='https://icon.horse/icon/ark.io' width='16'/> [Aragon](https://ark.io/blog/ark-development-and-security-bounty-program-arkio-blog) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Arbitrum](https://immunefi.com/bug-bounty/arbitrum/) 💰
+- <img src='https://icon.horse/icon/www.arc.io' width='16'/> [Arc](https://www.arc.io) 💰
 - <img src='https://icon.horse/icon/blog.ark.io' width='16'/> [Ark](https://blog.ark.io/ark-github-development-bounty-113806ae9ffe) 💰 🎁
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Arkadiko](https://immunefi.com/bug-bounty/arkadiko/) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Arkham](https://immunefi.com/bug-bounty/arkham/) 💰
@@ -446,6 +447,7 @@
 </details>
 <details open><summary><h4>D</h4></summary>
 
+- <img src='https://icon.horse/icon/eudi-wallet.gov.de' width='16'/> [d-you App & German EUDI Wallet Ecosystem](https://eudi-wallet.gov.de/) 💰
 - <img src='https://icon.horse/icon/d66.nl' width='16'/> [D66](https://d66.nl/responsible-disclosure/) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Dailymotion](https://yeswehack.com/programs/dailymotion-public-bug-bounty) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Dailymotion public bug bounty](https://yeswehack.com/programs/dailymotion-public-bug-bounty) 💰
