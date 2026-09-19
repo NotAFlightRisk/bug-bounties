@@ -3191,6 +3191,42 @@ companies:
   status: active
   description: Pulumi asks security researchers to email reports of vulnerabilities in its platform or services to its security address, including a description of the vulnerability, the impacted software or service and its version, and proof-of-concept code or detailed steps to reproduce. Reports can be encrypted with the PGP key published on the same page. Public security notifications are posted in the Pulumi Community Slack.
 
+- company: Ravelin
+  url: https://ravelin.com/responsible-disclosure-policy
+  contact: mailto:vulnerability.disclosure@ravelin.com
+  program_type: vdp
+  status: active
+  description: Ravelin invites security researchers to disclose findings in its fraud detection platform. Reports go by email to the disclosure address and must be encrypted with the PGP key published on the policy page, which says other reporting routes will not get a response. A report should name the target and give the steps, tools and artefacts needed to reproduce the issue.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  out_of_scope:
+  - Security practices where other mitigating controls exist, such as missing security headers
+  - SPF, DKIM and DMARC configuration suggestions
+  - Missing cookie flags
+  - CSRF with minimal impact, such as login or logout CSRF
+  - Content spoofing
+  - Stack traces, path disclosure and directory listings
+  - SSL/TLS controls where other mitigating controls exist
+  - Banner grabbing
+  - CSV injection
+  - Reflected file download
+  - Reports on outdated browsers
+  - Host header injection without a demonstrable impact
+  - Scanner output without a proof-of-concept attack
+  - Vulnerabilities in third-party products
+  - User enumeration
+  - Password complexity
+  - HTTP TRACE method
+  - Tokens and keys that are intended to be public
+  domains:
+  - www.ravelin.com
+  - '*.ravelin.click'
+  - '*.ravelin.com'
+  - '*.ravelin.net'
+
 - company: Recap Innovations
   url: https://recap-innovations.com/security/
   contact: mailto:security@recap-innovations.com
@@ -3392,6 +3428,38 @@ companies:
   min_payout: 25
   max_payout: 2000
   currency: USD
+
+- company: SenseOn
+  url: https://www.senseon.io/responsible-disclosure-policy
+  contact: mailto:security@senseon.io
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: SenseOn Tech Ltd welcomes good-faith vulnerability reports by email to its security address. It acknowledges receipt within two business days and aims to give an initial assessment within five, with target resolution running from 24-72 hours for critical issues to 90 days for low. There is no formal bug bounty, but valid findings are credited with the researcher's permission and significant ones may be rewarded at the company's discretion.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: SenseOn customer-facing applications and services
+    type: web
+  - target: SenseOn website and public web properties
+    type: web
+  - target: SenseOn APIs, integrations and supported marketplace listings
+    type: api
+  - target: SenseOn Sensor, agent and deployment tooling
+    type: other
+  out_of_scope:
+  - Vulnerabilities in third-party applications or services not operated by SenseOn
+  - Findings from automated scanning tools without demonstrated impact
+  - Missing HTTP headers or low-risk configuration observations without a practical exploit path
+  - Issues that require compromised credentials, outdated browsers or unrealistic user interaction, unless there is clear customer impact
+  response_sla_days: 2
 
 - company: setpointmedical.com
   url: https://setpointmedical.com/security/
