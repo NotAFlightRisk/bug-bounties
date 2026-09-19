@@ -968,6 +968,7 @@
 - <img src='https://icon.horse/icon/koho.ca' width='16'/> [Koho](https://koho.ca) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [KOMOJU - Public Bug Bounty Program](https://yeswehack.com/programs/komoju-public-bug-bounty-program) 💰
 - <img src='https://icon.horse/icon/konghq.com' width='16'/> [Kong](http://konghq.com) 💰
+- <img src='https://icon.horse/icon/kontent.ai' width='16'/> [Kontent.ai](https://kontent.ai/vulnerability-disclosure-policy) 💰 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Kraden](https://hackerone.com/kraden) 💰
 - <img src='https://icon.horse/icon/www.kraken.com' width='16'/> [Kraken](https://www.kraken.com/security/bug-bounty) 💰 🏅
 - <img src='https://icon.horse/icon/krisp.ai' width='16'/> [Krisp](https://krisp.ai) 💰
@@ -1173,6 +1174,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Netgear](https://bugcrowd.com/netgear) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [NETGEAR Cash Rewards](https://bugcrowd.com/netgear) 💰 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [NETGEAR Kudos Rewards](https://bugcrowd.com/netgearkudos) 🏅
+- <img src='https://icon.horse/icon/www.netguru.com' width='16'/> [Netguru](https://www.netguru.com/report-a-vulnerability) 🎁
 - <img src='https://icon.horse/icon/www.netlify.com' width='16'/> [Netlify](https://www.netlify.com) 💰 🎁
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [NetScaler Public Program](https://hackerone.com/netscaler_public_program) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Neutron](https://immunefi.com/bug-bounty/neutron/) 💰
@@ -1326,6 +1328,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Parrot Sec](https://hackerone.com/parrot_sec) 🏅
 - <img src='https://icon.horse/icon/www.passbolt.com' width='16'/> [Passbolt](https://www.passbolt.com/docs/contribute/security/vulnerability/) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Passit](https://hackerone.com/passit) 🏅
+- <img src='https://icon.horse/icon/www.password-depot.de' width='16'/> [Password Depot](https://www.password-depot.de/en/resources/trust-center/vulnerability-disclosure-policy.htm) 🏅
 - <img src='https://icon.horse/icon/www.pastecoin.com' width='16'/> [PasteCoin](https://www.pastecoin.com/bug_bounty) 💰 🏅
 - <img src='https://icon.horse/icon/patchstack.com' width='16'/> [patchstack.com](https://patchstack.com/vulnerability-disclosure-policy) 🏅
 - <img src='https://icon.horse/icon/pathao.com' width='16'/> [Pathao](https://pathao.com/bug-bounty/) 💰
