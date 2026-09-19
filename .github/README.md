@@ -1566,6 +1566,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Sendbird](https://bugcrowd.com/engagements/sendbird-mbb) 💰
 - <img src='https://icon.horse/icon/www.sendcloud.com' width='16'/> [Sendcloud](https://www.sendcloud.com/bug-bounty-program/) 💰
 - <img src='https://icon.horse/icon/www.sendsafely.com' width='16'/> [SendSafely](https://www.sendsafely.com/security/bug-bounty) 💰 🏅
+- <img src='https://icon.horse/icon/www.senseon.io' width='16'/> [SenseOn](https://www.senseon.io/responsible-disclosure-policy) 🏅
 - <img src='https://icon.horse/icon/sentry.io' width='16'/> [Sentry](https://sentry.io/security/) 🏅
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Sequoia PGP Bug Bounty Program](https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Serai](https://immunefi.com/bug-bounty/serai/) 💰
