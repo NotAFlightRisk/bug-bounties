@@ -442,6 +442,12 @@ companies:
   contact: mailto:security@ada.com
   rewards: []
   safe_harbor: partial
+- company: ADAC Vulnerability Disclosure Program
+  url: https://www.intigriti.com/programs/adac/adacvulnerabilitydisclosureprogram/detail
+  handle: adacvulnerabilitydisclosureprogram
+  contact: https://www.intigriti.com/programs/adac/adacvulnerabilitydisclosureprogram/detail
+  rewards: []
+  currency: EUR
 - company: Adafruit
   url: https://www.adafruit.com/reportingsecurityissues
   contact: mailto:security@adafruit.com
@@ -692,7 +698,6 @@ companies:
   - aig.com
   - aig.com.br
   - aig.ie
-  - aigportal.de
   - americanhome.co.jp
   - glatfelters.com
   - mall.aig.com.cn
@@ -1136,7 +1141,7 @@ companies:
   rewards:
   - '*bounty'
   - '*swag'
-  managed: true
+  managed: false
   domains: &id001
   - amazon.ae
   - amazon.ca
@@ -1170,7 +1175,7 @@ companies:
   rewards:
   - '*bounty'
   - '*swag'
-  managed: true
+  managed: false
   domains: *id001
 - company: AMD
   url: https://www.amd.com/en/corporate/product-security-incident-response-team
@@ -1535,6 +1540,18 @@ companies:
   - rwdschlatter.ch
   - tuer.de
   - tuerenhandbuch.garant.de
+- company: Arc
+  url: https://www.arc.io
+  handle: arc-bbp
+  contact: https://hackerone.com/arc-bbp
+  rewards:
+  - '*bounty'
+  managed: true
+  domains:
+  - arc.io
+  - github.com
+  - rpc.drpc.testnet.arc.network
+  - rpc.testnet.arc.network
 - company: Archive-Intel-Inc
   url: https://www.federacy.com/archive-intel-inc
   contact: https://www.federacy.com/archive-intel-inc
@@ -3031,6 +3048,7 @@ companies:
   max_payout: 6500.0
   domains:
   - bolt.eu
+  - boltable.eu
   - taxify.eu
 - company: BookBeat
   url: https://yeswehack.com/programs/bookbeat
@@ -4094,6 +4112,12 @@ companies:
   contact: https://circleci.com/security/#concerns
   rewards:
   - '*bounty'
+  managed: true
+  domains:
+  - api.circle.com
+  - app.circle.com
+  - console.circle.com
+  - github.com
 - company: CircleCi
   url: https://circleci.com/security
   handle: circle-bbp
@@ -4973,6 +4997,12 @@ companies:
   contact: https://yeswehack.com/programs/contentsquare-bug-bounty-program
   rewards:
   - '*bounty'
+  max_payout: 2000.0
+  domains:
+  - contentsquare.com
+  - m.csqtrk.net
+  - mobile-production.content-square.net
+  - s.contentsquare.net
 - company: Contrast Security
   url: https://www.contrastsecurity.com/disclosure-policy
   contact: mailto:security@contrastsecurity.com
@@ -5442,6 +5472,15 @@ companies:
   rewards:
   - '*recognition'
   safe_harbor: full
+- company: d-you App & German EUDI Wallet Ecosystem
+  url: https://eudi-wallet.gov.de/
+  handle: common_codes
+  contact: https://hackerone.com/common_codes
+  rewards:
+  - '*bounty'
+  managed: true
+  domains:
+  - wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com
 - company: D66
   url: https://d66.nl/responsible-disclosure/
   contact: https://d66.nl/responsible-disclosure/
@@ -6403,6 +6442,16 @@ companies:
   - apps.apple.com
   - donorbox.org
   - play.google.com
+- company: Donorbox Vulnerability Disclosure Project
+  url: https://www.intigriti.com/programs/donorbox/donorboxvdp/detail
+  handle: donorboxvdp
+  contact: https://www.intigriti.com/programs/donorbox/donorboxvdp/detail
+  rewards: []
+  currency: USD
+  domains:
+  - apps.apple.com
+  - donorbox.org
+  - play.google.com
 - company: DoorDash
   url: http://doordash.com
   handle: doordash
@@ -6514,6 +6563,7 @@ companies:
   currency: EUR
   domains:
   - driessen.nl
+  - driessen.software
 - company: Drips
   url: https://immunefi.com/bug-bounty/drips/
   contact: https://immunefi.com/bug-bounty/drips/
@@ -7766,7 +7816,6 @@ companies:
   - 4njbets.us.betfair.com
   - com.fanduel.android.self
   - com.fanduel.casino
-  - com.fanduel.flywheelnativecontainer.picks
   - com.fanduel.racing
   - com.fanduel.sportsbook
   - fanduel.com
@@ -7794,8 +7843,11 @@ companies:
   managed: true
   domains:
   - api.faraday.ai
+  - api.pro.faraday.ai
+  - api.row.pro
   - app.faraday.ai
-  - buy.faraday.ai
+  - mcp.faraday.ai
+  - pro.faraday.ai
   - row.pro
   - vault2.faraday.ai
 - company: Farcaster
@@ -8130,6 +8182,7 @@ companies:
   - app.files.com
   - files.com
   - your-assigned-subdomain.files.com
+  - your-assigned-subdomain.hosted-by-files.com
 - company: FileZilla
   url: https://hackerone.com/filezilla_h1c
   contact: https://hackerone.com/filezilla_h1c
@@ -8227,6 +8280,8 @@ companies:
   managed: true
   safe_harbor: full
   max_payout: 20000.0
+  domains:
+  - tdfitloan.com
 - company: FIS Global
   url: https://bugcrowd.com/fis
   contact: https://bugcrowd.com/fis
@@ -8319,7 +8374,7 @@ companies:
   rewards:
   - '*bounty'
   - '*recognition'
-  managed: true
+  managed: false
   domains:
   - com.yahoo.mobile.client.android.flickr
   - flickr.com
@@ -8404,6 +8459,7 @@ companies:
   - betviewapi.com
   - dibz.co.uk
   - itv7.itv.com
+  - metrocompetitions.com
   - msgsvc.io
   - operationstechnology.io
   - paddypartners.com
@@ -8419,7 +8475,6 @@ companies:
   - sbgorigin.com
   - sbgservices.com
   - sbgtest.net
-  - securityservices.io
 - company: Flux Finance
   url: https://immunefi.com/bug-bounty/fluxfinance/
   contact: https://immunefi.com/bug-bounty/fluxfinance/
@@ -9054,8 +9109,13 @@ companies:
   - cloud-sbox.storman.com
   - developer.globalpay.com
   - globalpayments.com
+  - heartland.us
   - pcamerica.com
   - portal-staging.storman.com
+  - test.revaluemycard.com
+  - testadmin.revaluemycard.com
+  - testmobile.revaluemycard.com
+  - testprovider.revaluemycard.com
 - company: GlobaLeaks
   url: https://hackerone.com/globaleaks
   contact: ''
@@ -9137,13 +9197,7 @@ companies:
   rewards: []
   managed: false
   domains:
-  - aeroxr.com
-  - gogo.aero
   - gogogenius.stage.gogoair.cloud
-  - gosatcom.net
-  - satcomdirect.com.br
-  - satcomsimple.com
-  - satcomtest.com
 - company: GoGoPool
   url: https://immunefi.com/bug-bounty/gogopool/
   contact: https://immunefi.com/bug-bounty/gogopool/
@@ -9437,8 +9491,15 @@ companies:
   - '*swag'
 - company: GULP
   url: https://www.intigriti.com/programs/randstad/gulp/detail
+  handle: gulp
   contact: https://www.intigriti.com/programs/randstad/gulp/detail
   rewards: []
+  currency: EUR
+  domains:
+  - demo.tendertracker.de
+  - gulp-shop.de
+  - gulp.ch
+  - gulp.de
 - company: Gusto
   url: https://bugcrowd.com/gusto
   contact: https://bugcrowd.com/gusto/report
@@ -10047,6 +10108,7 @@ companies:
   - agents.hostinger.com
   - builder.hostinger.com
   - cpanel.hostinger.com
+  - ecommerce.hostinger.com
   - horizons.hostinger.com
   - hostinger.com
   - hpanel.hostinger.com
@@ -10576,7 +10638,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 10000.0
   domains:
   - apis.indeed.com
@@ -10691,15 +10753,13 @@ companies:
   max_payout: 7000.0
   domains:
   - 5k8vrbdyje.infomaniak.site
-  - academy.infomaniak.com
-  - admin2.infomaniak.com
-  - ai-tools.infomaniak.com
   - api.infomaniak.com
+  - api.pub1.infomaniak.cloud
+  - api.pub2.infomaniak.cloud
   - apps.apple.com
   - calendar.infomaniak.com
   - chk.infomaniak.com
   - contacts.infomaniak.com
-  - developer.infomaniak.com
   - etickets.infomaniak.com
   - euria.infomaniak.com
   - fv3lfbdyjh.infomaniak.site
@@ -10707,7 +10767,6 @@ companies:
   - hosting-ik.com
   - infomaniak.com
   - infomaniak.events
-  - invitation.infomaniak.com
   - ix2smbdyjt.infomaniak.site
   - kchat.infomaniak.com
   - kdrive.infomaniak.com
@@ -10715,6 +10774,9 @@ companies:
   - kpaste.infomaniak.com
   - ksuite.infomaniak.com
   - l75pvbdyjo.infomaniak.site
+  - login.infomaniak.com
+  - mail.infomaniak.com
+  - manager.infomaniak.com
 - company: Infoplus Commerce
   url: https://www.infopluscommerce.com/legal/responsible-disclosure-policy
   contact: https://support.infopluscommerce.com/support/tickets/new
@@ -10956,7 +11018,6 @@ companies:
   - cds.mintel.com
   - clients.mintel.com
   - cms.mintel.com
-  - comperemedia.com
   - data.mintel.com
   - gnpd.com
   - internal-auth.mintel.com
@@ -10967,7 +11028,6 @@ companies:
   - mintel.co.uk
   - mintel.com
   - oauth.mintel.com
-  - omni.comperemedia.com
   - policy-agent.mintel.com
   - portal.mintel.com
   - qa-server-inventory.mintel.com
@@ -11271,7 +11331,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 4500.0
   domains:
   - answers.irobot.com
@@ -13223,7 +13283,7 @@ companies:
   rewards:
   - '*bounty'
   - '*recognition'
-  managed: true
+  managed: false
   domains:
   - blog.malwarebytes.com
   - cloud.malwarebytes.com
@@ -15621,7 +15681,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 75000.0
   domains:
   - app.scaleft.com
@@ -16736,7 +16796,6 @@ companies:
   min_payout: 50.0
   currency: EUR
   domains:
-  - a.simplemdm.com
   - app.pdq.com
   - auth2.pdq.com
   - library.pdq.com
@@ -17467,6 +17526,19 @@ companies:
   contact: mailto:itsecure@prc.gov
   rewards: []
   safe_harbor: full
+- company: Posten Bring Responsible Disclosure
+  url: https://www.intigriti.com/programs/postenbringas/vdp/detail
+  handle: vdp
+  contact: https://www.intigriti.com/programs/postenbringas/vdp/detail
+  rewards: []
+  currency: EUR
+  domains:
+  - bring.com
+  - digipost.no
+  - digipostdata.no
+  - github.com
+  - mybring.com
+  - posten.no
 - company: Posti Bug Bounty
   url: https://www.intigriti.com/programs/posti/postibugbounty/detail
   handle: postibugbounty
@@ -19478,7 +19550,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 10000.0
   domains:
   - aips-internal.com
@@ -20595,7 +20667,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 18000.0
   domains:
   - square.com
@@ -21041,6 +21113,7 @@ companies:
   domains:
   - api.super-id.net
   - apps.apple.com
+  - chatbot.super-id.net
   - ecosystem-experience.super-id.net
   - play.google.com
   - superbank.id
@@ -21255,7 +21328,7 @@ companies:
   contact: https://hackerone.com/syfe_bbp
   rewards:
   - '*bounty'
-  managed: true
+  managed: false
   domains:
   - alfred-uat-31.nonprod.syfe.com
   - alfred.syfe.com
@@ -22390,6 +22463,7 @@ companies:
   - americanlegalmarketing.net
   - amfamprotect.com
   - api.uat.ccid.neustar.biz
+  - appservices.transunion.ca
   - argo-qa-perf-west-idp-nlb.dev.ccid.neustar.biz
   - authn-uat-canada.ccid.neustar.biz
   - authn-west-qa-perf.dev.ccid.neustar.biz
@@ -22405,7 +22479,6 @@ companies:
   - cibil.com
   - cibilcreditreport.in
   - classic.p1.neustar.biz
-  - cmsdev.transunion.do
 - company: Traveloka
   url: https://www.traveloka.com/en-id/bugs
   contact: https://www.traveloka.com/en-id/bugs
@@ -22641,11 +22714,16 @@ companies:
   - '*bounty'
   currency: EUR
   domains:
+  - checkout-playground.zimpler.com
+  - devdocs.zimpler.com
+  - identify.zimpler.com
+  - okta-oauth2.zimpler.com
   - sandbox.zimpler.net
   - staging.zimpler.net
+  - swish-playground.zimpler.com
   - truelayer-sandbox.com
   - truelayer.com
-  - zimpler.com
+  - zimpler-merchant.zimpler.com
   - zimpler.net
 - company: TruFin
   url: https://immunefi.com/bug-bounty/trufin/
@@ -23137,16 +23215,28 @@ companies:
   domains:
   - broadviewnet.com
   - gokinetic.com
+  - kineticbusiness.com
+  - kineticfibernow.com
+  - kineticinternetdeals.com
+  - kineticwholesale.com
   - my.gokinetic.com
+  - officesuite.live
+  - officesuiteuc.com
   - paetec.net
+  - slfiber.com
+  - southernlightfiber.com
   - uniti.com
   - unitibenefits.com
+  - unitifiber.com
   - unitisolutions.com
+  - unititest.com
+  - unititowers.com
   - unitiwholesale.com
   - we.windstream.com
   - windstream.com
   - windstream.net
   - windstreamenterprise.com
+  - windstreamenterprise.net
   - windstreamwholesale.com
 - company: Unity Technologies
   url: https://bugcrowd.com/engagements/unity
@@ -23835,7 +23925,6 @@ companies:
   - '*bounty'
   max_payout: 3000.0
   domains:
-  - parcelhubeurope.com
   - vidaxl.io
   - vidaxl.net
   - vidaxl.org
@@ -23855,15 +23944,11 @@ companies:
   - channelstore.roku.com
   - checkout.vimeo.com
   - cloud.vimeo.com
-  - com.livestream.livestream
   - com.magisto
   - com.vimeo.android.videoapp
   - com.vimeocreate.videoeditor.moviemaker
-  - donations.livestream.com
   - embed.vhx.tv
-  - livestream.com
   - magisto.com
-  - new.livestream.com
   - player.vimeo.com
   - staging.magisto.com
   - vhx.tv
