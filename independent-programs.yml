@@ -2125,6 +2125,48 @@ companies:
     type: other
   reporting_url: https://github.com/getkirby/kirby/security/advisories/new
 
+- company: Kontent.ai
+  url: https://kontent.ai/vulnerability-disclosure-policy
+  contact: mailto:security@kontent.ai
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: false
+  pgp_key: https://app.kontent.ai/pgp-key.txt
+  description: Kontent.ai runs its own disclosure program for its headless CMS, taking reports by email rather than through a platform. Rewards are Amazon vouchers scaled by Bugcrowd VRT severity, from $50 at P3 to $200 at P1, at Kontent.ai's discretion. Automated tools and scanners are prohibited, test traffic must carry an X-BugBounty header, and findings may not be disclosed without written permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: https://app.kontent.ai
+    type: web
+  - target: https://kontent.ai/
+    type: web
+  - target: https://manage.kontent.ai/v2
+    type: api
+  - target: https://deliver.kontent.ai
+    type: api
+  - target: https://graphql.kontent.ai
+    type: api
+  out_of_scope:
+  - Systems and services not expressly listed in scope
+  - Public contact forms such as demo requests
+  - AI feature issues without demonstrable security impact
+  - Missing DNS records such as CAA, DMARC and SPF
+  - Security header and TLS configuration suggestions without impact
+  - Self-XSS and username enumeration
+  - Rate limit bypasses and business logic abuse
+  min_payout: 50
+  max_payout: 200
+  currency: USD
+  legal_terms_url: https://kontent.ai/terms-of-service/
+
 - company: Lark
   url: https://www.larksuite.com/en_us/bugbounty
   rewards:
@@ -2500,6 +2542,45 @@ companies:
   - Findings from automated scans, unless proven to be a real vulnerability
   response_sla_days: 15
 
+- company: Netguru
+  url: https://www.netguru.com/report-a-vulnerability
+  contact: mailto:security@netguru.com
+  rewards:
+  - '*swag'
+  program_type: vdp
+  status: active
+  allows_disclosure: false
+  preferred_languages: English
+  pgp_key: https://www.netguru.com/hubfs/.well-known/security-public.gpg
+  description: Netguru, a Polish software consultancy, takes vulnerability reports on its own domains by email. Reports must include a CVSS 3.1 base score and vector string or they are rejected automatically, and anything above 4.0 on the environmental score earns swag rather than cash. Public disclosure needs Netguru's written permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: netguru.co
+    type: web
+  - target: '*.netguru.co'
+    type: web
+  - target: netguru.com
+    type: web
+  - target: netguru.pl
+    type: web
+  - target: '*.netguru.pl'
+    type: web
+  - target: Company internal information shared in external collaboration tools
+    type: other
+  out_of_scope:
+  - Physical locations and assets
+  - Third-party service providers such as Google, HubSpot and SendGrid
+  - Weak SSL/TLS algorithms
+  - Self-XSS and DOM-based XSS
+  - Weak passwords and missing captcha
+  - Missing Content Security Policy or other security headers, unless exploited in the PoC
+  - Missing CSRF tokens in forms, unless exploited in the PoC
+  - Vulnerabilities only affecting old, unsupported browsers
+  swag_details: Swag for vulnerabilities with a CVSS 3.1 environmental score above 4.0 (medium).
+
 - company: Nexthink
   url: https://nexthink.com/en/responsible-disclosure-policy
   contact: mailto:responsible-disclosure@nexthink.com
@@ -2753,6 +2834,40 @@ companies:
   - Vulnerabilities that require unrealistic user interaction
   - Vulnerabilities that are already known to us
   - Vulnerabilities that are not reproducible
+  response_sla_days: 2
+
+- company: Password Depot
+  url: https://www.password-depot.de/en/resources/trust-center/vulnerability-disclosure-policy.htm
+  contact: mailto:security@password-depot.de
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: German, English
+  pgp_key: https://www.password-depot.de/.well-known/pgp-key.asc
+  description: AceBIT runs a coordinated disclosure program for its Password Depot password manager, covering the enterprise server, the Windows, macOS and Linux clients, browser extensions, mobile apps and product web services. Reports go by email in German or English, receipt is acknowledged within 48 hours, and confirmed issues get a published security advisory that credits the reporter on request. There are no cash rewards.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: Password Depot Enterprise Server
+    type: other
+  - target: Password Depot Windows, macOS and Linux clients
+    type: desktop
+  - target: Browser extensions for Chrome, Edge and Firefox
+    type: other
+  - target: Password Depot mobile apps for iOS and Android
+    type: mobile
+  - target: Product-related web services on password-depot.de
+    type: web
+  out_of_scope:
+  - Production customer environments and customer-specific installations
+  - Third-party operated services and infrastructure that are not part of Password Depot
   response_sla_days: 2
 
 - company: Pathé
