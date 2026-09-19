@@ -3429,6 +3429,38 @@ companies:
   max_payout: 2000
   currency: USD
 
+- company: SenseOn
+  url: https://www.senseon.io/responsible-disclosure-policy
+  contact: mailto:security@senseon.io
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: SenseOn Tech Ltd welcomes good-faith vulnerability reports by email to its security address. It acknowledges receipt within two business days and aims to give an initial assessment within five, with target resolution running from 24-72 hours for critical issues to 90 days for low. There is no formal bug bounty, but valid findings are credited with the researcher's permission and significant ones may be rewarded at the company's discretion.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: SenseOn customer-facing applications and services
+    type: web
+  - target: SenseOn website and public web properties
+    type: web
+  - target: SenseOn APIs, integrations and supported marketplace listings
+    type: api
+  - target: SenseOn Sensor, agent and deployment tooling
+    type: other
+  out_of_scope:
+  - Vulnerabilities in third-party applications or services not operated by SenseOn
+  - Findings from automated scanning tools without demonstrated impact
+  - Missing HTTP headers or low-risk configuration observations without a practical exploit path
+  - Issues that require compromised credentials, outdated browsers or unrealistic user interaction, unless there is clear customer impact
+  response_sla_days: 2
+
 - company: setpointmedical.com
   url: https://setpointmedical.com/security/
   contact: mailto:productsecurity@setpointmedical.com
