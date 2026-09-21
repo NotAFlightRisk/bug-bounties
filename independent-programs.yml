@@ -3080,6 +3080,29 @@ companies:
   excluded_methods:
   - dos
 
+- company: Profound
+  url: https://www.tryprofound.com/vulnerability-reporting
+  contact: mailto:security@tryprofound.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: Profound takes reports of vulnerabilities affecting its own domains by email, and aims to acknowledge or respond within five business days. A report should carry a description of the issue, its impact, steps to reproduce and contact details. Nothing is paid by default - recognition or compensation is at Profound's discretion. Good-faith researchers who stay in scope get safe harbour from legal action, and are asked to hold off on disclosure until Profound has had a chance to fix it.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  out_of_scope:
+  - Spam, brute force, credential stuffing and automated volumetric attacks
+  - Malware, ransomware or destructive payloads
+  - Issues involving only third-party services or applications not owned or controlled by Profound
+  - Reports that lack enough detail to reproduce or evaluate the issue
+  domains:
+  - '*.tryprofound.com'
+  response_sla_days: 5
+
 - company: ProoN
   url: https://www.proon.ai/security
   contact: mailto:security@proon.ai
