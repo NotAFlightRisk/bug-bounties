@@ -3739,6 +3739,25 @@ companies:
   - phishing
   - physical_access
 
+- company: Speakeasy
+  url: https://www.speakeasy.com/legal/security-policy
+  contact: mailto:security@speakeasy.com
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  preferred_languages: English
+  description: Speakeasy takes vulnerability reports by email, under a policy covering any of its sites whose security.txt points at it. It responds within five working days and aims to triage within ten, then tells you when the issue is fixed. There is no money in it - the policy says outright that it does not offer monetary rewards - but once a report is resolved it welcomes a request to publish, coordinated with them.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - automated_scanning
+  out_of_scope:
+  - Non-exploitable findings, or reports that the services do not fully align with best practice, such as missing security headers
+  - TLS configuration weaknesses, such as weak cipher suite support or the presence of TLS 1.0
+  response_sla_days: 5
+
 - company: spectrocoin.com
   url: https://spectrocoin.com/bug-bounty.html
   contact: mailto:technical@spectrocoin.com
