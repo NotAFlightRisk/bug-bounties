@@ -4016,6 +4016,23 @@ companies:
   - '*.starnum.com.tw'
   reporting_url: 'https://Instagram DM: https://www.instagram.com/mychenan/'
 
+- company: Stedin
+  url: https://www.stedin.net/responsible-disclosure
+  contact: mailto:informatiebeveiliging@stedin.net
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Dutch
+  pgp_key: https://stedin.net/pgp-key.txt
+  description: The Dutch grid operator takes reports on its own responsible disclosure page, written in Dutch with English and German translations linked from it. Reports are answered within five days with an assessment and an expected fix date, may be made under a pseudonym, and are kept confidential. Stedin names the finder in any communication about the issue if they want that, and publishes an overview of reported and resolved vulnerabilities. Reporters who follow the conditions face no legal action.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  response_sla_days: 5
+
 - company: stormrake
   url: https://www.stormrake.com/offering/stormrake-bug-bounty-program
   contact: mailto:security@stormrake.com
