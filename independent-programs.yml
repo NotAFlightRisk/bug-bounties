@@ -2788,6 +2788,43 @@ companies:
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
 
+- company: Orsted
+  url: https://orsted.com/.well-known/vulnerability-disclosure-policy.html
+  contact: mailto:offsec@orsted.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English
+  pgp_key: https://orsted.com/.well-known/pgp-key.txt
+  description: The Danish renewable energy company hosts its own vulnerability disclosure policy, covering every internet-accessible Orsted-managed system, with the registered domain names enumerated on the page. Reports go to offsec@orsted.com, may be sent anonymously or PGP-encrypted, and are acknowledged within three business days. Good-faith research under the policy counts as authorised and Orsted will not pursue legal action over it. No monetary rewards are offered.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: All internet-accessible Orsted-managed systems
+    type: web
+  out_of_scope:
+  - Denial of service and distributed denial of service
+  - Brute force and password stuffing
+  - Social engineering, including phishing, vishing and smishing
+  - Clickjacking and UI redressing
+  - Tab-nabbing and other rel=noopener bugs
+  - Findings that rely on out-of-date browsers or software
+  - Mixed content warnings
+  - Missing or misconfigured security headers that do not lead to a vulnerability
+  - Missing cookie flags that do not lead to a vulnerability
+  - Web cache poisoning
+  - Content spoofing
+  - Request smuggling
+  - CORS misconfiguration
+  - SPF, DKIM and DMARC records and flags
+  - Server banners
+  - Expired SSL certificate issues
+  - Orsted internal-only services
+  response_sla_days: 3
+
 - company: Pactum
   url: https://pactum.com/responsible-disclosure
   contact: mailto:security@pactum.com
