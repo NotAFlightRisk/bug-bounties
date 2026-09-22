@@ -225,6 +225,43 @@ companies:
   - Android app - https://play.google.com/store/search?q=alaan&c=apps
   - ios app - https://apps.apple.com/in/app/alaan/id1605833078
 
+- company: Alliander
+  url: https://www.alliander.com/en/coordinated-vulnerability-disclosure
+  contact: mailto:responsible.disclosure@alliander.com
+  rewards:
+  - '*swag'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: Dutch, English
+  pgp_key: https://www.alliander.com/.well-known/responsible.disclosure.asc
+  description: The Dutch grid operator runs a coordinated vulnerability disclosure process on its own site, with Dutch and English contact forms alongside a direct email address. Reports are answered within five business days with an assessment and an expected fix date, and Alliander undertakes not to pursue legal action against reporters who follow the procedure. Qualifying findings are web application vulnerabilities, and researchers whose reports qualify are offered a security hoodie.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: Alliander web applications
+    type: web
+  out_of_scope:
+  - Reports of outdated software versions
+  - Missing best practices, or output from automated scanning tools without evidence of exploitability
+  - Known-vulnerable components without a relevant proof of concept
+  - Self-XSS, and XSS affecting only outdated browsers
+  - TLS and SSL issues, and SPF, DMARC and DKIM configuration
+  - Missing security headers such as content-type-options and X-XSS-Protection
+  - Username enumeration
+  - Denial of service and distributed denial of service
+  - Rate limiting and brute force
+  - UI and UX bugs, and typos
+  - Vulnerabilities in end-of-life products
+  - Unrestricted file uploads
+  - Session restriction and session timeout
+  - Formula and CSV injection
+  response_sla_days: 5
+  reporting_url: https://www.alliander.com/en/contact-form-cvd/
+  swag_details: Alliander Security Hoodie
+
 - company: AlmaLinux
   url: https://almalinux.org/p/vulnerability-disclosure-policy/
   contact: mailto:security@almalinux.org
