@@ -2629,6 +2629,16 @@ companies:
   pgp_key: https://www.nexthink.com/security-team.pub
   description: Responsible disclosure policy for the digital employee experience vendor. Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in under 72 hours and handle confidentially, and Nexthink will not pursue legal action over research that follows the guidelines. Details may not be shared with third parties without their consent, and there is no paid bug bounty.
 
+- company: NS
+  url: https://ocp.ns.nl/caas/v1/media/stable/24134/data/statement-responsible-disclosure-engels.pdf
+  contact: mailto:responsible.disclosure@ns.nl
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: Dutch, English
+  description: The Dutch national railway publishes its responsible disclosure code of conduct as a PDF, linked from its security.txt. Reports go to responsible.disclosure@ns.nl and get a reply within two working days, after which NS agrees a remediation period with the reporter and decides on coordinated publication. Anonymous reports are accepted. NS will not act against reporters who follow the code of conduct, but reserves the right to do so if they do not.
+  response_sla_days: 2
+
 - company: nuuvem.com
   url: https://www.nuuvem.com/us-en/security
   contact: mailto:security@nuuvem.com
