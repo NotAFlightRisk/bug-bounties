@@ -225,6 +225,43 @@ companies:
   - Android app - https://play.google.com/store/search?q=alaan&c=apps
   - ios app - https://apps.apple.com/in/app/alaan/id1605833078
 
+- company: Alliander
+  url: https://www.alliander.com/en/coordinated-vulnerability-disclosure
+  contact: mailto:responsible.disclosure@alliander.com
+  rewards:
+  - '*swag'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: Dutch, English
+  pgp_key: https://www.alliander.com/.well-known/responsible.disclosure.asc
+  description: The Dutch grid operator runs a coordinated vulnerability disclosure process on its own site, with Dutch and English contact forms alongside a direct email address. Reports are answered within five business days with an assessment and an expected fix date, and Alliander undertakes not to pursue legal action against reporters who follow the procedure. Qualifying findings are web application vulnerabilities, and researchers whose reports qualify are offered a security hoodie.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: Alliander web applications
+    type: web
+  out_of_scope:
+  - Reports of outdated software versions
+  - Missing best practices, or output from automated scanning tools without evidence of exploitability
+  - Known-vulnerable components without a relevant proof of concept
+  - Self-XSS, and XSS affecting only outdated browsers
+  - TLS and SSL issues, and SPF, DMARC and DKIM configuration
+  - Missing security headers such as content-type-options and X-XSS-Protection
+  - Username enumeration
+  - Denial of service and distributed denial of service
+  - Rate limiting and brute force
+  - UI and UX bugs, and typos
+  - Vulnerabilities in end-of-life products
+  - Unrestricted file uploads
+  - Session restriction and session timeout
+  - Formula and CSV injection
+  response_sla_days: 5
+  reporting_url: https://www.alliander.com/en/contact-form-cvd/
+  swag_details: Alliander Security Hoodie
+
 - company: AlmaLinux
   url: https://almalinux.org/p/vulnerability-disclosure-policy/
   contact: mailto:security@almalinux.org
@@ -2592,6 +2629,16 @@ companies:
   pgp_key: https://www.nexthink.com/security-team.pub
   description: Responsible disclosure policy for the digital employee experience vendor. Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in under 72 hours and handle confidentially, and Nexthink will not pursue legal action over research that follows the guidelines. Details may not be shared with third parties without their consent, and there is no paid bug bounty.
 
+- company: NS
+  url: https://ocp.ns.nl/caas/v1/media/stable/24134/data/statement-responsible-disclosure-engels.pdf
+  contact: mailto:responsible.disclosure@ns.nl
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: Dutch, English
+  description: The Dutch national railway publishes its responsible disclosure code of conduct as a PDF, linked from its security.txt. Reports go to responsible.disclosure@ns.nl and get a reply within two working days, after which NS agrees a remediation period with the reporter and decides on coordinated publication. Anonymous reports are accepted. NS will not act against reporters who follow the code of conduct, but reserves the right to do so if they do not.
+  response_sla_days: 2
+
 - company: nuuvem.com
   url: https://www.nuuvem.com/us-en/security
   contact: mailto:security@nuuvem.com
@@ -2740,6 +2787,43 @@ companies:
   - phishing
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
+
+- company: Orsted
+  url: https://orsted.com/.well-known/vulnerability-disclosure-policy.html
+  contact: mailto:offsec@orsted.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English
+  pgp_key: https://orsted.com/.well-known/pgp-key.txt
+  description: The Danish renewable energy company hosts its own vulnerability disclosure policy, covering every internet-accessible Orsted-managed system, with the registered domain names enumerated on the page. Reports go to offsec@orsted.com, may be sent anonymously or PGP-encrypted, and are acknowledged within three business days. Good-faith research under the policy counts as authorised and Orsted will not pursue legal action over it. No monetary rewards are offered.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: All internet-accessible Orsted-managed systems
+    type: web
+  out_of_scope:
+  - Denial of service and distributed denial of service
+  - Brute force and password stuffing
+  - Social engineering, including phishing, vishing and smishing
+  - Clickjacking and UI redressing
+  - Tab-nabbing and other rel=noopener bugs
+  - Findings that rely on out-of-date browsers or software
+  - Mixed content warnings
+  - Missing or misconfigured security headers that do not lead to a vulnerability
+  - Missing cookie flags that do not lead to a vulnerability
+  - Web cache poisoning
+  - Content spoofing
+  - Request smuggling
+  - CORS misconfiguration
+  - SPF, DKIM and DMARC records and flags
+  - Server banners
+  - Expired SSL certificate issues
+  - Orsted internal-only services
+  response_sla_days: 3
 
 - company: Pactum
   url: https://pactum.com/responsible-disclosure
@@ -3931,6 +4015,23 @@ companies:
   domains:
   - '*.starnum.com.tw'
   reporting_url: 'https://Instagram DM: https://www.instagram.com/mychenan/'
+
+- company: Stedin
+  url: https://www.stedin.net/responsible-disclosure
+  contact: mailto:informatiebeveiliging@stedin.net
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Dutch
+  pgp_key: https://stedin.net/pgp-key.txt
+  description: The Dutch grid operator takes reports on its own responsible disclosure page, written in Dutch with English and German translations linked from it. Reports are answered within five days with an assessment and an expected fix date, may be made under a pseudonym, and are kept confidential. Stedin names the finder in any communication about the issue if they want that, and publishes an overview of reported and resolved vulnerabilities. Reporters who follow the conditions face no legal action.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  response_sla_days: 5
 
 - company: stormrake
   url: https://www.stormrake.com/offering/stormrake-bug-bounty-program
