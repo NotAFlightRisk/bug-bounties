@@ -7,7 +7,7 @@
   "homepage": "https://bug-bounties.as93.net",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lissy93/bug-bounties.git"
+    "url": "git+https://github.com/lissy93/bug-bounties.git"
   },
   "keywords": [
     "mcp",
