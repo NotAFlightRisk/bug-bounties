@@ -3122,6 +3122,26 @@ companies:
     medium: 200
     low: 100
 
+- company: Port of Rotterdam
+  url: https://www.portofrotterdam.com/en/responsible-disclosure
+  contact: https://www.portofrotterdam.com/en/form/standard-contact?nid=1446
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: Port of Rotterdam Authority accepts vulnerability reports on its systems from anyone, and reporting anonymously or under a pseudonym is allowed. Reports go through a Zerocopter intake form and are answered within five business days with an evaluation and an expected resolution date. Reporters are named as the discoverer in any public information about the problem, and listed on the port's hall of fame page. The policy is based on the NCSC responsible disclosure guideline.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  - brute_force
+  response_sla_days: 5
+  hall_of_fame_url: https://www.portofrotterdam.com/en/hall-of-fame
+  reporting_url: https://app.zerocopter.com/en/rd/a2580493-806a-4a63-8e17-ce9d21e8510c
+
 - company: PostgreSQL
   url: https://www.postgresql.org/support/security/
   contact: mailto:security@postgresql.org
