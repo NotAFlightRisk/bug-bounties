@@ -81,6 +81,7 @@
 - <img src='https://icon.horse/icon/security.alibaba.com' width='16'/> [Aliexpress](https://security.alibaba.com/) 💰 🏅
 - <img src='https://icon.horse/icon/www.aliter.com' width='16'/> [Aliter Technologies](https://www.aliter.com/vulnerability-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Allegro](https://hackerone.com/allegro) 💰
+- <img src='https://icon.horse/icon/www.alliander.com' width='16'/> [Alliander](https://www.alliander.com/en/coordinated-vulnerability-disclosure) 🎁
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Alpen Labs](https://immunefi.com/bug-bounty/alpen-labs/) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Alpha Venture DAO](https://immunefi.com/bug-bounty/AlphaVentureDAO/) 💰
 - <img src='https://icon.horse/icon/alscotoday.com' width='16'/> [ALSCO](https://alscotoday.com/go/bug) 💰 🏅 🎁
@@ -1693,6 +1694,7 @@
 - <img src='https://icon.horse/icon/www.instagram.com' width='16'/> [Starnum.com.tw](https://www.instagram.com/mychenan/) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Statuspage](https://bugcrowd.com/statuspage) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [StatusPage.io](https://bugcrowd.com/statuspage) 💰 🎁 🏅
+- <img src='https://icon.horse/icon/www.stedin.net' width='16'/> [Stedin](https://www.stedin.net/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Stellantis](https://bugcrowd.com/stellantis) 💰
 - <img src='https://icon.horse/icon/www.stellar.org' width='16'/> [Stellar](https://www.stellar.org/bug-bounty-program/) 💰 🏅 🎁
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [StellaSwap](https://immunefi.com/bug-bounty/stellaswap/) 💰
