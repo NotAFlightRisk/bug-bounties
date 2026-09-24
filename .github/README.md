@@ -1698,6 +1698,7 @@
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [StellaSwap](https://immunefi.com/bug-bounty/stellaswap/) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Stiltsoft](https://bugcrowd.com/engagements/stiltsoft) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [StonikByte](https://bugcrowd.com/engagements/stonikbyte) 💰
+- <img src='https://icon.horse/icon/www.stormrake.com' width='16'/> [stormrake](https://www.stormrake.com/offering/stormrake-bug-bounty-program) 💰 🏅
 - <img src='https://icon.horse/icon/www.strala.com' width='16'/> [Strala](https://www.strala.com/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/stripchat.com' width='16'/> [Stripchat](https://stripchat.com) 💰
 - <img src='https://icon.horse/icon/stripe.com' width='16'/> [Stripe](https://stripe.com/docs/security/stripe) 💰
