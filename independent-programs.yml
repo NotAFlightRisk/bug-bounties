@@ -1632,6 +1632,26 @@ companies:
   - physical_access
   hall_of_fame_url: https://www.joindeed.com/security
 
+- company: Groningen Seaports
+  url: https://www.groningen-seaports.com/responsible-disclosure/
+  contact: mailto:security@groningen-seaports.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: The port authority for Delfzijl and Eemshaven takes vulnerability reports by email, under a responsible disclosure policy based on the NCSC guideline. Reports can be made anonymously or under a pseudonym and are kept confidential. Groningen Seaports aims to respond within five working days with an assessment and an expected fix date, keeps reporters updated, takes no legal action against those who follow the rules, and asks to be involved in any publication once the issue is fixed.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  - brute_force
+  out_of_scope:
+  - Microsoft Office 365 environment, which should be reported to Microsoft
+  response_sla_days: 5
+  standards:
+  - Dutch NCSC guidelines
+
 - company: Hadrian
   url: https://hadrian.io/vulnerability-disclosure-policy
   contact: mailto:security@hadrian.io
