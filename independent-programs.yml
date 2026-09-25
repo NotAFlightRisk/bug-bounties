@@ -4696,6 +4696,17 @@ companies:
   response_sla_days: 5
   disclosure_timeline_days: 90
 
+- company: Waternet
+  url: https://www.waternet.nl/en/service-and-contact/help-us-improve-our-service/report-a-security-problem/
+  contact: https://www.waternet.nl/en/service-and-contact/help-us-improve-our-service/report-a-security-problem/
+  program_type: vdp
+  status: active
+  preferred_languages: Dutch, English
+  pgp_key: https://www.waternet.nl/securitytxt/pgp-key
+  description: The Dutch water company takes security reports through a form on its own site, under rules based on the NCSC guidelines. Reporters are asked to report quickly, include details such as IP addresses, log files and reproduction steps, and not exploit or publicly share the problem. Waternet investigates each report, contacts the reporter and agrees with them what happens if the issue is made public.
+  standards:
+  - Dutch NCSC guidelines
+
 - company: whatruns.com
   url: https://www.whatruns.com/bug-bounty
   contact: mailto:hello@WhatRuns.com
