@@ -1530,6 +1530,25 @@ companies:
   - '*swag'
   program_type: bounty
 
+- company: Gasunie
+  url: https://www.gasunie.nl/en/responsible-disclosure
+  contact: mailto:responsibledisclosure@gasunie.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: The Dutch gas infrastructure company takes vulnerability reports through a form on its responsible disclosure page, and follows the NCSC's recommendations for handling them. Reports get a reply within five working days with an assessment and an expected fix date, and disclosure timing is agreed with the reporter. Gasunie won't take legal action against reporters who stay within the policy, barring exceptional cases, and in most cases gives a reward or other recognition.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - automated_scanning
+  response_sla_days: 5
+  standards:
+  - Dutch NCSC guidelines
+
 - company: geckoboard.com
   url: https://support.geckoboard.com/en/articles/6055718-report-a-security-vulnerability-and-responsible-disclosure-policies
   rewards:
