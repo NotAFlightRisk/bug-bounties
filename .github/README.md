@@ -737,6 +737,7 @@
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Glo Dollar](https://immunefi.com/bug-bounty/glodollar/) 💰
 - <img src='https://icon.horse/icon/global.com' width='16'/> [Global](https://global.com/bug-bounty-policy/) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [GMX](https://immunefi.com/bug-bounty/gmx/) 💰
+- <img src='https://icon.horse/icon/bugbounty.gmx.net' width='16'/> [GMX.net](https://bugbounty.gmx.net/) 💰 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Gnosis Chain](https://immunefi.com/bug-bounty/gnosischain/) 💰
 - <img src='https://icon.horse/icon/www.joindeed.com' width='16'/> [Go Deed Inc](https://www.joindeed.com/security) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [GO-JEK](https://bugcrowd.com/gojek) 💰
@@ -1068,6 +1069,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Magisto](https://hackerone.com/magisto) 💰
 - <img src='https://icon.horse/icon/research.magix.com' width='16'/> [Magix AG](https://research.magix.com/) 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [MagpieXYZ](https://immunefi.com/bug-bounty/magpiexyz/) 💰
+- <img src='https://icon.horse/icon/www.mail.com' width='16'/> [mail.com](https://www.mail.com/bugbounty/) 💰 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Mailgun](https://bugcrowd.com/mailgun) 💰 🏅
 - <img src='https://icon.horse/icon/www.majidalfuttaim.com' width='16'/> [Majid Al Futtaim](https://www.majidalfuttaim.com/en/responsible-disclosure-policy) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Majid Al Futtaim Customer Solutions](https://bugcrowd.com/engagements/majidalfuttaim-loyalty) 💰
