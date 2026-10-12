@@ -5576,6 +5576,25 @@ companies:
   - '*.workoutgen.app'
   hall_of_fame_url: https://workoutgen.app/security#hof-title
 
+- company: World4You
+  url: https://www.world4you.com/unternehmen/it-sicherheit
+  contact: mailto:security@world4you.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: German, English
+  description: The web and domain host runs a responsible disclosure process on its own site, with no official bug bounty. Anything affecting the confidentiality, integrity or availability of World4You products and services, and so customer data, is in scope. Reports go to security@world4you.com and get a case ID, usually within one working day. World4You won't seek prosecution of anyone reporting in good faith under the policy. DoS, TLS configuration details and best-practice reports are out of scope.
+  excluded_methods:
+  - dos
+  scope:
+  - target: World4You products and services
+    type: other
+  out_of_scope:
+  - Denial-of-service attacks, such as disrupting services with a high volume of requests
+  - TLS configuration specifics, such as no TLSv1.3 support or a particular cipher suite
+  - Reports that a service does not fully follow best practice, such as missing security headers or suboptimal SPF and DMARC settings
+  response_sla_days: 1
+
 - company: Yellow.ai
   url: https://yellow.ai/vulnerability-disclosure-program/
   contact: mailto:infosec@yellow.ai
