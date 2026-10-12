@@ -1773,6 +1773,30 @@ companies:
   min_payout: 200
   currency: USD
 
+- company: GMX.net
+  url: https://bugbounty.gmx.net/
+  contact: mailto:report@bugbounty.gmx.net
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  allows_disclosure: true
+  preferred_languages: German, English
+  description: GMX pays bounties for exploitable bugs that put the confidentiality or integrity of its users' data at risk. Only the logged-in web apps that handle customer data are in scope, such as email, calendar and cloud storage, plus their authentication. Reports go to report@bugbounty.gmx.net with a proof of concept and the risk to user data. Payouts depend on impact. The program is shared with WEB.DE and mail.com, so a bug in the common email app counts once across all three.
+  scope:
+  - target: Logged-in web apps that process customer data, such as email, calendar and cloud storage, including their authentication
+    type: web
+  out_of_scope:
+  - Systems outside the logged-in web apps (reports are accepted, but not rewarded)
+  - Product features, such as data sharing or spam
+  - Malware-related issues, such as sending malware
+  - Issues that can't be exploited directly, such as missing security headers or information disclosure
+  - Issues that need physical or logical access to the victim's device or account, such as self-XSS
+  - Issues that only affect availability, such as logout CSRF
+  hall_of_fame_url: https://bugbounty.gmx.net/halloffame-index.html
+  requires_account: true
+
 - company: GNOME
   url: https://security.gnome.org/
   contact: https://security.gnome.org/
