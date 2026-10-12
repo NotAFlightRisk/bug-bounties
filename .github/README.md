@@ -1886,6 +1886,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Ultra Mobile Public Bug Bounty Engagemen...](https://bugcrowd.com/engagements/ultramobile-public) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Ultra Mobile Public ECOMM 2025 Bug Bount...](https://bugcrowd.com/engagements/ultramobile-ecomm) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Ultra Mobile Retailer Portal Bug Bounty ...](https://bugcrowd.com/engagements/ultramobile-retailer-portal) 💰
+- <img src='https://icon.horse/icon/www.ultrahuman.com' width='16'/> [Ultrahuman](https://www.ultrahuman.com/security/vulnerability-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [UMA Project](https://hackerone.com/uma_project) 💰 🏅
 - <img src='https://icon.horse/icon/umbraco.com' width='16'/> [Umbraco](https://umbraco.com/products/umbraco-cms/security/) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [UNDER ARMOUR](https://bugcrowd.com/underarmour) 💰 🏅
