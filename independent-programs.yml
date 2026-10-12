@@ -2592,6 +2592,30 @@ companies:
   - physical_access
   response_sla_days: 5
 
+- company: mail.com
+  url: https://www.mail.com/bugbounty/
+  contact: mailto:report@bugbounty.mail.com
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  allows_disclosure: true
+  preferred_languages: German, English
+  description: mail.com pays bounties for exploitable bugs that put the confidentiality or integrity of its customers' data at risk. Only the logged-in web apps that handle customer data are in scope, such as email, calendar and file storage, plus their authentication. Reports go to report@bugbounty.mail.com with steps to reproduce and the risk to customer data. Payouts depend on impact. The program is shared with WEB.DE and GMX, so a bug in the common email interface counts once across all three.
+  scope:
+  - target: Logged-in web apps that process customer data, such as email, calendar and file storage, including their authentication
+    type: web
+  out_of_scope:
+  - Systems outside the logged-in web apps (reports are accepted, but not rewarded)
+  - Product features, such as sharing of data or spam
+  - Malware-related issues, such as sending emails with infected attachments
+  - Issues that can't be exploited directly, such as missing security headers or information leakage
+  - Issues that need physical or logical access to the victim's device or account, such as self-XSS
+  - Issues that limit the availability of services or data, such as logout CSRF
+  hall_of_fame_url: https://www.mail.com/bugbounty/halloffame/
+  requires_account: true
+
 - company: Mamentis
   url: https://mamentis.com/docs/resources/miscellaneous/submit-bug-request#security-issues
   contact: mailto:security@mamentis.com
