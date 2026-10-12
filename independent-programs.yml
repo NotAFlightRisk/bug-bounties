@@ -4906,6 +4906,49 @@ companies:
   testing_policy_url: https://tuturuuu.com/security/policy
   hall_of_fame_url: https://tuturuuu.com/security/bug-bounty
 
+- company: Ultrahuman
+  url: https://www.ultrahuman.com/security/vulnerability-disclosure-policy/
+  contact: mailto:security@ultrahuman.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: The smart ring maker runs its own disclosure policy, with no paid bounty. Its devices, mobile apps, cloud services, web portals, APIs and firmware are in scope. Reports go to security@ultrahuman.com and are acknowledged within 5 business days, with updates at least every 30 days. Testing is limited to accounts you own or have permission to test, and stops as soon as you see real user or health data. Disclosure waits until a fix is confirmed, and reporters can be credited by agreement.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: Consumer IoT devices made or supplied by Ultrahuman
+    type: iot
+  - target: Ultrahuman mobile apps
+    type: mobile
+  - target: Ultrahuman cloud platforms and backend services
+    type: cloud
+  - target: Web portals for Ultrahuman products
+    type: web
+  - target: APIs for Ultrahuman products
+    type: api
+  - target: Firmware and software maintained by Ultrahuman
+    type: other
+  out_of_scope:
+  - Social engineering of staff, users, contractors or vendors, including phishing
+  - Physical attacks on offices, facilities, staff or hardware, and theft or loss of devices
+  - Denial-of-service, volumetric, resource-exhaustion or rate-limit testing against production systems
+  - Automated scanner output without a demonstrated, exploitable impact
+  - Findings that need a rooted or jailbroken device, physical access to an unlocked device, or a machine-in-the-middle position the user would have to enable
+  - Vulnerabilities in third-party services, platforms or libraries that Ultrahuman doesn't own or operate
+  - Missing best-practice hardening, such as security headers, TLS preferences or SPF, DKIM and DMARC, with no demonstrated impact
+  response_sla_days: 5
+  standards:
+  - ISO 29147
+  - ETSI EN 303 645
+  - UK PSTI Regulations 2023
+
 - company: Unraid
   url: https://unraid.net/policies
   contact: mailto:security@unraid.net
@@ -5532,6 +5575,25 @@ companies:
   - my.workoutgen.app
   - '*.workoutgen.app'
   hall_of_fame_url: https://workoutgen.app/security#hof-title
+
+- company: World4You
+  url: https://www.world4you.com/unternehmen/it-sicherheit
+  contact: mailto:security@world4you.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: German, English
+  description: The web and domain host runs a responsible disclosure process on its own site, with no official bug bounty. Anything affecting the confidentiality, integrity or availability of World4You products and services, and so customer data, is in scope. Reports go to security@world4you.com and get a case ID, usually within one working day. World4You won't seek prosecution of anyone reporting in good faith under the policy. DoS, TLS configuration details and best-practice reports are out of scope.
+  excluded_methods:
+  - dos
+  scope:
+  - target: World4You products and services
+    type: other
+  out_of_scope:
+  - Denial-of-service attacks, such as disrupting services with a high volume of requests
+  - TLS configuration specifics, such as no TLSv1.3 support or a particular cipher suite
+  - Reports that a service does not fully follow best practice, such as missing security headers or suboptimal SPF and DMARC settings
+  response_sla_days: 1
 
 - company: Yellow.ai
   url: https://yellow.ai/vulnerability-disclosure-program/
