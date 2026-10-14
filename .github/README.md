@@ -1262,6 +1262,7 @@
 - <img src='https://icon.horse/icon/www.olacabs.com' width='16'/> [OLA](https://www.olacabs.com/whitehat?) 💰
 - <img src='https://icon.horse/icon/www.olacabs.com' width='16'/> [OLAcabs](https://www.olacabs.com/whitehat) 💰 🏅
 - <img src='https://icon.horse/icon/www.olark.com' width='16'/> [Olark](https://www.olark.com/customer/portal/articles/1237352) 💰 🏅 🎁
+- <img src='https://icon.horse/icon/ollygarden.com' width='16'/> [OllyGarden](https://ollygarden.com/security#vulnerability-disclosure) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Olx](https://hackerone.com/olx) 🏅
 - <img src='https://icon.horse/icon/medical.olympusamerica.com' width='16'/> [Olympus](https://medical.olympusamerica.com/customer-resources/product-security) 💰
 - <img src='https://icon.horse/icon/omarchy.org' width='16'/> [Omarchy](http://omarchy.org) 💰
