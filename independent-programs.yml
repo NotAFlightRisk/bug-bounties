@@ -3099,6 +3099,38 @@ companies:
   description: Oh Dear is a three-person uptime monitoring company that publishes its security practices with a short disclosure section at the end. It commits to responding within 24 hours, will not pursue legal action against researchers acting in good faith, and asks for reasonable time to fix an issue before it is disclosed publicly.
   response_sla_days: 1
 
+- company: OllyGarden
+  url: https://ollygarden.com/security#vulnerability-disclosure
+  contact: mailto:security@ollygarden.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English, German
+  description: The observability company runs its own disclosure policy on its security page, with no paid bug bounty. ollygarden.com, ollygarden.app, its APIs and its open source projects are in scope. Reports go to security@ollygarden.com and are acknowledged within 3 business days, and reporters can be credited once the issue is fixed. OllyGarden won't take legal action over research that follows the policy, and asks for reasonable time to fix before public disclosure.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: ollygarden.com
+    type: web
+  - target: ollygarden.app
+    type: web
+  - target: OllyGarden APIs
+    type: api
+  - target: OllyGarden open source projects
+    type: other
+  out_of_scope:
+  - Spam
+  - Testing that degrades the service for other customers
+  domains:
+  - ollygarden.com
+  - ollygarden.app
+  response_sla_days: 3
+
 - company: Omnisend
   url: https://www.omnisend.com/bug-bounty/
   contact: mailto:security@omnisend.com
