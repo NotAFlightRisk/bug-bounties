@@ -98,6 +98,7 @@
 - <img src='https://icon.horse/icon/www.intigriti.com' width='16'/> [AMD Product Security Bug Bounty Program](https://www.intigriti.com/programs/amd/amd/detail) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [AMERICAN SYSTEMS](https://hackerone.com/american_systems_bbp) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Amitree Inc](https://hackerone.com/amitree_inc) 🏅
+- <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Amoeboids](https://bugcrowd.com/engagements/amoeboids) 💰
 - <img src='https://icon.horse/icon/ampcode.com' width='16'/> [AmpCode.com](https://ampcode.com/security/) 💰
 - <img src='https://icon.horse/icon/www.google.com' width='16'/> [Android](https://www.google.com/about/appsecurity/android-rewards/) 💰 🏅
 - <img src='https://icon.horse/icon/www.anduril.com' width='16'/> [Anduril Industries](https://www.anduril.com) 💰 🎁
@@ -1036,6 +1037,7 @@
 - <img src='https://icon.horse/icon/livenation.com' width='16'/> [Live Nation](http://livenation.com) 💰
 - <img src='https://icon.horse/icon/www.liveclicker.com' width='16'/> [Liveclicker](https://www.liveclicker.com/trust/report-a-vulnerability/) 💰
 - <img src='https://icon.horse/icon/livekit.com' width='16'/> [LiveKit](https://livekit.com/security/policy) 🏅
+- <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Lively Apps GmbH - marketplace Bug Bount...](https://bugcrowd.com/engagements/lively-apps) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Livepeer](https://immunefi.com/bug-bounty/livepeer/) 💰
 - <img src='https://icon.horse/icon/bugbounty.livesport.eu' width='16'/> [Livesport](https://bugbounty.livesport.eu/docs/Vulnerability%20Disclosure%20Policy.pdf) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Livestream](https://hackerone.com/livestream) 💰 🏅
@@ -1228,6 +1230,7 @@
 - <img src='https://icon.horse/icon/over.nos.nl' width='16'/> [NOS](https://over.nos.nl/organisatie/regelgeving/) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Notepad++](https://hackerone.com/notepad-plus-plus) 🏅
 - <img src='https://icon.horse/icon/www.notion.so' width='16'/> [Notion](https://www.notion.so/Responsible-Disclosure-Policy-5f18bb6b86804eaf989c006131778b9c) 💰
+- <img src='https://icon.horse/icon/www.notion.com' width='16'/> [Notion Labs, Inc.](https://www.notion.com) 💰
 - <img src='https://icon.horse/icon/nowpayments.io' width='16'/> [NOWPayments](https://nowpayments.io/doc/NOWPayments_BugBounty_program.pdf) 💰
 - <img src='https://icon.horse/icon/nozbe.com' width='16'/> [Nozbe](https://nozbe.com/bug-bounty/) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [ntpd-rs Bug Bounty Program](https://yeswehack.com/programs/pendulum-bug-bounty-program) 💰
@@ -1646,6 +1649,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Sky UK/ROI Vulnerability Disclosure Prog...](https://bugcrowd.com/engagements/sky-plc-mbb-og) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Skyscanner](https://bugcrowd.com/skyscanner) 💰 🏅
 - <img src='https://icon.horse/icon/slack.com' width='16'/> [Slack](https://slack.com/report-vulnerability) 💰 🏅
+- <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Smart Guess ehf. - Marketplace Bug Bount...](https://bugcrowd.com/engagements/envision-ehf) 💰
 - <img src='https://icon.horse/icon/help.smartling.com' width='16'/> [Smartling](https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Smartmockups](https://bugcrowd.com/smartmockups) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Smartsheet](https://hackerone.com/smartsheet) 💰 🏅
