@@ -4045,6 +4045,42 @@ companies:
   - mobile-api.rootly.com
   response_sla_days: 5
 
+- company: S-Communication Services
+  url: https://www.s-communication.de/BugBounty.html
+  contact: mailto:bugbounty@s-communication.de
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: true
+  description: Paid bug bounty for the digital services S-Communication Services runs, including sparkasse.de. Only bugs scoring CVSS 7 or above qualify, the reward depends on severity, only the first report of a bug is paid, and payout needs a VAT-compliant invoice. Other domains count if S-Communication is named as publisher in the imprint and the site's security.txt points to this page. Current and former staff, service providers and suppliers can't take part.
+  excluded_methods:
+  - dos
+  - phishing
+  scope:
+  - target: sparkasse.de
+    type: web
+  - target: s-communication.de
+    type: web
+  - target: sparkassen-finanzportal.de
+    type: web
+  out_of_scope:
+  - Digital services not listed in the scope
+  - Vulnerabilities with a CVSS score below 7
+  - Reports without a detailed attack description or proof of exploitability
+  - Unvalidated automated scanner reports
+  - Issues only affecting outdated browsers with reduced security settings
+  - SPF, DKIM and DMARC records
+  - HTML character set error messages
+  - Missing Secure or HttpOnly flags on non-sensitive cookies
+  - Missing HSTS
+  - Clickjacking or missing X-Frame-Options
+  - Cacheable HTTPS responses on non-critical pages
+  - Insecure SSL/TLS ciphers
+  - Missing best-practice headers
+  - Known CVEs in third-party applications
+  - Phishing emails or fraud cases
+
 - company: Salv
   url: https://salv.com/bug-bounty/
   contact: mailto:security@salv.com
