@@ -1207,6 +1207,22 @@ companies:
   response_sla_days: 5
   disclosure_timeline_days: 90
 
+- company: Deno
+  url: https://docs.deno.com/deploy/security/
+  contact: mailto:security@deno.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English
+  description: Deno's vulnerability disclosure policy, published in the Deno Deploy docs and covering its systems. Reports go to security@deno.com. There's no bounty, but Deno offers to help with publishing a write-up once the problem is resolved. Don't reveal anything before then, and only download the data you need to show the bug.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+
 - company: DENSO WAVE
   url: https://www.denso-wave.com/en/psirt/
   contact: https://www.denso-wave.com/en/contact/psirt/
@@ -4029,6 +4045,42 @@ companies:
   - mobile-api.rootly.com
   response_sla_days: 5
 
+- company: S-Communication Services
+  url: https://www.s-communication.de/BugBounty.html
+  contact: mailto:bugbounty@s-communication.de
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: true
+  description: Paid bug bounty for the digital services S-Communication Services runs, including sparkasse.de. Only bugs scoring CVSS 7 or above qualify, the reward depends on severity, only the first report of a bug is paid, and payout needs a VAT-compliant invoice. Other domains count if S-Communication is named as publisher in the imprint and the site's security.txt points to this page. Current and former staff, service providers and suppliers can't take part.
+  excluded_methods:
+  - dos
+  - phishing
+  scope:
+  - target: sparkasse.de
+    type: web
+  - target: s-communication.de
+    type: web
+  - target: sparkassen-finanzportal.de
+    type: web
+  out_of_scope:
+  - Digital services not listed in the scope
+  - Vulnerabilities with a CVSS score below 7
+  - Reports without a detailed attack description or proof of exploitability
+  - Unvalidated automated scanner reports
+  - Issues only affecting outdated browsers with reduced security settings
+  - SPF, DKIM and DMARC records
+  - HTML character set error messages
+  - Missing Secure or HttpOnly flags on non-sensitive cookies
+  - Missing HSTS
+  - Clickjacking or missing X-Frame-Options
+  - Cacheable HTTPS responses on non-critical pages
+  - Insecure SSL/TLS ciphers
+  - Missing best-practice headers
+  - Known CVEs in third-party applications
+  - Phishing emails or fraud cases
+
 - company: Salv
   url: https://salv.com/bug-bounty/
   contact: mailto:security@salv.com
@@ -4175,6 +4227,41 @@ companies:
     critical: 10000
     medium: 1000
     low: 100
+
+- company: Seznam.cz
+  url: https://www.seznam.cz/.well-known/security-policy.html
+  contact: mailto:csirt@firma.seznam.cz
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: hybrid
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Czech, Slovak
+  pgp_key: https://keys.openpgp.org/vks/v1/by-fingerprint/FDB7C0776C9D86E7B30008739C2D1A03A9CCD7EB
+  description: Security policy covering services on any domain whose whois holder is Seznam.cz, a.s., plus anything pointing at its IP ranges. Services hosted by third parties are out. General reports go to the security.txt contact, and app-level bugs in scope can go straight to the Bug Bounty team at bug.bounty@firma.seznam.cz, one bug per email. Seznam may reward high or critical issues, with no amounts given.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: Domains held by Seznam.cz, a.s.
+    type: web
+  - target: 77.75.72.0/20
+    type: network
+  - target: '2a02:0598::/32'
+    type: network
+  out_of_scope:
+  - Services hosted by third parties
+  - Findings from physical testing or social engineering
+  - Exposed credentials not associated with Seznam from public sources
+  - UI and UX bugs and spelling mistakes
+  - Network-level DoS or DDoS
+  - Missing cookie flags and security headers
+  - Form spamming
+  - Results from automated scanning tools
+  hall_of_fame_url: https://www.seznam.cz/.well-known/security-hall-of-fame.html
 
 - company: shieldfive.com
   url: https://shieldfive.com/security/bug-bounty
@@ -5775,3 +5862,38 @@ companies:
   status: active
   safe_harbor: partial
   description: Zulip operates a private HackerOne vulnerability disclosure program, but also credits and rewards external reporters for issues in the self-hosted version. Security releases are published with CVE numbers and disclosed on the Zulip blog
+
+- company: Zürcher Kantonalbank
+  url: https://www.zkb.ch/reporting-security-vulnerabilities
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: German, English, French, Italian
+  pgp_key: https://www.zkb.ch/media/zkb/offsys/sec/security-bugs-encryption.asc
+  description: The bank's own bug bounty, covering zkb.ch, Swisscanto, frankly and the ZKB philanthropy foundation site. Bounties are fixed by tier, set from the CVSS score and the bank's own rating of the affected app, and paid in CHF by wire transfer, though whether to pay at all is the bank's call. You need to be 18 or over and reports go PGP-encrypted to the security.txt contact. Bank client confidentiality applies, so only a high-level write-up is allowed after the fix.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: www.zkb.ch
+    type: web
+  - target: www.swisscanto.com
+    type: web
+  - target: www.swisscanto-fondsleitungen.com
+    type: web
+  - target: www.zkb-philanthropie-stiftung.ch
+    type: web
+  - target: www.frankly.ch
+    type: web
+  out_of_scope:
+  - Non-exploitable vulnerabilities
+  - Best-practice gaps such as missing security headers
+  min_payout: 100
+  max_payout: 2000
+  currency: CHF
+  response_sla_days: 5
