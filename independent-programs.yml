@@ -4228,6 +4228,41 @@ companies:
     medium: 1000
     low: 100
 
+- company: Seznam.cz
+  url: https://www.seznam.cz/.well-known/security-policy.html
+  contact: mailto:csirt@firma.seznam.cz
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: hybrid
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Czech, Slovak
+  pgp_key: https://keys.openpgp.org/vks/v1/by-fingerprint/FDB7C0776C9D86E7B30008739C2D1A03A9CCD7EB
+  description: Security policy covering services on any domain whose whois holder is Seznam.cz, a.s., plus anything pointing at its IP ranges. Services hosted by third parties are out. General reports go to the security.txt contact, and app-level bugs in scope can go straight to the Bug Bounty team at bug.bounty@firma.seznam.cz, one bug per email. Seznam may reward high or critical issues, with no amounts given.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: Domains held by Seznam.cz, a.s.
+    type: web
+  - target: 77.75.72.0/20
+    type: network
+  - target: '2a02:0598::/32'
+    type: network
+  out_of_scope:
+  - Services hosted by third parties
+  - Findings from physical testing or social engineering
+  - Exposed credentials not associated with Seznam from public sources
+  - UI and UX bugs and spelling mistakes
+  - Network-level DoS or DDoS
+  - Missing cookie flags and security headers
+  - Form spamming
+  - Results from automated scanning tools
+  hall_of_fame_url: https://www.seznam.cz/.well-known/security-hall-of-fame.html
+
 - company: shieldfive.com
   url: https://shieldfive.com/security/bug-bounty
   contact: mailto:security@shieldfive.com
