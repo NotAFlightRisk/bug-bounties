@@ -1207,6 +1207,22 @@ companies:
   response_sla_days: 5
   disclosure_timeline_days: 90
 
+- company: Deno
+  url: https://docs.deno.com/deploy/security/
+  contact: mailto:security@deno.com
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English
+  description: Deno's vulnerability disclosure policy, published in the Deno Deploy docs and covering its systems. Reports go to security@deno.com. There's no bounty, but Deno offers to help with publishing a write-up once the problem is resolved. Don't reveal anything before then, and only download the data you need to show the bug.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  out_of_scope:
+  - Third-party applications
+
 - company: DENSO WAVE
   url: https://www.denso-wave.com/en/psirt/
   contact: https://www.denso-wave.com/en/contact/psirt/
