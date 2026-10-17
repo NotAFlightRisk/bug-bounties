@@ -1558,6 +1558,7 @@
 </details>
 <details open><summary><h4>S</h4></summary>
 
+- <img src='https://icon.horse/icon/www.s-communication.de' width='16'/> [S-Communication Services](https://www.s-communication.de/BugBounty.html) 💰
 - <img src='https://icon.horse/icon/www.s-pankki.fi' width='16'/> [S-Pankki](https://www.s-pankki.fi) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [SaaSJet](https://bugcrowd.com/engagements/saasjet) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Safety Bug Bounty](https://bugcrowd.com/engagements/openai-safety) 💰
@@ -1608,6 +1609,7 @@
 - <img src='https://icon.horse/icon/www.serenityos.org' width='16'/> [SerenityOS](https://www.serenityos.org/bounty/) 💰
 - <img src='https://icon.horse/icon/www.servicenow.com' width='16'/> [ServiceNow](https://www.servicenow.com/company/trust/responsible-disclosure.html) 🎁
 - <img src='https://icon.horse/icon/setpointmedical.com' width='16'/> [setpointmedical.com](https://setpointmedical.com/security/) 💰 🏅
+- <img src='https://icon.horse/icon/www.seznam.cz' width='16'/> [Seznam.cz](https://www.seznam.cz/.well-known/security-policy.html) 💰 🏅
 - <img src='https://icon.horse/icon/legal.shakepay.com' width='16'/> [Shakepay](https://legal.shakepay.com/bug-bounty-program) 💰
 - <img src='https://icon.horse/icon/www.shapesecurity.com' width='16'/> [Shape Security](https://www.shapesecurity.com/report-a-vulnerability) 💰
 - <img src='https://icon.horse/icon/corp.shapeshift.io' width='16'/> [Shapeshift](https://corp.shapeshift.io/responsible-disclosure-program/) 💰 🏅
