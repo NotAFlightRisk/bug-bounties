@@ -5862,3 +5862,38 @@ companies:
   status: active
   safe_harbor: partial
   description: Zulip operates a private HackerOne vulnerability disclosure program, but also credits and rewards external reporters for issues in the self-hosted version. Security releases are published with CVE numbers and disclosed on the Zulip blog
+
+- company: Zürcher Kantonalbank
+  url: https://www.zkb.ch/reporting-security-vulnerabilities
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: German, English, French, Italian
+  pgp_key: https://www.zkb.ch/media/zkb/offsys/sec/security-bugs-encryption.asc
+  description: The bank's own bug bounty, covering zkb.ch, Swisscanto, frankly and the ZKB philanthropy foundation site. Bounties are fixed by tier, set from the CVSS score and the bank's own rating of the affected app, and paid in CHF by wire transfer, though whether to pay at all is the bank's call. You need to be 18 or over and reports go PGP-encrypted to the security.txt contact. Bank client confidentiality applies, so only a high-level write-up is allowed after the fix.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: www.zkb.ch
+    type: web
+  - target: www.swisscanto.com
+    type: web
+  - target: www.swisscanto-fondsleitungen.com
+    type: web
+  - target: www.zkb-philanthropie-stiftung.ch
+    type: web
+  - target: www.frankly.ch
+    type: web
+  out_of_scope:
+  - Non-exploitable vulnerabilities
+  - Best-practice gaps such as missing security headers
+  min_payout: 100
+  max_payout: 2000
+  currency: CHF
+  response_sla_days: 5
