@@ -1080,6 +1080,60 @@ companies:
   max_payout: 500
   currency: USD
 
+- company: Commerzbank
+  url: https://www.commerzbank.de/konzern/sec/security-policy.html
+  contact: mailto:security-vulnerability-disclosure@commerzbank.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: false
+  preferred_languages: English, German
+  pgp_key: https://mailhub.commerzbank.com/SecMail/requestKey.jsp
+  description: Coordinated disclosure policy covering the Commerzbank, comdirect and onvista bank domains, its mobile apps and four of its AS networks. Reports go by email in English or German, ideally encrypted, with a proof of concept - theoretical attacks and bare scanner output aren't accepted. Test unauthenticated, without an account. The first to report a valid issue goes in the Hall of Fame. The bank says it has no reason to report good-faith research to the police. Reports mustn't be published.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - brute_force
+  scope:
+  - target: '*.commerzbank.com'
+    type: web
+  - target: '*.commerzbank.de'
+    type: web
+  - target: '*.comdirect.de'
+    type: web
+  - target: '*.onvista-bank.de'
+    type: web
+  - target: Mobile apps published by Commerzbank AG
+    type: mobile
+  - target: Systems operated under AS16365
+    type: network
+  - target: Systems operated under AS15375
+    type: network
+  - target: Systems operated under AS17905
+    type: network
+  - target: Systems operated under AS22399
+    type: network
+  out_of_scope:
+  - Fraud, scam and phishing email reports
+  - Virus and malware reports
+  - Automated tool or scan output without explanatory documentation
+  - Open TCP ports with no specific weakness
+  - HTTP error messages, unless they disclose information
+  - Non-critical data already public, such as robots.txt
+  - Clickjacking
+  - Missing SPF, DKIM, DMARC or HPKP
+  - Outdated software or JavaScript libraries with no proof-of-concept exploit
+  - SSL/TLS configuration issues such as missing forward secrecy or weak cipher suites
+  - HTTP header issues
+  - Username enumeration via brute force
+  - HTTP OPTIONS method
+  - Missing CAPTCHAs
+  - Missing secure or HTTP-only flags on non-critical cookies
+  hall_of_fame_url: https://www.commerzbank.com/hall-of-fame.html
+  requires_account: false
+
 - company: Convex
   url: https://www.convex.dev/security
   contact: mailto:security@convex.dev
