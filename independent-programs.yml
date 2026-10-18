@@ -4897,6 +4897,21 @@ companies:
     medium: 400
     low: 0
 
+- company: Swedbank
+  url: https://www.swedbank.se/bedrageri-och-sakerhet/report-a-security-flaw.html
+  contact: mailto:responsible-disclosure@swedbank.com
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  pgp_key: https://online.swedbank.se/ConditionsEarchive/download?bankid=1111&id=WEBDOC-PRODE23972153
+  description: Swedbank takes reports on security flaws in any of its services by email, preferably PGP-encrypted. It confirms receipt, keeps you posted while it works on the issue and tells you when it's fixed. Don't use a flaw to access or change data that isn't yours or to knock services over, and give the bank a chance to fix it before going public. Anonymous reports are fine, but you won't hear back. Demands for payment as a condition of a report aren't accepted.
+  excluded_methods:
+  - dos
+  out_of_scope:
+  - Non-security logic errors
+  - Errors in text
+  - Questions about Swedbank's services or their security
+
 - company: Swile
   url: https://swile.co/security/disclosure-policy.txt
   contact: mailto:security@swile.co
