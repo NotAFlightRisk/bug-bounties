@@ -408,6 +408,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Colined](https://bugcrowd.com/engagements/colined) 💰
 - <img src='https://icon.horse/icon/www.collibra.com' width='16'/> [Collibra](https://www.collibra.com/legal/documents/collibra-bug-bounty-program-rules) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Comcast Xfinity](https://bugcrowd.com/comcastvdp) 💰
+- <img src='https://icon.horse/icon/www.commerzbank.de' width='16'/> [Commerzbank](https://www.commerzbank.de/konzern/sec/security-policy.html) 🏅
 - <img src='https://icon.horse/icon/commonsware.com' width='16'/> [Commonsware](https://commonsware.com/bounty.html) 🎁
 - <img src='https://icon.horse/icon/www.compass.com' width='16'/> [Compass](https://www.compass.com/legal/responsible-disclosure/) 💰
 - <img src='https://icon.horse/icon/www.compose.com' width='16'/> [Compose](https://www.compose.com/security) 🏅
@@ -1572,6 +1573,7 @@
 - <img src='https://icon.horse/icon/wiki.scn.sap.com' width='16'/> [SAP](https://wiki.scn.sap.com/wiki/display/PSR/Disclosure+Guidelines+for+SAP+Security+Advisories) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [SAP Concur](https://bugcrowd.com/concur) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [SAP Invitational Bug Bounty Program](https://bugcrowd.com/engagements/sap-private-invite) 💰
+- <img src='https://icon.horse/icon/www.sasgroup.net' width='16'/> [SAS Scandinavian Airlines](https://www.sasgroup.net/contact/vulnerability-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [SaveDroid](https://hackerone.com/savedroid) 💰 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Savignano Software Solutions Marketplace...](https://bugcrowd.com/engagements/savignano) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Say Technologies](https://hackerone.com/saytechnologies) 💰
