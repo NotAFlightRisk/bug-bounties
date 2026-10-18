@@ -271,6 +271,36 @@ companies:
   pgp_key: https://almalinux.org/files/security-pgp-key.txt
   description: AlmaLinux OS asks researchers to report security flaws in the distribution and its related projects, giving the project and version, detailed steps to reproduce, a plaintext proof of concept and any suggested remediation. Issues needing coordinated disclosure go to the security address, OS issues that do not need it go to the project bug tracker, and anything else to the relevant GitHub repository. Maintainers aim to confirm a report within two to three days.
 
+- company: Ancestry
+  url: https://www.ancestry.com/c/legal/security
+  contact: mailto:bugbounty@ancestry.com
+  status: active
+  safe_harbor: partial
+  description: Ancestry's own disclosure programme, covering ancestry.com and sister sites such as Newspapers.com, Find a Grave, Fold3 and Geneanet. Reports go by email with a description, enough detail to reproduce it and your contact details. Ancestry won't take legal action if you follow its instructions - keep the issue private while it's evaluated, and don't exploit it or touch accounts or data that aren't yours. The page is headed Bug Bounty Program but doesn't mention rewards.
+  scope:
+  - target: www.ancestry.com
+    type: web
+  - target: www.newspapers.com
+    type: web
+  - target: www.findagrave.com
+    type: web
+  - target: www.weremember.com
+    type: web
+  - target: www.archives.com
+    type: web
+  - target: www.fold3.com
+    type: web
+  - target: www.progenealogists.com
+    type: web
+  - target: www.genealogy.com
+    type: web
+  - target: www.geneanet.org
+    type: web
+  - target: www.geneastar.org
+    type: web
+  - target: www.rootsweb.com
+    type: web
+
 - company: Arcjet
   url: https://docs.arcjet.com/security
   contact: mailto:security@arcjet.com
