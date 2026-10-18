@@ -271,6 +271,36 @@ companies:
   pgp_key: https://almalinux.org/files/security-pgp-key.txt
   description: AlmaLinux OS asks researchers to report security flaws in the distribution and its related projects, giving the project and version, detailed steps to reproduce, a plaintext proof of concept and any suggested remediation. Issues needing coordinated disclosure go to the security address, OS issues that do not need it go to the project bug tracker, and anything else to the relevant GitHub repository. Maintainers aim to confirm a report within two to three days.
 
+- company: Ancestry
+  url: https://www.ancestry.com/c/legal/security
+  contact: mailto:bugbounty@ancestry.com
+  status: active
+  safe_harbor: partial
+  description: Ancestry's own disclosure programme, covering ancestry.com and sister sites such as Newspapers.com, Find a Grave, Fold3 and Geneanet. Reports go by email with a description, enough detail to reproduce it and your contact details. Ancestry won't take legal action if you follow its instructions - keep the issue private while it's evaluated, and don't exploit it or touch accounts or data that aren't yours. The page is headed Bug Bounty Program but doesn't mention rewards.
+  scope:
+  - target: www.ancestry.com
+    type: web
+  - target: www.newspapers.com
+    type: web
+  - target: www.findagrave.com
+    type: web
+  - target: www.weremember.com
+    type: web
+  - target: www.archives.com
+    type: web
+  - target: www.fold3.com
+    type: web
+  - target: www.progenealogists.com
+    type: web
+  - target: www.genealogy.com
+    type: web
+  - target: www.geneanet.org
+    type: web
+  - target: www.geneastar.org
+    type: web
+  - target: www.rootsweb.com
+    type: web
+
 - company: Arcjet
   url: https://docs.arcjet.com/security
   contact: mailto:security@arcjet.com
@@ -1049,6 +1079,60 @@ companies:
   min_payout: 10
   max_payout: 500
   currency: USD
+
+- company: Commerzbank
+  url: https://www.commerzbank.de/konzern/sec/security-policy.html
+  contact: mailto:security-vulnerability-disclosure@commerzbank.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: false
+  preferred_languages: English, German
+  pgp_key: https://mailhub.commerzbank.com/SecMail/requestKey.jsp
+  description: Coordinated disclosure policy covering the Commerzbank, comdirect and onvista bank domains, its mobile apps and four of its AS networks. Reports go by email in English or German, ideally encrypted, with a proof of concept - theoretical attacks and bare scanner output aren't accepted. Test unauthenticated, without an account. The first to report a valid issue goes in the Hall of Fame. The bank says it has no reason to report good-faith research to the police. Reports mustn't be published.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - brute_force
+  scope:
+  - target: '*.commerzbank.com'
+    type: web
+  - target: '*.commerzbank.de'
+    type: web
+  - target: '*.comdirect.de'
+    type: web
+  - target: '*.onvista-bank.de'
+    type: web
+  - target: Mobile apps published by Commerzbank AG
+    type: mobile
+  - target: Systems operated under AS16365
+    type: network
+  - target: Systems operated under AS15375
+    type: network
+  - target: Systems operated under AS17905
+    type: network
+  - target: Systems operated under AS22399
+    type: network
+  out_of_scope:
+  - Fraud, scam and phishing email reports
+  - Virus and malware reports
+  - Automated tool or scan output without explanatory documentation
+  - Open TCP ports with no specific weakness
+  - HTTP error messages, unless they disclose information
+  - Non-critical data already public, such as robots.txt
+  - Clickjacking
+  - Missing SPF, DKIM, DMARC or HPKP
+  - Outdated software or JavaScript libraries with no proof-of-concept exploit
+  - SSL/TLS configuration issues such as missing forward secrecy or weak cipher suites
+  - HTTP header issues
+  - Username enumeration via brute force
+  - HTTP OPTIONS method
+  - Missing CAPTCHAs
+  - Missing secure or HTTP-only flags on non-critical cookies
+  hall_of_fame_url: https://www.commerzbank.com/hall-of-fame.html
+  requires_account: false
 
 - company: Convex
   url: https://www.convex.dev/security
@@ -4110,6 +4194,44 @@ companies:
   - SSL/TLS configuration issues
   - Self-XSS
 
+- company: SAS Scandinavian Airlines
+  url: https://www.sasgroup.net/contact/vulnerability-disclosure-policy/
+  contact: mailto:cybersecurity@sas.se
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  pgp_key: https://www.sas.se/.well-known/pgp-key.asc
+  description: The airline's own disclosure policy, covering its public websites, mobile apps and APIs. Reports go by email, optionally PGP-encrypted. There's no bug bounty and no EuroBonus points, though SAS may credit researchers privately or in writing. Aircraft, airport, OT and partner systems are strictly off limits, as are fake bookings and loyalty activity. Stop testing if you hit personal data, and report it straight away. Going public needs SAS's written approval and has to wait for the fix.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - brute_force
+  scope:
+  - target: flysas.com
+    type: web
+  - target: sas.se
+    type: web
+  - target: sas.dk
+    type: web
+  - target: sas.no
+    type: web
+  - target: Official SAS mobile apps
+    type: mobile
+  - target: Public APIs operated by SAS
+    type: api
+  out_of_scope:
+  - Third-party providers, supplier platforms, alliance partners and externally hosted services
+  - Aircraft, avionics, onboard, crew and airport operational systems
+  - Operational technology and safety-critical environments
+  - Payment systems and cardholder data environments, beyond non-invasive validation
+  - Scanner output
+  - Best-practice gaps such as missing security headers
+  response_sla_days: 7
+
 - company: Schuberg Philis
   url: https://schubergphilis.com/security
   contact: mailto:abuse@schubergphilis.com
@@ -4774,6 +4896,21 @@ companies:
     high: 1000
     medium: 400
     low: 0
+
+- company: Swedbank
+  url: https://www.swedbank.se/bedrageri-och-sakerhet/report-a-security-flaw.html
+  contact: mailto:responsible-disclosure@swedbank.com
+  program_type: vdp
+  status: active
+  allows_disclosure: true
+  pgp_key: https://online.swedbank.se/ConditionsEarchive/download?bankid=1111&id=WEBDOC-PRODE23972153
+  description: Swedbank takes reports on security flaws in any of its services by email, preferably PGP-encrypted. It confirms receipt, keeps you posted while it works on the issue and tells you when it's fixed. Don't use a flaw to access or change data that isn't yours or to knock services over, and give the bank a chance to fix it before going public. Anonymous reports are fine, but you won't hear back. Demands for payment as a condition of a report aren't accepted.
+  excluded_methods:
+  - dos
+  out_of_scope:
+  - Non-security logic errors
+  - Errors in text
+  - Questions about Swedbank's services or their security
 
 - company: Swile
   url: https://swile.co/security/disclosure-policy.txt
