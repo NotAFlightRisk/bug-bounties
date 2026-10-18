@@ -4194,6 +4194,44 @@ companies:
   - SSL/TLS configuration issues
   - Self-XSS
 
+- company: SAS Scandinavian Airlines
+  url: https://www.sasgroup.net/contact/vulnerability-disclosure-policy/
+  contact: mailto:cybersecurity@sas.se
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  pgp_key: https://www.sas.se/.well-known/pgp-key.asc
+  description: The airline's own disclosure policy, covering its public websites, mobile apps and APIs. Reports go by email, optionally PGP-encrypted. There's no bug bounty and no EuroBonus points, though SAS may credit researchers privately or in writing. Aircraft, airport, OT and partner systems are strictly off limits, as are fake bookings and loyalty activity. Stop testing if you hit personal data, and report it straight away. Going public needs SAS's written approval and has to wait for the fix.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  - brute_force
+  scope:
+  - target: flysas.com
+    type: web
+  - target: sas.se
+    type: web
+  - target: sas.dk
+    type: web
+  - target: sas.no
+    type: web
+  - target: Official SAS mobile apps
+    type: mobile
+  - target: Public APIs operated by SAS
+    type: api
+  out_of_scope:
+  - Third-party providers, supplier platforms, alliance partners and externally hosted services
+  - Aircraft, avionics, onboard, crew and airport operational systems
+  - Operational technology and safety-critical environments
+  - Payment systems and cardholder data environments, beyond non-invasive validation
+  - Scanner output
+  - Best-practice gaps such as missing security headers
+  response_sla_days: 7
+
 - company: Schuberg Philis
   url: https://schubergphilis.com/security
   contact: mailto:abuse@schubergphilis.com
