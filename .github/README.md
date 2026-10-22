@@ -468,6 +468,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Dashlane](https://hackerone.com/dashlane) 💰 🏅
 - <img src='https://icon.horse/icon/databricks.com' width='16'/> [Databricks](https://databricks.com/) 💰
 - <img src='https://icon.horse/icon/www.intigriti.com' width='16'/> [DataCamp](https://www.intigriti.com/programs/datacamp/datacamp/detail) 💰
+- <img src='https://icon.horse/icon/www.datachain.ai' width='16'/> [datachain.ai](https://www.datachain.ai/bug-bounty) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [DATADOME](https://yeswehack.com/programs/datadome-bug-bounty) 💰
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [DataDome Bot Bounty](https://yeswehack.com/programs/datadome-bot-bounty) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [DataStax](https://hackerone.com/datastax) 💰
