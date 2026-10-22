@@ -1157,6 +1157,22 @@ companies:
   hall_of_fame_url: https://www.commerzbank.com/hall-of-fame.html
   requires_account: false
 
+- company: ConnectWise
+  url: https://www.connectwise.com/company/trust/security/vulnerability-disclosure-policy
+  contact: mailto:disclosure@connectwise.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English
+  description: Vulnerability disclosure policy for ConnectWise products and services, run from its trust center. Reports go to disclosure@connectwise.com and can be anonymous. Authorised good-faith research gets a no-legal-action commitment, and ConnectWise acts as a CVE Numbering Authority for its own products. Any reward is at its discretion, with no expectation of payment. Findings stay confidential until ConnectWise approves disclosure.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - automated_scanning
+  response_sla_days: 3
+  requires_account: false
+
 - company: Convex
   url: https://www.convex.dev/security
   contact: mailto:security@convex.dev
@@ -1964,6 +1980,33 @@ companies:
   - phishing
   - physical_access
   hall_of_fame_url: https://www.joindeed.com/security
+
+- company: Greenmark IT (do.de)
+  url: https://www.do.de/bug-bounty/
+  contact: mailto:security@greenmark-it.de
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  preferred_languages: German
+  description: Paid bug bounty from the German domain registrar and reseller platform Domain-Offensive. Rewards scale with severity and are paid in EUR by PayPal at the turn of each month. Findings must be reported once, with a proof of concept, and found without scanning tools. Fuzzing and brute force are not allowed, and real accounts may be used for testing but not other users' data.
+  excluded_methods:
+  - dos
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: core.do.de / core.resellerinterface.de
+    type: api
+  - target: my.do.de / my.resellerinterface.de
+    type: web
+  - target: '*.do.de'
+    type: web
+  - target: www.do.de
+    type: web
+  - target: resellerinterface.com
+    type: web
+  currency: EUR
+  disclosure_timeline_days: 90
 
 - company: Groningen Seaports
   url: https://www.groningen-seaports.com/responsible-disclosure/
@@ -4257,6 +4300,17 @@ companies:
   - Username enumeration and login brute force
   - SSL/TLS configuration issues
   - Self-XSS
+
+- company: Sanoma
+  url: https://www.sanoma.com/en/responsible-disclosure-statement/
+  contact: mailto:cert@sanoma.com
+  program_type: vdp
+  status: active
+  preferred_languages: English, Finnish, Dutch
+  description: Responsible disclosure statement from the Finnish and Dutch media and learning group. Reports go to cert@sanoma.com and are treated as confidential, with acknowledgement within 3 days and detailed feedback within 10 working days. Researchers must keep to the minimum needed to show the issue, avoid brute force and social engineering, and not plant backdoors. Missing SPF, DKIM or DMARC records are out of scope.
+  excluded_methods:
+  - social_engineering
+  response_sla_days: 3
 
 - company: SAS Scandinavian Airlines
   url: https://www.sasgroup.net/contact/vulnerability-disclosure-policy/
