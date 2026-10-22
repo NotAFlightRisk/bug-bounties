@@ -761,6 +761,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Grammarly](https://hackerone.com/grammarly) 💰 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Granite Protocol](https://immunefi.com/bug-bounty/granite-protocol/) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Greenhouse.io](https://hackerone.com/greenhouse) 💰 🏅
+- <img src='https://icon.horse/icon/www.do.de' width='16'/> [Greenmark IT (do.de)](https://www.do.de/bug-bounty/) 💰
 - <img src='https://icon.horse/icon/www.grindr.com' width='16'/> [Grindr](https://www.grindr.com) 💰
 - <img src='https://icon.horse/icon/grofers.com' width='16'/> [Grofers](https://grofers.com/bug-bounty) 💰 🏅
 - <img src='https://icon.horse/icon/groklearning.com' width='16'/> [Grok Learning](https://groklearning.com/policies/security/) 🏅
