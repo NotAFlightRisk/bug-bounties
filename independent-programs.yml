@@ -4301,6 +4301,17 @@ companies:
   - SSL/TLS configuration issues
   - Self-XSS
 
+- company: Sanoma
+  url: https://www.sanoma.com/en/responsible-disclosure-statement/
+  contact: mailto:cert@sanoma.com
+  program_type: vdp
+  status: active
+  preferred_languages: English, Finnish, Dutch
+  description: Responsible disclosure statement from the Finnish and Dutch media and learning group. Reports go to cert@sanoma.com and are treated as confidential, with acknowledgement within 3 days and detailed feedback within 10 working days. Researchers must keep to the minimum needed to show the issue, avoid brute force and social engineering, and not plant backdoors. Missing SPF, DKIM or DMARC records are out of scope.
+  excluded_methods:
+  - social_engineering
+  response_sla_days: 3
+
 - company: SAS Scandinavian Airlines
   url: https://www.sasgroup.net/contact/vulnerability-disclosure-policy/
   contact: mailto:cybersecurity@sas.se
