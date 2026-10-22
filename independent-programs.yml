@@ -571,6 +571,29 @@ companies:
   standards:
   - EU Cyber Resilience Act
 
+- company: bisecthosting.com
+  url: https://www.bisecthosting.com/bug-bounty
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  description: Protecting the players and communities who rely on our infrastructure is central to delivering exceptional server hosting services. With that in mind, the BisectHosting bug bounty program invites security researchers to responsibly report vulnerabilities, and we reward eligible findings that help keep our platform secure.
+  out_of_scope:
+  - Unless specifically identified as in scope above, third-party services, customer-owned servers, and systems or infrastructure not owned or operated by BisectHosting are outside the scope of the program and are not eligible for a bounty.
+  - If you're unsure whether a system is included in the program, please contact our security team before testing.
+  domains:
+  - BisectHosting Website
+  - BisectHosting Billing Panel
+  - BisectHosting Starbase Panel
+  min_payout: 100
+  max_payout: 2000
+  currency: USD
+  payout_table:
+    critical: 2000
+    high: 1000
+    medium: 200
+    low: 100
+
 - company: BlazePhoenix
   url: https://blazephoenix.xyz/bounty
   contact: mailto:contact@blazephoenix.xyz
@@ -4372,7 +4395,7 @@ companies:
     type: web
   - target: 77.75.72.0/20
     type: network
-  - target: '2a02:0598::/32'
+  - target: 2a02:0598::/32
     type: network
   out_of_scope:
   - Services hosted by third parties
