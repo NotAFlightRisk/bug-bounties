@@ -1157,6 +1157,22 @@ companies:
   hall_of_fame_url: https://www.commerzbank.com/hall-of-fame.html
   requires_account: false
 
+- company: ConnectWise
+  url: https://www.connectwise.com/company/trust/security/vulnerability-disclosure-policy
+  contact: mailto:disclosure@connectwise.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English
+  description: Vulnerability disclosure policy for ConnectWise products and services, run from its trust center. Reports go to disclosure@connectwise.com and can be anonymous. Authorised good-faith research gets a no-legal-action commitment, and ConnectWise acts as a CVE Numbering Authority for its own products. Any reward is at its discretion, with no expectation of payment. Findings stay confidential until ConnectWise approves disclosure.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - automated_scanning
+  response_sla_days: 3
+  requires_account: false
+
 - company: Convex
   url: https://www.convex.dev/security
   contact: mailto:security@convex.dev
