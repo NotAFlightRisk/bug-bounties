@@ -3188,6 +3188,27 @@ companies:
   - Third-party applications
   response_sla_days: 3
 
+- company: odin.ai
+  url: https://0din.ai/policy
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  description: Mozilla's 0Day Investigative Network (“0DIN”) is a GenAI bug bounty program that incentivizes the third party (“Researcher(s)”) discovery and reporting of security vulnerabilities in large language models, attention-based systems and other generative models to enhance Internet and personal safety (“Program”). These 0DIN Bug Bounty Program Terms and Conditions (“Terms”) govern your use and participation of the Program.
+  domains:
+  - Commonly adopted GenAI models and applications including but not limited to those from OpenAI, Meta, Google, Anthropic, SalesForce, etc.
+  - Affected models can be commercial and/or open source.
+  - Affected models should be commonly used.
+  min_payout: 500
+  max_payout: 15000
+  currency: USD
+  payout_table:
+    critical: 15000
+    high: 4997
+    medium: 2500
+    low: 500
+  requires_account: true
+
 - company: Oh Dear
   url: https://ohdear.app/security
   contact: mailto:security@ohdear.app
@@ -4372,7 +4393,7 @@ companies:
     type: web
   - target: 77.75.72.0/20
     type: network
-  - target: '2a02:0598::/32'
+  - target: 2a02:0598::/32
     type: network
   out_of_scope:
   - Services hosted by third parties
