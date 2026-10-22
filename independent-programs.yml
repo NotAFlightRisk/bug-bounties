@@ -1254,6 +1254,26 @@ companies:
   - Darktrace products other than the listed appliances and sensors
   - Exploits requiring physical access to an appliance
 
+- company: datachain.ai
+  url: https://www.datachain.ai/bug-bounty
+  contact: mailto:security@datachain.ai
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  description: |-
+    DataChain puts a lot of effort into keeping its systems, platforms and tools as secure as possible. Yet, we understand that no matter how much effort we put into system security, bugs and accidents can happen and security vulnerabilities can always be discovered in our products.
+
+    Thus, we welcome and appreciate the assistance of the global security community in helping us keeping our systems and tools safe.
+  domains:
+  - Open Source tools - for critical findings only (details), including but not limited to the datachain library.
+  - 'Studio service: studio.datachain.ai'
+  - 'Company and documentation websites:'
+  - datachain.ai
+  - docs.datachain.ai
+
 - company: deepset
   url: https://www.deepset.ai/disclosure
   contact: mailto:security@deepset.ai
@@ -4372,7 +4392,7 @@ companies:
     type: web
   - target: 77.75.72.0/20
     type: network
-  - target: '2a02:0598::/32'
+  - target: 2a02:0598::/32
     type: network
   out_of_scope:
   - Services hosted by third parties
