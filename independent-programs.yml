@@ -1981,6 +1981,33 @@ companies:
   - physical_access
   hall_of_fame_url: https://www.joindeed.com/security
 
+- company: Greenmark IT (do.de)
+  url: https://www.do.de/bug-bounty/
+  contact: mailto:security@greenmark-it.de
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  preferred_languages: German
+  description: Paid bug bounty from the German domain registrar and reseller platform Domain-Offensive. Rewards scale with severity and are paid in EUR by PayPal at the turn of each month. Findings must be reported once, with a proof of concept, and found without scanning tools. Fuzzing and brute force are not allowed, and real accounts may be used for testing but not other users' data.
+  excluded_methods:
+  - dos
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: core.do.de / core.resellerinterface.de
+    type: api
+  - target: my.do.de / my.resellerinterface.de
+    type: web
+  - target: '*.do.de'
+    type: web
+  - target: www.do.de
+    type: web
+  - target: resellerinterface.com
+    type: web
+  currency: EUR
+  disclosure_timeline_days: 90
+
 - company: Groningen Seaports
   url: https://www.groningen-seaports.com/responsible-disclosure/
   contact: mailto:security@groningen-seaports.com
