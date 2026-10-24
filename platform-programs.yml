@@ -2382,7 +2382,10 @@ companies:
   domains:
   - bancoplata.mx
   - dif.tech.plata
+  - people.plata.team
+  - plata.co
   - platacard.mx
+  - prime.plata.co
 - company: Bank of America
   url: https://hackerone.com/bofa
   contact: mailto:security@bankofamerica.com
@@ -2654,6 +2657,7 @@ companies:
   - api.binance.com
   - api.coinmarketcap.com
   - binance.com
+  - binance.th
   - binance.tr
   - binance.us
   - coinmarketcap.com
@@ -3433,10 +3437,6 @@ companies:
   - '*bounty'
   max_payout: 3000.0
   domains:
-  - api.blablalines.com
-  - apps.apple.com
-  - blablacardaily.com
-  - daily.blablacar.fr
   - itunes.apple.com
   - play.google.com
 - company: Bug Bounty SNCF Connect
@@ -4095,6 +4095,14 @@ companies:
   currency: EUR
   domains:
   - challenge-0926.challenges.intigriti.io
+- company: Challenge 1026
+  url: https://www.intigriti.com/programs/intigriti/challenge1026/detail
+  handle: challenge1026
+  contact: https://www.intigriti.com/programs/intigriti/challenge1026/detail
+  rewards: []
+  currency: EUR
+  domains:
+  - challenge-1026.challenges.intigriti.io
 - company: Chameleon
   url: https://www.trychameleon.com/security/disclosure
   contact: https://www.trychameleon.com/security/disclosure
@@ -4972,6 +4980,16 @@ companies:
   rewards:
   - '*bounty'
   safe_harbor: full
+- company: Coke One North America
+  url: https://www.intigriti.com/programs/tccc/cokeonenorthamerica/detail
+  handle: cokeonenorthamerica
+  contact: https://www.intigriti.com/programs/tccc/cokeonenorthamerica/detail
+  rewards: []
+  currency: USD
+  domains:
+  - c1nacloud.com
+  - cokeonena.com
+  - conaservices.com
 - company: Colined
   url: https://bugcrowd.com/engagements/colined
   contact: https://bugcrowd.com/engagements/colined
@@ -5734,6 +5752,8 @@ companies:
   - accounts.cloud.databricks.com
   - databricks.com
   - dbc-9a3f8ed1-7608.cloud.databricks.com
+  - login.databricks.com
+  - ui-assets.cloud.databricks.com
 - company: DataCamp
   url: https://www.intigriti.com/programs/datacamp/datacamp/detail
   handle: datacamp
@@ -6935,9 +6955,17 @@ companies:
   - '*bounty'
   managed: true
   domains:
+  - accountinfo.earlywarning.com
+  - accountinfodirect-snd.earlywarning.com
+  - accountinfodirect.earlywarning.com
+  - aoa-ws-direct-snd.earlywarning.com
+  - aoa-ws-direct.earlywarning.com
+  - aoa-ws-fis.earlywarning.com
+  - aoa-ws.earlywarning.com
   - certos.com
   - earlywarning.com
   - ews-fusion.my.site.com
+  - inquirydirect.earlywarning.com
   - zelle.com
   - zellepay.com
   - zelleservice.my.salesforce.com
@@ -7925,7 +7953,7 @@ companies:
   contact: https://yeswehack.com/programs/ezviz-bug-bounty-program
   rewards:
   - '*bounty'
-  max_payout: 5000.0
+  max_payout: 420.0
   domains:
   - api.ezvizlife.com
   - eziot.com
@@ -7933,6 +7961,8 @@ companies:
   - ezviz7.com
   - ezvizlife.com
   - ezvizru.com
+  - hicloudcam.com
+  - hikops.com
   - open.ys7.com
   - ys7.com
 - company: F Secure
@@ -8670,6 +8700,19 @@ companies:
   - sbgorigin.com
   - sbgservices.com
   - sbgtest.net
+- company: Fluvius
+  url: https://www.intigriti.com/programs/fluvius/fluvius/detail
+  handle: fluvius
+  contact: https://www.intigriti.com/programs/fluvius/fluvius/detail
+  rewards:
+  - '*bounty'
+  max_payout: 5500.0
+  min_payout: 100.0
+  currency: EUR
+  domains:
+  - fluvius.be
+  - over.fluvius.be
+  - www-a.fluvius.be
 - company: Flux Finance
   url: https://immunefi.com/bug-bounty/fluxfinance/
   contact: https://immunefi.com/bug-bounty/fluxfinance/
@@ -9361,7 +9404,7 @@ companies:
   - auth0.gocardless.com
   - bankaccountdata.gocardless.com
   - connect-sandbox.gocardless.com
-  - developer.gocardless.com
+  - docs.gocardless.com
   - github.com
   - gocardless-cicd.io
   - gocardless-lab.io
@@ -9442,9 +9485,7 @@ companies:
   - ayco.com
   - claritymoney.com
   - com.gs.gsnow.external
-  - com.gs.gstrader.external
   - com.gs.mobile.gsnow
-  - com.gs.mobile.trader
   - com.gs.pfmg.wellness
   - com.gs.pwmdigital.external
   - com.gs.pwmdigital.external.android
@@ -9462,6 +9503,8 @@ companies:
   - goldmanpfm.com
   - goldmansachs.com
   - goldmansachsindices.com
+  - gs-mosaic.gs.com
+  - gs-mosaic.qa.gs.com
 - company: GoodRx
   url: https://www.goodrx.com
   handle: goodrx
@@ -9524,6 +9567,8 @@ companies:
   url: https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy
   contact: https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy
   rewards: []
+  domains:
+  - gov.sg
 - company: Govtech Singapore
   url: https://www.tech.gov.sg/report_vulnerability
   contact: mailto:vulnerability_disclosure@tech.gov.sg
@@ -10368,8 +10413,8 @@ companies:
   - expedia-aarp.com
   - expedia.biz
   - expedia.com
-  - expediaagents.com
-  - expediacruises.com
+  - expediagroup.com
+  - expediapartnercentral.com
 - company: Hotmart (VDP)
   url: http://hotmart.com
   handle: hotmartvdp
@@ -10852,7 +10897,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 10000.0
   domains:
   - apis.indeed.com
@@ -11545,7 +11590,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 4500.0
   domains:
   - answers.irobot.com
@@ -13203,6 +13248,7 @@ companies:
   domains:
   - api.lovable.dev
   - lovable.dev
+  - lovable.net
   - mcp.lovable.dev
   - oauth.lovable.dev
 - company: lovenamepix.com
@@ -14661,6 +14707,7 @@ companies:
   - apps.apple.com
   - auth.moonpay.com
   - buy.moonpay.com
+  - dflow.net
   - github.com
   - hypermint.com
   - iframe.moonx-dev.com
@@ -15540,6 +15587,7 @@ companies:
   currency: EUR
   domains:
   - idp-contact.nexuzhealth.be
+  - idp-url.nexuzhealth.be
   - media.nexuzhealth.be
 - company: NFTfi
   url: https://immunefi.com/bug-bounty/nftfi/
@@ -15869,6 +15917,8 @@ companies:
   rewards: []
   currency: EUR
   domains:
+  - certifiedpickup.com
+  - inboundrelease.com
   - nxtport.com
 - company: Nykaa
   url: https://www.nykaa.com/responsible-disclosure
@@ -16058,7 +16108,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 75000.0
   domains:
   - app.scaleft.com
@@ -19258,7 +19308,7 @@ companies:
   contact: https://hackerone.com/ring
   rewards:
   - '*bounty'
-  managed: true
+  managed: false
   domains:
   - admin.ring.com
   - api.ring.com
@@ -19446,6 +19496,11 @@ companies:
   rewards:
   - '*recognition'
   - '*swag'
+  managed: false
+  domains:
+  - cloud.rocket.chat
+  - github.com
+  - rocket.chat
 - company: Rockset
   url: https://rockset.com/legal/responsible-disclosure-policy/
   contact: mailto:whitehat@rockset.com
@@ -19962,7 +20017,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 10000.0
   domains:
   - aips-internal.com
@@ -20766,12 +20821,13 @@ companies:
   contact: https://www.intigriti.com/programs/socialdeal/socialdeal/detail
   rewards:
   - '*bounty'
-  max_payout: 750.0
+  max_payout: 1000.0
   min_payout: 25.0
   currency: EUR
   domains:
   - app.nl.socialdeal
   - socialdeal.nl
+  - spontaan.nl
   - whynot.com
 - company: Social Security Administration
   url: https://www.ssa.gov/vulnerability-disclosure-policy
@@ -21099,7 +21155,7 @@ companies:
   - '*bounty'
   - '*recognition'
   managed: true
-  safe_harbor: partial
+  safe_harbor: full
   max_payout: 18000.0
   domains:
   - square.com
@@ -21418,6 +21474,7 @@ companies:
   - cubera.se
   - delphifonder.se
   - delphifunds.com
+  - kniftrygghet.no
   - kron.no
   - skagenfondene.dk
   - skagenfondene.no
@@ -21435,7 +21492,6 @@ companies:
   - skagenfunds.it
   - skagenfunds.lu
   - skagenfunds.nl
-  - spp.se
 - company: Strala
   url: https://www.strala.com/responsible-disclosure
   contact: mailto:security@strala.com
@@ -21546,7 +21602,6 @@ companies:
   - supabase.com
   - supabase.help
   - supabase.link
-  - supabase.store
 - company: Superbank - Public Bug Bounty Program
   url: https://yeswehack.com/programs/superbank-public-bug-bounty-program
   contact: https://yeswehack.com/programs/superbank-public-bug-bounty-program
@@ -22274,9 +22329,7 @@ companies:
   - '*bounty'
   managed: true
   domains:
-  - arc.net
   - bcny.com
-  - company.thebrowser.arc
   - diabrowser.com
   - thebrowser.company
 - company: The Coca-Cola Company Vulnerability Disclosure Program
@@ -22509,7 +22562,7 @@ companies:
   contact: https://yeswehack.com/programs/thuringer-aufbaubank-bug-bounty-program
   rewards:
   - '*bounty'
-  max_payout: 7000.0
+  max_payout: 3500.0
   domains:
   - login.aufbaubank.de
   - thueringer-foerderportal.eu
@@ -23793,10 +23846,10 @@ companies:
   currency: EUR
   domains:
   - api-sandbox.uphold.com
+  - api.enterprise.sandbox.uphold.com
   - api.portal.enterprise.uphold.com
   - api.sandbox.topperpay.com
   - app.sandbox.topperpay.com
-  - docs.api.enterprise.uphold.com
   - docs.optimuscards.com
   - docs.topperpay.com
   - docs.uphold.com
@@ -23804,7 +23857,6 @@ companies:
   - graphql.sandbox.topperpay.com
   - optimuscards.com
   - portal.enterprise.uphold.com
-  - status.uphold.com
   - topperpay.com
   - uatcms.optimuscards.com
   - uphold.com
@@ -24474,7 +24526,6 @@ companies:
   - stats.vinci.com
   - survey.vinci.com
   - trajeoh.com
-  - vinci-groupe.profils.org
   - vinci-vie.fr
   - vinci.com
 - company: vinci.com
@@ -24531,10 +24582,7 @@ companies:
   domains:
   - accountsettings.connect.identity.stagaws.visma.com
   - admin.stage.vismaonline.com
-  - ai-testing.maventa.com
   - aiassistant.stage.vismaonline.com
-  - autointerface.stag.visma.net
-  - ax-stage.maventa.com
   - com.visma.blue
   - connect.identity.stagaws.visma.com
   - eaccounting.stage.vismaonline.com
@@ -24544,7 +24592,6 @@ companies:
   - myservices.stage.vismaonline.com
   - oauth.developers.stagaws.visma.com
   - photoservice.stage.vismaonline.com
-  - testing.maventa.com
 - company: Visma Public
   url: https://app.intigriti.com/researcher/programs/visma/visma/detail
   contact: https://app.intigriti.com/researcher/programs/visma/visma/detail
@@ -25283,7 +25330,6 @@ companies:
   domains:
   - api.wordpress.org
   - doaction.org
-  - github.com
   - mercantile.wordpress.org
   - planet.wordpress.org
   - wordcamp.org
