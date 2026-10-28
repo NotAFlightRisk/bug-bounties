@@ -3440,6 +3440,35 @@ companies:
   response_sla_days: 5
   pgp_key: https://advisories.orangecyberdefense.com
 
+- company: ORF
+  url: https://der.orf.at/vdp100.html
+  contact: mailto:ciso@orf.at
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: English, German
+  description: The Austrian public broadcaster's disclosure policy. Only domains serving a security.txt are in scope, which is currently just orf.at. Email ciso@orf.at with the affected page and the class of bug, but no reproduction details - a secure channel gets set up in the reply, usually within 72 hours. Its funding rules out a paid bounty, but qualifying reports get a company reward and a Hall of Fame spot. ORF won't seek prosecution over good-faith research. Don't go public until ORF confirms a fix.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: orf.at
+    type: web
+  out_of_scope:
+  - Services hosted by third-party providers
+  - Domains without a security.txt file
+  - UI and UX bugs and spelling mistakes
+  - Non-exploitable issues and best-practice gaps such as missing security headers
+  - TLS configuration weaknesses
+  - Volumetric issues
+  response_sla_days: 3
+  hall_of_fame_url: https://der.orf.at/vdp100.html#HOF2
+
 - company: Orsted
   url: https://orsted.com/.well-known/vulnerability-disclosure-policy.html
   contact: mailto:offsec@orsted.com
