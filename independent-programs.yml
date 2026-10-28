@@ -2879,6 +2879,47 @@ companies:
   standards:
   - ISO 29147
 
+- company: MONETA Money Bank
+  url: https://www.moneta.cz/bug-bounty
+  contact: mailto:bugbounty@moneta.cz
+  rewards:
+  - '*bounty'
+  - '*recognition'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  preferred_languages: English, Czech, Slovak
+  pgp_key: https://www.moneta.cz/.well-known/monetavulnerabilitypgp.asc
+  description: The Czech bank's own paid bug bounty, covering www.moneta.cz, ib.moneta.cz and the Smart Banka mobile app. Rewards are set per finding by severity and PoC quality, up to 120 EUR for low, 400 EUR for medium and 2,000 EUR for high, paid by bank transfer. Send one bug per email with a reproducible PoC. No test accounts are provided. Lesser findings can still get a Hall of Fame spot. Keep rate-limit tests under 100 requests, and don't share findings without the bank's consent.
+  excluded_methods:
+  - social_engineering
+  - brute_force
+  scope:
+  - target: www.moneta.cz
+    type: web
+  - target: ib.moneta.cz
+    type: web
+  - target: Smart Banka mobile app
+    type: mobile
+  out_of_scope:
+  - Other subdomains of moneta.cz
+  - Vulnerabilities in third-party providers' software
+  - Stolen or leaked client credentials
+  - Hypothetical flaws or best practices without a PoC and attack scenario
+  - Reports from automated tools or scans
+  - Vulnerable or outdated libraries without evidence of exploitability
+  - Missing cookie flags or security headers that don't lead directly to a vulnerability
+  - Self-XSS
+  - Attacks requiring MITM
+  - Brute force attacks
+  max_payout: 2000
+  currency: EUR
+  payout_table:
+    high: 2000
+    medium: 400
+    low: 120
+  hall_of_fame_url: https://www.moneta.cz/hall-of-fame
+
 - company: moneykit.com
   url: https://moneykit.com/bounty
   contact: mailto:security@moneykit.com
