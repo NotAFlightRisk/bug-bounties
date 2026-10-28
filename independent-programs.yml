@@ -4648,6 +4648,40 @@ companies:
   swag_details: $200 USD (or equivalent) in platform credit on Simbase,  10 free SIM cards
   requires_account: false
 
+- company: Simply Voting
+  url: https://www.simplyvoting.com/vulnerability-disclosure/
+  contact: mailto:security@simplyvoting.com
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English, French
+  pgp_key: https://www.simplyvoting.com/pgp-key.txt
+  description: Disclosure policy for the Simply Voting online election platform, covering its Election Manager app, hosted voting sites, APIs and admin systems. Reports go to security@simplyvoting.com, optionally PGP-encrypted. Expect an acknowledgement within 3 business days and triage within 10, with disclosure timing agreed together. There's no paid bounty, though exceptional finds may get a discretionary reward. Clients' election data, voter details and ballots are off limits.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: www1.simplyvoting.com/manage/
+    type: web
+  - target: Voting websites hosted on Simply Voting infrastructure
+    type: web
+  - target: Simply Voting APIs
+    type: api
+  - target: Simply Voting authentication and administrative systems
+    type: web
+  out_of_scope:
+  - Election data, voter information or ballots belonging to clients
+  - Third-party services and infrastructure
+  - Vulnerabilities in outdated browsers or platforms
+  response_sla_days: 3
+  hall_of_fame_url: https://www.simplyvoting.com/security-acknowledgements/
+  standards:
+  - ISO 29147
+
 - company: Skribble
   url: https://www.skribble.com/security/disclosure
   contact: mailto:security@skribble.com
