@@ -5384,6 +5384,36 @@ companies:
   testing_policy_url: https://tuturuuu.com/security/policy
   hall_of_fame_url: https://tuturuuu.com/security/bug-bounty
 
+- company: TV 2 Norway
+  url: https://info.tv2.no/info/artikkel/responsible-disclosure-policy
+  contact: mailto:sikkerhet@tv2.no
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  preferred_languages: Norwegian, English
+  pgp_key: https://keys.openpgp.org/vks/v1/by-fingerprint/AADD8146909668B30DCB154D4DED174A3AAE2549
+  description: The Norwegian broadcaster's disclosure policy for the digital services it runs itself, not third-party platforms like Akamai or the big clouds. Reports go to sikkerhet@tv2.no, PGP key available. No money or swag, but the first to report a unique issue that leads to a fix gets a Hall of Fame spot. Only use test accounts you own and stop as soon as you hit personal data. TV 2 won't bring anti-circumvention claims over research within the policy.
+  excluded_methods:
+  - dos
+  out_of_scope:
+  - Third-party platforms and services outside TV 2's control
+  - Clickjacking on pages with no sensitive actions
+  - CSRF on unauthenticated forms or forms with no sensitive actions
+  - Attacks requiring MITM or physical access to a user's device
+  - Known vulnerable libraries without a working proof of concept
+  - CSV injection without a demonstrated vulnerability
+  - Missing best practices in SSL/TLS, Content Security Policy or email (SPF/DKIM/DMARC) setup
+  - Rate limiting or brute force on non-authentication endpoints
+  - Missing HttpOnly or Secure flags on non-sensitive cookies
+  - Issues only affecting outdated browsers
+  - Version disclosure, banner identification and descriptive error messages
+  - Tabnabbing
+  - Open redirects without additional demonstrated impact
+  - Issues requiring unlikely user interaction
+  hall_of_fame_url: https://info.tv2.no/info/artikkel/acknowledgements
+
 - company: Ultrahuman
   url: https://www.ultrahuman.com/security/vulnerability-disclosure-policy/
   contact: mailto:security@ultrahuman.com
